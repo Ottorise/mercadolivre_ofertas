@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ottorise.github.io/mercadolivre_ofertas/sitemap.xml
