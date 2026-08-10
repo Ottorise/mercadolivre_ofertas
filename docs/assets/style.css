@@ -35,6 +35,13 @@ h1, h2, .headline-font { font-family: 'Lora', Georgia, "Times New Roman", serif;
 .search-box::before { content: "🔍"; position: absolute; left: 17px; top: 50%; transform: translateY(-50%); font-size: 0.95rem; opacity: 0.55; }
 .search-empty { color: var(--muted); padding: 40px 0; text-align: center; font-size: 0.95rem; }
 
+.category-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 24px; }
+.category-tabs .cat-tab { border: 1px solid var(--border); background: var(--card); color: var(--muted);
+  padding: 8px 16px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+  font-family: inherit; transition: all 0.15s ease; }
+.category-tabs .cat-tab:hover { border-color: var(--accent); color: var(--accent); }
+.category-tabs .cat-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 .section-title { font-size: 1.4rem; font-weight: 800; letter-spacing: 0.01em; color: var(--ink);
   border-bottom: 3px solid var(--ink); padding-bottom: 12px; margin: 0 0 10px; }
 
