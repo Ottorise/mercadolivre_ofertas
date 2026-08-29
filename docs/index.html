@@ -23,14 +23,432 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Airsoft">Airsoft</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Conforto">Conforto</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Monitoramento">Monitoramento</option><option value="Moto">Moto</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Som &amp; Multimídia">Som & Multimídia</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/mesa-dobravel-portatil-garden-life-1-80m-preta-com-alca-vira-maleta.html" data-search="mesa dobrável portátil garden life 1,80m preta com alça vira maleta mesa dobrável portátil garden life 1,80m preta com alça vira maleta" data-category="Móveis de Área Externa" data-date="2026-08-28">
-  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_692286-MLA83473759214_042025-E.webp" alt="Mesa Dobrável Portátil Garden Life 1,80m Preta Com Alça Vira Maleta"></div>
+<a class="story-row story-row-featured" href="ofertas/banheira-crioterapia-go-arctic-preto-com-isolamento-termico-gg.html" data-search="banheira crioterapia go arctic preto com isolamento térmico - gg banheira crioterapia go arctic preto com isolamento térmico - gg" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_637123-MLA99513250976_112025-O.webp" alt="Banheira Crioterapia Go Arctic Preto com Isolamento Térmico - GG"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Banheira Crioterapia Go Arctic Preto com Isolamento Térmico - GG</h2>
+    <p class="story-excerpt">Banheira Crioterapia Go Arctic Preto com Isolamento Térmico - GG</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 432,64</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gesso-agricola-sulfato-calcio-adubo-tca-1kg-vasos-flores.html" data-search="gesso agrícola sulfato cálcio-adubo tca 1kg vasos flores gesso agrícola sulfato cálcio-adubo tca 1kg vasos flores" data-category="Vasos e Substrato" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_865204-MLB93673747804_102025-O.webp" alt="Gesso Agrícola Sulfato Cálcio-adubo Tca 1kg Vasos Flores"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Gesso Agrícola Sulfato Cálcio-adubo Tca 1kg Vasos Flores</h2>
+    <p class="story-excerpt">Gesso Agrícola Sulfato Cálcio-adubo Tca 1kg Vasos Flores</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 18,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tesoura-para-poda-eletrica-21v-com-2-baterias-lamina-de-aco.html" data-search="tesoura para poda elétrica 21v com 2 baterias lâmina de aço tesoura para poda elétrica 21v com 2 baterias lâmina de aço" data-category="Ferramentas de Jardim" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_967407-MLB113944498788_072026-E--tesoura-para-poda-eletrica-21v-com-2-baterias-lamina-de-aco.webp" alt="Tesoura Para Poda Elétrica 21v Com 2 Baterias Lâmina De Aço"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tesoura Para Poda Elétrica 21v Com 2 Baterias Lâmina De Aço</h2>
+    <p class="story-excerpt">Tesoura Para Poda Elétrica 21v Com 2 Baterias Lâmina De Aço</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 189,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/termometro-culinario-digital-tp101-aco-inox-50oc-a-300oc.html" data-search="termômetro culinário digital tp101 aço inox -50ºc a 300ºc termômetro culinário digital tp101 aço inox -50ºc a 300ºc" data-category="Termômetro e Acessórios" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_788197-MLA99601646608_122025-O.webp" alt="Termômetro Culinário Digital TP101 Aço Inox -50ºC a 300ºC"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Termômetro Culinário Digital TP101 Aço Inox -50ºC a 300ºC</h2>
+    <p class="story-excerpt">Termômetro Culinário Digital TP101 Aço Inox -50ºC a 300ºC</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 19</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cutelo-7-aco-inox-cabo-madeira-ke-home-uso-acougue-cozinha.html" data-search="cutelo 7&quot; aço inox cabo madeira ke home uso açougue cozinha cutelo 7&quot; aço inox cabo madeira ke home uso açougue cozinha" data-category="Facas e Cutelaria" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_813415-MLA100085588263_122025-O.webp" alt="Cutelo 7" Aço Inox Cabo Madeira Ke Home Uso Açougue Cozinha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cutelo 7" Aço Inox Cabo Madeira Ke Home Uso Açougue Cozinha</h2>
+    <p class="story-excerpt">Cutelo 7" Aço Inox Cabo Madeira Ke Home Uso Açougue Cozinha</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 28,07</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/churrasqueira-portatil-a-carvao-aco-tramontina-tpc-380-praia-pesca-cor-preto.html" data-search="churrasqueira portátil a carvão aço tramontina tpc-380 praia pesca cor preto churrasqueira portátil a carvão aço tramontina tpc-380 praia pesca cor preto" data-category="Espeto, Grelha &amp; Churrasqueira Portátil" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_974129-MLU72967464050_112023-E.webp" alt="Churrasqueira portátil a carvão aço Tramontina TPC-380 praia pesca cor preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Churrasqueira portátil a carvão aço Tramontina TPC-380 praia pesca cor preto</h2>
+    <p class="story-excerpt">Churrasqueira portátil a carvão aço Tramontina TPC-380 praia pesca cor preto</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 228,18</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mesa-branca-preta-ou-marrom-home-office-compacta-pequena-ask.html" data-search="mesa branca preta ou marrom home office compacta pequena ask mesa branca preta ou marrom home office compacta pequena ask" data-category="Cadeira e Mesa" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_714113-MLB73414314817_122023-O.webp" alt="Mesa Branca Preta Ou Marrom Home Office Compacta Pequena Ask"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mesa Branca Preta Ou Marrom Home Office Compacta Pequena Ask</h2>
+    <p class="story-excerpt">Mesa Branca Preta Ou Marrom Home Office Compacta Pequena Ask</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 214,13</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/headset-gamer-havit-h2015se-drivers-53mm-microfone-removivel-preto.html" data-search="headset gamer havit h2015se drivers 53mm microfone removivel preto headset gamer havit h2015se drivers 53mm microfone removivel preto" data-category="Headset e Microfone" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_655310-MLA99524005620_122025-O.webp" alt="Headset Gamer Havit H2015se Drivers 53mm Microfone Removivel Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Headset Gamer Havit H2015se Drivers 53mm Microfone Removivel Preto</h2>
+    <p class="story-excerpt">Headset Gamer Havit H2015se Drivers 53mm Microfone Removivel Preto</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 129,2</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/attack-shark-mouse-para-jogos-sem-fio-r1-conexao-de-tres-mod-cor-adesivo-preto-e.html" data-search="attack shark mouse para jogos sem fio r1,conexão de três mod cor adesivo preto e antiderrapante attack shark mouse para jogos sem fio r1,conexão de três mod cor adesivo preto e antiderrapante" data-category="Periféricos" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_771542-MLA100045825991_122025-E.webp" alt="Attack Shark Mouse Para Jogos Sem Fio R1,conexão De Três Mod Cor Adesivo Preto E Antiderrapante"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Attack Shark Mouse Para Jogos Sem Fio R1,conexão De Três Mod Cor Adesivo Preto E Antiderrapante</h2>
+    <p class="story-excerpt">Attack Shark Mouse Para Jogos Sem Fio R1,conexão De Três Mod Cor Adesivo Preto E Antiderrapante</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 120,52</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/vara-molinete-new-tamba-max-30-60-lbs-acqua-1-83m.html" data-search="vara molinete new tamba max 30-60 lbs acqua | 1.83m vara molinete new tamba max 30-60 lbs acqua | 1.83m" data-category="Vara e Molinete" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_732877-MLA106044990328_022026-E.webp" alt="Vara Molinete New Tamba Max 30-60 Lbs Acqua | 1.83m"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Vara Molinete New Tamba Max 30-60 Lbs Acqua | 1.83m</h2>
+    <p class="story-excerpt">Vara Molinete New Tamba Max 30-60 Lbs Acqua | 1.83m</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 164,26</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bolsa-termica-lancheira-marmita-13-5l-2-compartimentos-frasqueira-impermeavel-du.html" data-search="bolsa térmica lancheira marmita 13,5l 2 compartimentos frasqueira impermeável dupla camada alça de ombro fitness trabalho azul bolsa térmica lancheira marmita 13,5l 2 compartimentos frasqueira impermeável dupla camada alça de ombro fitness trabalho azul" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_970559-MLA115091241191_072026-O.webp" alt="Bolsa Térmica Lancheira Marmita 13,5L 2 Compartimentos Frasqueira Impermeável Dupla Camada Alça de Ombro Fitness Trabalho Azul"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bolsa Térmica Lancheira Marmita 13,5L 2 Compartimentos Frasqueira Impermeável Dupla Camada Alça de Ombro Fitness Trabalho Azul</h2>
+    <p class="story-excerpt">Bolsa Térmica Lancheira Marmita 13,5L 2 Compartimentos Frasqueira Impermeável Dupla Camada Alça de Ombro Fitness Trabalho Azul</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 31,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/maleta-de-pesca-6-bandejas-articulaveis-porta-copos-preta-hi-estojos.html" data-search="maleta de pesca 6 bandejas articuláveis porta copos preta hi estojos maleta de pesca 6 bandejas articuláveis porta copos preta hi estojos" data-category="Caixas e Organizadores" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_864948-MLA96155781747_102025-O.webp" alt="Maleta de Pesca 6 Bandejas Articuláveis Porta Copos Preta Hi Estojos"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Maleta de Pesca 6 Bandejas Articuláveis Porta Copos Preta Hi Estojos</h2>
+    <p class="story-excerpt">Maleta de Pesca 6 Bandejas Articuláveis Porta Copos Preta Hi Estojos</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 130,41</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-karambit-sk-1-full-tang-cabo-g10-bainha-kydex-sk-1.html" data-search="mini karambit sk-1 full tang cabo g10 bainha kydex sk-1 mini karambit sk-1 full tang cabo g10 bainha kydex sk-1" data-category="Facas &amp; EDC" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_753765-MLB92240742818_092025-O.webp" alt="Mini Karambit Sk-1 Full Tang Cabo G10 Bainha Kydex Sk-1"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini Karambit Sk-1 Full Tang Cabo G10 Bainha Kydex Sk-1</h2>
+    <p class="story-excerpt">Mini Karambit Sk-1 Full Tang Cabo G10 Bainha Kydex Sk-1</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 59,15</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/faca-tatica-primordial-19-em-aco-inox-lamina-lisa-e-serrilhada-para-camping.html" data-search="faca tática primordial 19&quot; em aço inox, lâmina lisa e serrilhada para camping faca tática primordial 19&quot; em aço inox, lâmina lisa e serrilhada para camping" data-category="Camping &amp; Sobrevivência" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_890656-MLA114844653997_072026-E.webp" alt="Faca Tática Primordial 19" em Aço Inox, Lâmina Lisa e Serrilhada para Camping"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Faca Tática Primordial 19" em Aço Inox, Lâmina Lisa e Serrilhada para Camping</h2>
+    <p class="story-excerpt">Faca Tática Primordial 19" em Aço Inox, Lâmina Lisa e Serrilhada para Camping</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 58,97</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-2-placa-protecao-esportivo-colete-plate-carrier-airsoft.html" data-search="kit 2 placa proteção esportivo colete plate carrier airsoft kit 2 placa proteção esportivo colete plate carrier airsoft" data-category="Tático" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_697754-MLB91747907484_092025-O.webp" alt="Kit 2 Placa Proteção Esportivo Colete Plate Carrier Airsoft"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 2 Placa Proteção Esportivo Colete Plate Carrier Airsoft</h2>
+    <p class="story-excerpt">Kit 2 Placa Proteção Esportivo Colete Plate Carrier Airsoft</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 24,4</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/coleira-peitoral-guia-para-cachorro-pit-bull-reforcada-azul.html" data-search="coleira peitoral guia para cachorro pit bull reforçada azul coleira peitoral guia para cachorro pit bull reforçada azul" data-category="Passeio" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_870150-MLA110659356547_042026-E.webp" alt="Coleira Peitoral Guia Para Cachorro Pit Bull Reforçada Azul"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Coleira Peitoral Guia Para Cachorro Pit Bull Reforçada Azul</h2>
+    <p class="story-excerpt">Coleira Peitoral Guia Para Cachorro Pit Bull Reforçada Azul</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 25,22</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tranca-de-pele-bovina-tam-m-mordedornatural-para-caes-1un-natuka.html" data-search="trança de pele bovina tam m mordedornatural para cães 1un - natuka trança de pele bovina tam m mordedornatural para cães 1un - natuka" data-category="Brinquedos &amp; Mordedores" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_950967-MLA115223667744_082026-E.webp" alt="Trança de Pele Bovina TAM M MordedorNatural Para Cães 1Un - Natuka"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Trança de Pele Bovina TAM M MordedorNatural Para Cães 1Un - Natuka</h2>
+    <p class="story-excerpt">Trança de Pele Bovina TAM M MordedorNatural Para Cães 1Un - Natuka</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 40,1</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/3l-fonte-de-agua-de-aco-inoxidavel-para-gatos-e-cae-newpet-prata.html" data-search="3l fonte de água de aço inoxidável para gatos e cãe newpet prata 3l fonte de água de aço inoxidável para gatos e cãe newpet prata" data-category="Alimentação" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_869166-MLA116163873851_082026-O.webp" alt="3l Fonte De Água De Aço Inoxidável Para Gatos E Cãe Newpet Prata"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>3l Fonte De Água De Aço Inoxidável Para Gatos E Cãe Newpet Prata</h2>
+    <p class="story-excerpt">3l Fonte De Água De Aço Inoxidável Para Gatos E Cãe Newpet Prata</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 133,79</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/trena-de-50-metros-fibra-de-vidro-profissional-caixa-aberta-manivela-fita-de-med.html" data-search="trena de 50 metros fibra de vidro profissional caixa aberta manivela fita de medição longa resistente 50m x 14mm para construção obras e uso externo ezelar trena de 50 metros fibra de vidro profissional caixa aberta manivela fita de medição longa resistente 50m x 14mm para construção obras e uso externo ezelar" data-category="Medição &amp; Nivelamento" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_857482-MLA111519866462_062026-O.webp" alt="Trena De 50 Metros Fibra de Vidro Profissional Caixa Aberta Manivela Fita de Medição Longa Resistente 50m X 14mm para Construção Obras e Uso Externo Ezelar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Trena De 50 Metros Fibra de Vidro Profissional Caixa Aberta Manivela Fita de Medição Longa Resistente 50m X 14mm para Construção Obras e Uso Externo Ezelar</h2>
+    <p class="story-excerpt">Trena De 50 Metros Fibra de Vidro Profissional Caixa Aberta Manivela Fita de Medição Longa Resistente 50m X 14mm para Construção Obras e Uso Externo Ezelar</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 29,97</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/broca-escalonada-cone-de-4-a-32mm-de-aco-rapido-espiral.html" data-search="broca escalonada cone de 4 a 32mm de aço rapido espiral broca escalonada cone de 4 a 32mm de aço rapido espiral" data-category="Consumíveis (Recompra)" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_729576-MLB110199722403_042026-O.webp" alt="Broca Escalonada Cone De 4 A 32mm De Aço Rapido Espiral"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Broca Escalonada Cone De 4 A 32mm De Aço Rapido Espiral</h2>
+    <p class="story-excerpt">Broca Escalonada Cone De 4 A 32mm De Aço Rapido Espiral</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 37,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-lencol-queen-algodao-malha-penteada-4-pecas-bia-enxovais-caqui.html" data-search="jogo lençol queen algodão malha penteada 4 peças bia enxovais cáqui jogo lençol queen algodão malha penteada 4 peças bia enxovais cáqui" data-category="Cama, Mesa &amp; Banho" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_993458-MLA93512541147_092025-E.webp" alt="Jogo Lençol Queen Algodão Malha Penteada 4 Peças Bia Enxovais Cáqui"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo Lençol Queen Algodão Malha Penteada 4 Peças Bia Enxovais Cáqui</h2>
+    <p class="story-excerpt">Jogo Lençol Queen Algodão Malha Penteada 4 Peças Bia Enxovais Cáqui</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 218,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-12-utensilios-de-cozinha-em-silicone-premium-com-cabo-de-madeira-resistentes.html" data-search="kit 12 utensílios de cozinha em silicone premium com cabo de madeira resistentes ao calor até 220°c, antiaderentes, duráveis e modernos cor preto kit 12 utensílios de cozinha em silicone premium com cabo de madeira resistentes ao calor até 220°c, antiaderentes, duráveis e modernos cor preto" data-category="Cozinha &amp; Utensílios" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_646397-MLA99585880706_122025-E.webp" alt="Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Preto</h2>
+    <p class="story-excerpt">Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Preto</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 37,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-mixer-portatil-recarregavel-2-em-1-com-3-velocidades-e-haste-de-aco-inoxida.html" data-search="mini mixer portátil recarregável 2 em 1 com 3 velocidades e haste de aço inoxidável mini mixer portátil recarregável 2 em 1 com 3 velocidades e haste de aço inoxidável" data-category="Eletroportáteis Baratos" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_864964-MLA114494003073_072026-O.webp" alt="Mini Mixer Portátil Recarregável 2 em 1 com 3 Velocidades e Haste de Aço Inoxidável"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini Mixer Portátil Recarregável 2 em 1 com 3 Velocidades e Haste de Aço Inoxidável</h2>
+    <p class="story-excerpt">Mini Mixer Portátil Recarregável 2 em 1 com 3 Velocidades e Haste de Aço Inoxidável</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 19,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/relogio-garmin-forerunner-55-monitor-cardiaco-e-gps-preto.html" data-search="relógio garmin forerunner 55 monitor cardíaco e gps preto relógio garmin forerunner 55 monitor cardíaco e gps preto" data-category="Monitoramento" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_645745-MLA88837396235_072025-O.webp" alt="Relógio Garmin Forerunner 55 Monitor Cardíaco E Gps Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Relógio Garmin Forerunner 55 Monitor Cardíaco E Gps Preto</h2>
+    <p class="story-excerpt">Relógio Garmin Forerunner 55 Monitor Cardíaco E Gps Preto</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 1029</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-3-faixas-elasticas-mini-bands-vollo-exercicio-treino-academia-intensidades-l.html" data-search="kit 3 faixas elásticas mini bands vollo exercício treino academia intensidades leve médio forte 25cm kit 3 faixas elásticas mini bands vollo exercício treino academia intensidades leve médio forte 25cm" data-category="Acessórios de Treino" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_955646-MLA99628150304_122025-O.webp" alt="Kit 3 Faixas Elásticas Mini Bands Vollo Exercício Treino Academia Intensidades Leve Médio Forte 25cm"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 3 Faixas Elásticas Mini Bands Vollo Exercício Treino Academia Intensidades Leve Médio Forte 25cm</h2>
+    <p class="story-excerpt">Kit 3 Faixas Elásticas Mini Bands Vollo Exercício Treino Academia Intensidades Leve Médio Forte 25cm</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 31,51</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/dux-nutrition-whey-protein-concentrado-pote-900g-sabor-butter-cookies.html" data-search="dux nutrition whey protein concentrado pote 900g sabor butter cookies dux nutrition whey protein concentrado pote 900g sabor butter cookies" data-category="Suplementos" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_670510-MLA99925481773_112025-O.webp" alt="Dux Nutrition Whey Protein Concentrado Pote 900g Sabor Butter Cookies"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Dux Nutrition Whey Protein Concentrado Pote 900g Sabor Butter Cookies</h2>
+    <p class="story-excerpt">Dux Nutrition Whey Protein Concentrado Pote 900g Sabor Butter Cookies</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 184,29</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/ninho-redutor-de-berco-bege-recem-nascido-unissex-enxoval-bebe-linho-batistela-b.html" data-search="ninho redutor de berço bege recém nascido unissex enxoval bebê linho batistela baby ninho redutor de berço bege recém nascido unissex enxoval bebê linho batistela baby" data-category="Sono &amp; Segurança" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_687209-MLA114489664383_072026-O.webp" alt="Ninho Redutor De Berço Bege Recém Nascido Unissex Enxoval Bebê Linho Batistela Baby"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Ninho Redutor De Berço Bege Recém Nascido Unissex Enxoval Bebê Linho Batistela Baby</h2>
+    <p class="story-excerpt">Ninho Redutor De Berço Bege Recém Nascido Unissex Enxoval Bebê Linho Batistela Baby</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 288,61</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-de-mamadeira-primeiros-passos-50-150-e-240ml-rosa-lillo-628831.html" data-search="kit de mamadeira primeiros passos 50 150 e 240ml rosa lillo 628831 kit de mamadeira primeiros passos 50 150 e 240ml rosa lillo 628831" data-category="Alimentação Infantil" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_936607-MLA100061060047_122025-O.webp" alt="Kit de Mamadeira Primeiros Passos 50 150 e 240ml Rosa Lillo 628831"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit de Mamadeira Primeiros Passos 50 150 e 240ml Rosa Lillo 628831</h2>
+    <p class="story-excerpt">Kit de Mamadeira Primeiros Passos 50 150 e 240ml Rosa Lillo 628831</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 54,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/shampoo-kids-cheirinho-prolongado-400ml-johnson-s.html" data-search="shampoo kids cheirinho prolongado 400ml - johnson&#x27;s shampoo kids cheirinho prolongado 400ml - johnson&#x27;s" data-category="Higiene &amp; Banho" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_987000-MLA99404420732_112025-O.webp" alt="Shampoo Kids Cheirinho Prolongado 400ml - Johnson's"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Shampoo Kids Cheirinho Prolongado 400ml - Johnson's</h2>
+    <p class="story-excerpt">Shampoo Kids Cheirinho Prolongado 400ml - Johnson's</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 20,42</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/maquiador-automotivo-makker-2-0-vonixx-500ml-aplicador-pano-microfibra.html" data-search="maquiador automotivo makker 2.0 vonixx 500ml aplicador pano microfibra maquiador automotivo makker 2.0 vonixx 500ml aplicador pano microfibra" data-category="Estética &amp; Detailing" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_730886-MLA99422753116_112025-O.webp" alt="Maquiador Automotivo Makker 2.0 Vonixx 500ml Aplicador Pano Microfibra"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Maquiador Automotivo Makker 2.0 Vonixx 500ml Aplicador Pano Microfibra</h2>
+    <p class="story-excerpt">Maquiador Automotivo Makker 2.0 Vonixx 500ml Aplicador Pano Microfibra</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 46,46</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/multimidia-roadstar-9-rs-915br-prime-android-12-gps-wifi.html" data-search="multimidia roadstar 9&#x27;&#x27; rs-915br prime android 12 gps wifi multimidia roadstar 9&#x27;&#x27; rs-915br prime android 12 gps wifi" data-category="Som &amp; Multimídia" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_651367-MLA99424532700_112025-O.webp" alt="Multimidia Roadstar 9'' Rs-915br Prime Android 12 Gps Wifi"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Multimidia Roadstar 9'' Rs-915br Prime Android 12 Gps Wifi</h2>
+    <p class="story-excerpt">Multimidia Roadstar 9'' Rs-915br Prime Android 12 Gps Wifi</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 499,92</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bolsa-de-tanque-para-moto-com-ima-impermeavel-e-4-bolsos.html" data-search="bolsa de tanque para moto com ímã, impermeável e 4 bolsos bolsa de tanque para moto com ímã, impermeável e 4 bolsos" data-category="Moto" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_818425-MLA110887386661_042026-O.webp" alt="Bolsa de Tanque para Moto Com Ímã, Impermeável e 4 Bolsos"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bolsa de Tanque para Moto Com Ímã, Impermeável e 4 Bolsos</h2>
+    <p class="story-excerpt">Bolsa de Tanque para Moto Com Ímã, Impermeável e 4 Bolsos</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 65,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-leitor-de-cartao-micro-sd-m2-adaptador-usb-2-0-pendrive.html" data-search="mini leitor de cartão micro sd/m2 adaptador usb 2.0 pendrive mini leitor de cartão micro sd/m2 adaptador usb 2.0 pendrive" data-category="Armazenamento" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_947868-MLA100083709951_122025-O.webp" alt="Mini Leitor De Cartão Micro Sd/m2 Adaptador Usb 2.0 Pendrive"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini Leitor De Cartão Micro Sd/m2 Adaptador Usb 2.0 Pendrive</h2>
+    <p class="story-excerpt">Mini Leitor De Cartão Micro Sd/m2 Adaptador Usb 2.0 Pendrive</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 19</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/camera-seguranca-wifi-inteligente-novadigital-cs-call-botao-chamada-onvif-tuya-s.html" data-search="câmera segurança wifi inteligente novadigital cs-call botão chamada onvif tuya smart life alexa google app 110v 220v bivolt com fonte cinza câmera segurança wifi inteligente novadigital cs-call botão chamada onvif tuya smart life alexa google app 110v 220v bivolt com fonte cinza" data-category="Casa Inteligente" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_663067-MLA96151128445_102025-O.webp" alt="Câmera Segurança Wifi Inteligente Novadigital Cs-call Botão Chamada Onvif Tuya Smart Life Alexa Google App 110V 220V Bivolt Com Fonte Cinza"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Câmera Segurança Wifi Inteligente Novadigital Cs-call Botão Chamada Onvif Tuya Smart Life Alexa Google App 110V 220V Bivolt Com Fonte Cinza</h2>
+    <p class="story-excerpt">Câmera Segurança Wifi Inteligente Novadigital Cs-call Botão Chamada Onvif Tuya Smart Life Alexa Google App 110V 220V Bivolt Com Fonte Cinza</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 126,63</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-teclado-e-mouse-sem-fio-dell-km3322w-abnt2-1000dpi.html" data-search="kit teclado e mouse sem fio dell km3322w - abnt2 - 1000dpi kit teclado e mouse sem fio dell km3322w - abnt2 - 1000dpi" data-category="Periféricos &amp; Home Office" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_906473-MLA99453133378_112025-O.webp" alt="Kit Teclado E Mouse Sem Fio Dell Km3322w - Abnt2 - 1000dpi"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Teclado E Mouse Sem Fio Dell Km3322w - Abnt2 - 1000dpi</h2>
+    <p class="story-excerpt">Kit Teclado E Mouse Sem Fio Dell Km3322w - Abnt2 - 1000dpi</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 137,08</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/creme-hidratante-corporal-e-facial-para-pele-seca-a-extra-seca-sem-perfume-454g-.html" data-search="creme hidratante corporal e facial para pele seca a extra seca sem perfume 454g cerave creme hidratante corporal e facial para pele seca a extra seca sem perfume 454g cerave" data-category="Perfumaria &amp; Corpo" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_806507-MLA92874967013_092025-O.webp" alt="Creme Hidratante Corporal e facial para Pele Seca a Extra Seca Sem Perfume 454g CeraVe"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Creme Hidratante Corporal e facial para Pele Seca a Extra Seca Sem Perfume 454g CeraVe</h2>
+    <p class="story-excerpt">Creme Hidratante Corporal e facial para Pele Seca a Extra Seca Sem Perfume 454g CeraVe</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 85,41</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/100-palitos-de-madeira-talge-p-depilacao-ponta-redonda-full.html" data-search="100 palitos de madeira talge p/ depilação ponta redonda full 100 palitos de madeira talge p/ depilação ponta redonda full" data-category="Unhas &amp; Depilação" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_956347-MLB106534112492_022026-O.webp" alt="100 Palitos De Madeira Talge P/ Depilação Ponta Redonda Full"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>100 Palitos De Madeira Talge P/ Depilação Ponta Redonda Full</h2>
+    <p class="story-excerpt">100 Palitos De Madeira Talge P/ Depilação Ponta Redonda Full</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 14,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-6-gloss-labial-brilho-intenso-glitter-sarah-s-beauty.html" data-search="kit 6 gloss labial brilho intenso glitter sarah&#x27;s beauty kit 6 gloss labial brilho intenso glitter sarah&#x27;s beauty" data-category="Maquiagem" data-date="2026-08-29">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_885865-MLA109859139540_042026-O.webp" alt="Kit 6 Gloss Labial Brilho Intenso Glitter Sarah's Beauty"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 6 Gloss Labial Brilho Intenso Glitter Sarah's Beauty</h2>
+    <p class="story-excerpt">Kit 6 Gloss Labial Brilho Intenso Glitter Sarah's Beauty</p>
+    <div class="story-meta">29 de agosto de 2026<span class="story-price">R$ 49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mesa-dobravel-portatil-garden-life-1-80m-preta-com-alca-vira-maleta.html" data-search="mesa dobrável portátil garden life 1,80m preta com alça vira maleta mesa dobrável portátil garden life 1,80m preta com alça vira maleta" data-category="Móveis de Área Externa" data-date="2026-08-28">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_692286-MLA83473759214_042025-E.webp" alt="Mesa Dobrável Portátil Garden Life 1,80m Preta Com Alça Vira Maleta"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Mesa Dobrável Portátil Garden Life 1,80m Preta Com Alça Vira Maleta</h2>
     <p class="story-excerpt">Mesa Dobrável Portátil Garden Life 1,80m Preta Com Alça Vira Maleta</p>
     <div class="story-meta">28 de agosto de 2026<span class="story-price">R$ 253,51</span></div>
