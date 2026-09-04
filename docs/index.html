@@ -23,14 +23,465 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Monitoramento">Monitoramento</option><option value="Moto">Moto</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Som &amp; Multimídia">Som & Multimídia</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Monitoramento">Monitoramento</option><option value="Moto">Moto</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Som &amp; Multimídia">Som & Multimídia</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/banheira-gelo-time7-300l-recuperacao-muscular-crioterapia-redonda.html" data-search="banheira gelo time7 300l recuperação muscular crioterapia redonda banheira gelo time7 300l recuperação muscular crioterapia redonda" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-09-03">
-  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_874972-MLA99575770438_122025-O.webp" alt="Banheira Gelo TIME7 300L Recuperação Muscular Crioterapia Redonda"></div>
+<a class="story-row story-row-featured" href="ofertas/casca-de-pinus-polido-media-3kg-natural-decorativa.html" data-search="casca de pinus polido média 3kg natural decorativa casca de pinus polido média 3kg natural decorativa" data-category="Vasos e Substrato" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_764557-MLB89154653049_082025-O.webp" alt="Casca De Pinus Polido Média 3kg Natural Decorativa"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Casca De Pinus Polido Média 3kg Natural Decorativa</h2>
+    <p class="story-excerpt">Casca De Pinus Polido Média 3kg Natural Decorativa</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 36,6</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/piscina-com-chafariz-infantil-inflavel-brinquedo-agua-pet.html" data-search="piscina com chafariz infantil inflável brinquedo agua / pet piscina com chafariz infantil inflável brinquedo agua / pet" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_947672-MLB116429500093_082026-O.webp" alt="Piscina Com Chafariz Infantil Inflável Brinquedo Agua / Pet"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Piscina Com Chafariz Infantil Inflável Brinquedo Agua / Pet</h2>
+    <p class="story-excerpt">Piscina Com Chafariz Infantil Inflável Brinquedo Agua / Pet</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 49,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/substrato-premium-composto-jardim-vasos-flores-plantas-5kg.html" data-search="substrato premium composto jardim vasos flores plantas 5kg substrato premium composto jardim vasos flores plantas 5kg" data-category="Vasos e Substrato" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_779713-MLB115004041770_082026-O.webp" alt="Substrato Premium Composto Jardim Vasos Flores Plantas 5kg"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Substrato Premium Composto Jardim Vasos Flores Plantas 5kg</h2>
+    <p class="story-excerpt">Substrato Premium Composto Jardim Vasos Flores Plantas 5kg</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 30,53</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/faca-de-sobrevivencia-tatica-com-bainha-aco-inoxidavel-pesca.html" data-search="faca de sobrevivência tática com bainha aço inoxidável pesca faca de sobrevivência tática com bainha aço inoxidável pesca" data-category="Facas e Cutelaria" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_873038-MLA114143559794_082026-O.webp" alt="Faca De Sobrevivência Tática Com Bainha Aço Inoxidável Pesca"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Faca De Sobrevivência Tática Com Bainha Aço Inoxidável Pesca</h2>
+    <p class="story-excerpt">Faca De Sobrevivência Tática Com Bainha Aço Inoxidável Pesca</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 29,95</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/termometro-culinario-para-forno-com-sonda-carne-branco.html" data-search="termômetro culinário para forno com sonda carne branco termômetro culinário para forno com sonda carne branco" data-category="Termômetro e Acessórios" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_992480-CBT114620016268_082026-O.webp" alt="Termômetro Culinário Para Forno Com Sonda Carne Branco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Termômetro Culinário Para Forno Com Sonda Carne Branco</h2>
+    <p class="story-excerpt">Termômetro Culinário Para Forno Com Sonda Carne Branco</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 16,78</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/faca-bravus-primordial-forjada-full-tang-23-5cm-lamina-12cm-4mm-cabo-madeira-bai.html" data-search="faca bravus primordial forjada full tang 23,5cm + lâmina 12cm 4mm cabo madeira bainha couro alta resistência para churrasco carnes cozinha camping pesca cutelaria gourmet profissional artesanal faca bravus primordial forjada full tang 23,5cm + lâmina 12cm 4mm cabo madeira bainha couro alta resistência para churrasco carnes cozinha camping pesca cutelaria gourmet profissional artesanal" data-category="Facas e Cutelaria" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_767477-MLA114600704476_082026-O.webp" alt="Faca Bravus Primordial Forjada Full Tang 23,5cm + Lâmina 12cm 4mm Cabo Madeira Bainha Couro Alta Resistência para Churrasco Carnes Cozinha Camping Pesca Cutelaria Gourmet Profissional Artesanal"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Faca Bravus Primordial Forjada Full Tang 23,5cm + Lâmina 12cm 4mm Cabo Madeira Bainha Couro Alta Resistência para Churrasco Carnes Cozinha Camping Pesca Cutelaria Gourmet Profissional Artesanal</h2>
+    <p class="story-excerpt">Faca Bravus Primordial Forjada Full Tang 23,5cm + Lâmina 12cm 4mm Cabo Madeira Bainha Couro Alta Resistência para Churrasco Carnes Cozinha Camping Pesca Cutelaria Gourmet Profissional Artesanal</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 51,97</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cadeira-de-mesa-de-gerenciamento-com-bracos-e-encosto-alto.html" data-search="cadeira de mesa de gerenciamento com braços e encosto alto cadeira de mesa de gerenciamento com braços e encosto alto" data-category="Cadeira e Mesa" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_900462-MLU74871091814_032024-O.webp" alt="Cadeira de mesa de gerenciamento com braços e encosto alto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cadeira de mesa de gerenciamento com braços e encosto alto</h2>
+    <p class="story-excerpt">Cadeira de mesa de gerenciamento com braços e encosto alto</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 799,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/headset-gamer-razer-blackshark-v2-x-som-7-1-preto.html" data-search="headset gamer razer blackshark v2 x som 7.1 preto headset gamer razer blackshark v2 x som 7.1 preto" data-category="Headset e Microfone" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_612359-MLA110240659938_052026-O.webp" alt="Headset Gamer Razer BlackShark V2 X Som 7.1 Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Headset Gamer Razer BlackShark V2 X Som 7.1 Preto</h2>
+    <p class="story-excerpt">Headset Gamer Razer BlackShark V2 X Som 7.1 Preto</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 299,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/maleta-pesca-organizador-caixa-costura-com-gavetas-multiuso.html" data-search="maleta pesca organizador caixa costura com gavetas multiuso maleta pesca organizador caixa costura com gavetas multiuso" data-category="Caixas e Organizadores" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_930156-MLB102539135436_122025-O.webp" alt="Maleta Pesca Organizador Caixa Costura Com Gavetas Multiuso"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Maleta Pesca Organizador Caixa Costura Com Gavetas Multiuso</h2>
+    <p class="story-excerpt">Maleta Pesca Organizador Caixa Costura Com Gavetas Multiuso</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 177,21</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/guarda-sol-mor-grande-impermeavel-sombrinha-mor-1-80m-cor-azul-marinho-prata-lis.html" data-search="guarda sol mor grande impermeável sombrinha mor 1.80m cor azul marinho/prata listras guarda sol mor grande impermeável sombrinha mor 1.80m cor azul marinho/prata listras" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_887647-MLA114051851693_072026-O.webp" alt="Guarda Sol Mor Grande Impermeável Sombrinha Mor 1.80m Cor Azul Marinho/prata Listras"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Guarda Sol Mor Grande Impermeável Sombrinha Mor 1.80m Cor Azul Marinho/prata Listras</h2>
+    <p class="story-excerpt">Guarda Sol Mor Grande Impermeável Sombrinha Mor 1.80m Cor Azul Marinho/prata Listras</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 38,13</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carteira-organizadora-para-iscas-artificiais-pesca.html" data-search="carteira organizadora para iscas artificiais pesca carteira organizadora para iscas artificiais pesca" data-category="Caixas e Organizadores" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_713037-CBT113611153507_062026-O.webp" alt="Carteira Organizadora Para Iscas Artificiais Pesca"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carteira Organizadora Para Iscas Artificiais Pesca</h2>
+    <p class="story-excerpt">Carteira Organizadora Para Iscas Artificiais Pesca</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 23,47</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/capa-de-colete-tatico-modular-airsoft-aero-preto-preto-g-g.html" data-search="capa de colete tático modular airsoft aero preto preto g g capa de colete tático modular airsoft aero preto preto g g" data-category="Tático" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_874686-MLA110212694256_052026-O.webp" alt="Capa De Colete Tático Modular Airsoft Aero Preto Preto G G"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Capa De Colete Tático Modular Airsoft Aero Preto Preto G G</h2>
+    <p class="story-excerpt">Capa De Colete Tático Modular Airsoft Aero Preto Preto G G</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 199,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cama-pet-grande-caminha-cachorros-de-canto-ortopedica-espuma-caixa-de-ovo-raio-9.html" data-search="cama pet grande caminha cachorros de canto ortopédica espuma caixa de ovo raio 90cm frente 120cm cama pet grande caminha cachorros de canto ortopédica espuma caixa de ovo raio 90cm frente 120cm" data-category="Conforto" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_989283-MLA114594064485_072026-O.webp" alt="Cama Pet Grande Caminha Cachorros De Canto Ortopédica Espuma Caixa de Ovo Raio 90cm Frente 120cm"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cama Pet Grande Caminha Cachorros De Canto Ortopédica Espuma Caixa de Ovo Raio 90cm Frente 120cm</h2>
+    <p class="story-excerpt">Cama Pet Grande Caminha Cachorros De Canto Ortopédica Espuma Caixa de Ovo Raio 90cm Frente 120cm</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 269</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tapete-comedouro-jogo-americano-pet-cachorro-gato-higienico-preto-com-estampa.html" data-search="tapete comedouro jogo americano pet cachorro gato higienico preto com estampa tapete comedouro jogo americano pet cachorro gato higienico preto com estampa" data-category="Alimentação" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_618258-MLA111680778148_062026-O.webp" alt="Tapete Comedouro Jogo Americano Pet Cachorro Gato Higienico Preto Com Estampa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tapete Comedouro Jogo Americano Pet Cachorro Gato Higienico Preto Com Estampa</h2>
+    <p class="story-excerpt">Tapete Comedouro Jogo Americano Pet Cachorro Gato Higienico Preto Com Estampa</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 25,11</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/areia-sanitaria-micro-cristais-de-silica-fina-para-gatos-chalesco-1-8kg.html" data-search="areia sanitária micro cristais de sílica fina para gatos chalesco 1.8kg areia sanitária micro cristais de sílica fina para gatos chalesco 1.8kg" data-category="Higiene (Consumo Mensal)" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_614484-MLA99501168862_112025-O.webp" alt="Areia sanitária micro cristais de sílica fina para gatos Chalesco 1.8kg"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Areia sanitária micro cristais de sílica fina para gatos Chalesco 1.8kg</h2>
+    <p class="story-excerpt">Areia sanitária micro cristais de sílica fina para gatos Chalesco 1.8kg</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 31,24</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-5-bits-magneticos-para-parafusadeira-e-furadeira.html" data-search="jogo 5 bits magnéticos para parafusadeira e furadeira jogo 5 bits magnéticos para parafusadeira e furadeira" data-category="Consumíveis (Recompra)" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_827874-CBT107355146488_032026-O.webp" alt="Jogo 5 Bits Magnéticos Para Parafusadeira E Furadeira"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo 5 Bits Magnéticos Para Parafusadeira E Furadeira</h2>
+    <p class="story-excerpt">Jogo 5 Bits Magnéticos Para Parafusadeira E Furadeira</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 15,49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-12-trenas-curta-de-aco-3-metros-alta-qualidade-vonder.html" data-search="kit 12 trenas curta de aço 3 metros alta qualidade - vonder kit 12 trenas curta de aço 3 metros alta qualidade - vonder" data-category="Medição &amp; Nivelamento" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_811704-MLA99507901880_112025-O.webp" alt="Kit 12 Trenas Curta De Aço 3 Metros Alta Qualidade - Vonder"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 12 Trenas Curta De Aço 3 Metros Alta Qualidade - Vonder</h2>
+    <p class="story-excerpt">Kit 12 Trenas Curta De Aço 3 Metros Alta Qualidade - Vonder</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 74,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-oficina-maleta-kit-com-110-ferramentas-completo-chave-catraca-soquetes-chav.html" data-search="jogo oficina maleta kit com 110 ferramentas completo chave catraca soquetes chaves alicates gkf-110 gorillaz jogo oficina maleta kit com 110 ferramentas completo chave catraca soquetes chaves alicates gkf-110 gorillaz" data-category="Jogos e Ferramentas Manuais" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_976165-MLA112168606866_062026-O.webp" alt="Jogo Oficina Maleta Kit Com 110 Ferramentas Completo Chave Catraca Soquetes Chaves Alicates Gkf-110 Gorillaz"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo Oficina Maleta Kit Com 110 Ferramentas Completo Chave Catraca Soquetes Chaves Alicates Gkf-110 Gorillaz</h2>
+    <p class="story-excerpt">Jogo Oficina Maleta Kit Com 110 Ferramentas Completo Chave Catraca Soquetes Chaves Alicates Gkf-110 Gorillaz</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 399,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-3-suportes-multiuso-inox-escovado-organizador-casa.html" data-search="kit 3 suportes multiuso inox escovado organizador casa kit 3 suportes multiuso inox escovado organizador casa" data-category="Organização" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_804106-MLB115973629931_082026-O.webp" alt="Kit 3 Suportes Multiuso Inox Escovado Organizador Casa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 3 Suportes Multiuso Inox Escovado Organizador Casa</h2>
+    <p class="story-excerpt">Kit 3 Suportes Multiuso Inox Escovado Organizador Casa</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-cozinha-liquidificador-e-sanduicheira-grill-misteira-2x1.html" data-search="kit cozinha liquidificador e sanduicheira grill misteira 2x1 kit cozinha liquidificador e sanduicheira grill misteira 2x1" data-category="Eletroportáteis Baratos" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_608034-MLB99509412060_112025-O.webp" alt="Kit Cozinha Liquidificador E Sanduicheira Grill Misteira 2x1"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Cozinha Liquidificador E Sanduicheira Grill Misteira 2x1</h2>
+    <p class="story-excerpt">Kit Cozinha Liquidificador E Sanduicheira Grill Misteira 2x1</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 339,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/desinfetante-leitoso-herbal-sanol-5-litros.html" data-search="desinfetante leitoso herbal sanol 5 litros desinfetante leitoso herbal sanol 5 litros" data-category="Limpeza Prática" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_859636-MLA99441446240_112025-O.webp" alt="Desinfetante Leitoso Herbal Sanol 5 Litros"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Desinfetante Leitoso Herbal Sanol 5 Litros</h2>
+    <p class="story-excerpt">Desinfetante Leitoso Herbal Sanol 5 Litros</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 16,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-treino-aerobico-4kg-caneleira-halter-ferro-colchonete-nailon-velcro.html" data-search="kit treino aeróbico 4kg: caneleira + halter ferro + colchonete náilon velcro kit treino aeróbico 4kg: caneleira + halter ferro + colchonete náilon velcro" data-category="Acessórios de Treino" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_927698-MLA94167999626_102025-O.webp" alt="Kit Treino Aeróbico 4kg: Caneleira + Halter Ferro + Colchonete Náilon Velcro"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Treino Aeróbico 4kg: Caneleira + Halter Ferro + Colchonete Náilon Velcro</h2>
+    <p class="story-excerpt">Kit Treino Aeróbico 4kg: Caneleira + Halter Ferro + Colchonete Náilon Velcro</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 364,65</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/whey-protein-iso100-dymatize-hidrolisado-2-3kg-sabor-gourmet-chocolate.html" data-search="whey protein iso100 dymatize hidrolisado 2,3kg sabor gourmet chocolate whey protein iso100 dymatize hidrolisado 2,3kg sabor gourmet chocolate" data-category="Suplementos" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_716337-MLA110628321509_042026-O.webp" alt="Whey Protein Iso100 Dymatize Hidrolisado 2,3kg Sabor Gourmet chocolate"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Whey Protein Iso100 Dymatize Hidrolisado 2,3kg Sabor Gourmet chocolate</h2>
+    <p class="story-excerpt">Whey Protein Iso100 Dymatize Hidrolisado 2,3kg Sabor Gourmet chocolate</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 1034</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/100-whey-protein-concentrado-authentic-900g-wisehealth-sabor-chocolate-branco.html" data-search="100% whey protein concentrado authentic (900g) - wisehealth sabor chocolate branco 100% whey protein concentrado authentic (900g) - wisehealth sabor chocolate branco" data-category="Suplementos" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_980108-MLA99443803008_112025-O.webp" alt="100% Whey Protein Concentrado Authentic (900g) - Wisehealth Sabor Chocolate branco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>100% Whey Protein Concentrado Authentic (900g) - Wisehealth Sabor Chocolate branco</h2>
+    <p class="story-excerpt">100% Whey Protein Concentrado Authentic (900g) - Wisehealth Sabor Chocolate branco</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 221,82</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/berco-bercinho-cama-mdf-grade-protecao-colchao-multimovel.html" data-search="berço bercinho cama mdf grade proteção colchão multimóvel berço bercinho cama mdf grade proteção colchão multimóvel" data-category="Sono &amp; Segurança" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_897813-MLB91916978886_092025-O.webp" alt="Berço Bercinho Cama Mdf Grade Proteção Colchão Multimóvel"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Berço Bercinho Cama Mdf Grade Proteção Colchão Multimóvel</h2>
+    <p class="story-excerpt">Berço Bercinho Cama Mdf Grade Proteção Colchão Multimóvel</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 482,83</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/colher-dosadora-mamadeira-infantil-silicone-papinha-buba-cor-azul-claro.html" data-search="colher dosadora mamadeira infantil silicone papinha buba cor azul-claro colher dosadora mamadeira infantil silicone papinha buba cor azul-claro" data-category="Alimentação Infantil" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_954651-MLA99603397566_122025-O.webp" alt="Colher Dosadora Mamadeira Infantil Silicone Papinha Buba Cor Azul-claro"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Colher Dosadora Mamadeira Infantil Silicone Papinha Buba Cor Azul-claro</h2>
+    <p class="story-excerpt">Colher Dosadora Mamadeira Infantil Silicone Papinha Buba Cor Azul-claro</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 49,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-presente-natura-mamae-e-bebe-cuidados-completos-cor-verde-claro.html" data-search="kit presente natura mamãe e bebê cuidados completos cor verde-claro kit presente natura mamãe e bebê cuidados completos cor verde-claro" data-category="Higiene &amp; Banho" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_702791-MLU74330141989_012024-O.webp" alt="Kit Presente Natura Mamãe E Bebê Cuidados Completos Cor Verde-claro"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Presente Natura Mamãe E Bebê Cuidados Completos Cor Verde-claro</h2>
+    <p class="story-excerpt">Kit Presente Natura Mamãe E Bebê Cuidados Completos Cor Verde-claro</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 208,05</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bateria-skyrich-lix9-8ah-ytx9-bs-cb-400-500-shadow.html" data-search="bateria skyrich lix9 8ah ytx9-bs cb 400 500 shadow bateria skyrich lix9 8ah ytx9-bs cb 400 500 shadow" data-category="Moto" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_991243-MLB89216540294_082025-O.webp" alt="Bateria Skyrich Lix9 8ah Ytx9-bs Cb 400 500 Shadow"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bateria Skyrich Lix9 8ah Ytx9-bs Cb 400 500 Shadow</h2>
+    <p class="story-excerpt">Bateria Skyrich Lix9 8ah Ytx9-bs Cb 400 500 Shadow</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 468,78</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-lavagem-automotiva-completa-externa-delux-estetica-auto.html" data-search="kit lavagem automotiva completa externa delux estética auto kit lavagem automotiva completa externa delux estética auto" data-category="Estética &amp; Detailing" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_821002-MLB113028358112_072026-O.webp" alt="Kit Lavagem Automotiva Completa Externa Delux Estética Auto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Lavagem Automotiva Completa Externa Delux Estética Auto</h2>
+    <p class="story-excerpt">Kit Lavagem Automotiva Completa Externa Delux Estética Auto</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 117,69</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/multimidia-7-polegadas-moto-carplay-android-auto-bluetooth-duplo-knup-ra-933.html" data-search="multimidia 7 polegadas moto carplay android auto bluetooth duplo knup ra-933 multimidia 7 polegadas moto carplay android auto bluetooth duplo knup ra-933" data-category="Som &amp; Multimídia" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_701804-MLA99923230351_112025-O.webp" alt="Multimidia 7 Polegadas Moto Carplay Android Auto Bluetooth Duplo Knup RA-933"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Multimidia 7 Polegadas Moto Carplay Android Auto Bluetooth Duplo Knup RA-933</h2>
+    <p class="story-excerpt">Multimidia 7 Polegadas Moto Carplay Android Auto Bluetooth Duplo Knup RA-933</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 549</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-mouse-homeoffice-mousepad-antiderrapante.html" data-search="kit mouse homeoffice + mousepad antiderrapante kit mouse homeoffice + mousepad antiderrapante" data-category="Periféricos &amp; Home Office" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_727277-MLA100065640803_122025-O.webp" alt="Kit Mouse Homeoffice + Mousepad Antiderrapante"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Mouse Homeoffice + Mousepad Antiderrapante</h2>
+    <p class="story-excerpt">Kit Mouse Homeoffice + Mousepad Antiderrapante</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 26,51</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pen-drive-master-drive-16gb.html" data-search="pen drive master drive 16gb pen drive master drive 16gb" data-category="Armazenamento" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_977729-MLB113411436044_072026-O.webp" alt="Pen Drive Master Drive 16gb"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pen Drive Master Drive 16gb</h2>
+    <p class="story-excerpt">Pen Drive Master Drive 16gb</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 42,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/echo-show-15-amazon-smart-display-full-hd-15-6-com-alexa-cor-preto.html" data-search="echo show 15 amazon smart display full hd 15,6&#x27;&#x27; com alexa cor preto echo show 15 amazon smart display full hd 15,6&#x27;&#x27; com alexa cor preto" data-category="Casa Inteligente" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_844248-MLA99925279571_112025-O.webp" alt="Echo Show 15 Amazon Smart Display Full Hd 15,6'' Com Alexa Cor Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Echo Show 15 Amazon Smart Display Full Hd 15,6'' Com Alexa Cor Preto</h2>
+    <p class="story-excerpt">Echo Show 15 Amazon Smart Display Full Hd 15,6'' Com Alexa Cor Preto</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 2515</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/100-palitos-de-madeira-para-depilacao-picole-ponta-redonda.html" data-search="100 palitos de madeira para depilação picolé ponta redonda 100 palitos de madeira para depilação picolé ponta redonda" data-category="Unhas &amp; Depilação" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_621173-MLB116377668129_082026-O.webp" alt="100 Palitos De Madeira Para Depilação Picolé Ponta Redonda"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>100 Palitos De Madeira Para Depilação Picolé Ponta Redonda</h2>
+    <p class="story-excerpt">100 Palitos De Madeira Para Depilação Picolé Ponta Redonda</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 19,2</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/hidratante-corporal-intensivo-norwegian-frasco-sem-400ml-neutrogena.html" data-search="hidratante corporal intensivo norwegian frasco sem 400ml neutrogena hidratante corporal intensivo norwegian frasco sem 400ml neutrogena" data-category="Perfumaria &amp; Corpo" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_866233-MLA106055806674_022026-O.webp" alt="Hidratante Corporal Intensivo Norwegian Frasco Sem 400ml Neutrogena"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Hidratante Corporal Intensivo Norwegian Frasco Sem 400ml Neutrogena</h2>
+    <p class="story-excerpt">Hidratante Corporal Intensivo Norwegian Frasco Sem 400ml Neutrogena</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 71,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-manicure-higiene-alicate-tesoura-cortador-lixa-espatula.html" data-search="kit manicure higiene alicate tesoura cortador lixa espatula kit manicure higiene alicate tesoura cortador lixa espatula" data-category="Unhas &amp; Depilação" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_762958-MLB109747239155_032026-O.webp" alt="Kit Manicure Higiene Alicate Tesoura Cortador Lixa Espatula"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Manicure Higiene Alicate Tesoura Cortador Lixa Espatula</h2>
+    <p class="story-excerpt">Kit Manicure Higiene Alicate Tesoura Cortador Lixa Espatula</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 16,09</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-6-cuecas-masculinas-boxer-variadas-alta-qualidade-aaa.html" data-search="kit 6 cuecas masculinas boxer variadas alta qualidade aaa kit 6 cuecas masculinas boxer variadas alta qualidade aaa" data-category="Outros" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_965180-MLB95166690302_102025-AB-kit-6-cuecas-masculinas-boxer-variadas-alta-qualidade-aaa.webp" alt="Kit 6 Cuecas Masculinas Boxer Variadas Alta Qualidade Aaa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 6 Cuecas Masculinas Boxer Variadas Alta Qualidade Aaa</h2>
+    <p class="story-excerpt">Kit 6 Cuecas Masculinas Boxer Variadas Alta Qualidade Aaa</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 36,38</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/chuteira-indoor-futsal-umbro-pro5-bump-coral-couro-original.html" data-search="chuteira indoor futsal umbro pro5 bump coral couro original chuteira indoor futsal umbro pro5 bump coral couro original" data-category="Outros" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_813951-MLB106310098413_012026-AB-chuteira-indoor-futsal-umbro-pro5-bump-coral-couro-original.webp" alt="Chuteira Indoor Futsal Umbro Pro5 Bump Coral Couro Original"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Chuteira Indoor Futsal Umbro Pro5 Bump Coral Couro Original</h2>
+    <p class="story-excerpt">Chuteira Indoor Futsal Umbro Pro5 Bump Coral Couro Original</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 287</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-masculino-feminino-kappa-park-2-0-original.html" data-search="tênis masculino feminino kappa park 2.0 original tênis masculino feminino kappa park 2.0 original" data-category="Outros" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_897493-MLB112013730462_062026-AB-tnis-masculino-feminino-kappa-park-20-original.webp" alt="Tênis Masculino Feminino Kappa Park 2.0 Original"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis Masculino Feminino Kappa Park 2.0 Original</h2>
+    <p class="story-excerpt">Tênis Masculino Feminino Kappa Park 2.0 Original</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 77,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mochila-viagem-executiva-grande-notebook-masculina-feminina.html" data-search="mochila viagem executiva grande notebook masculina feminina mochila viagem executiva grande notebook masculina feminina" data-category="Outros" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_880773-MLB99691301191_112025-AB-mochila-viagem-executiva-grande-notebook-masculina-feminina.webp" alt="Mochila Viagem Executiva Grande Notebook Masculina Feminina"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mochila Viagem Executiva Grande Notebook Masculina Feminina</h2>
+    <p class="story-excerpt">Mochila Viagem Executiva Grande Notebook Masculina Feminina</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 95,24</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/calca-jeans-wide-leg-feminina-cintura-alta-sem-lycra-stillge.html" data-search="calça jeans wide leg feminina cintura alta sem lycra stillge calça jeans wide leg feminina cintura alta sem lycra stillge" data-category="Outros" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_Q_NP_2X_717613-MLB96633630079_102025-AB-calca-jeans-wide-leg-feminina-cintura-alta-sem-lycra-stillge.webp" alt="Calça Jeans Wide Leg Feminina Cintura Alta Sem Lycra Stillge"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Calça Jeans Wide Leg Feminina Cintura Alta Sem Lycra Stillge</h2>
+    <p class="story-excerpt">Calça Jeans Wide Leg Feminina Cintura Alta Sem Lycra Stillge</p>
+    <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 56,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/banheira-gelo-time7-300l-recuperacao-muscular-crioterapia-redonda.html" data-search="banheira gelo time7 300l recuperação muscular crioterapia redonda banheira gelo time7 300l recuperação muscular crioterapia redonda" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-09-03">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_874972-MLA99575770438_122025-O.webp" alt="Banheira Gelo TIME7 300L Recuperação Muscular Crioterapia Redonda"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Banheira Gelo TIME7 300L Recuperação Muscular Crioterapia Redonda</h2>
     <p class="story-excerpt">Banheira Gelo TIME7 300L Recuperação Muscular Crioterapia Redonda</p>
     <div class="story-meta">3 de setembro de 2026<span class="story-price">R$ 274,54</span></div>
