@@ -23,14 +23,267 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Monitoramento">Monitoramento</option><option value="Moto">Moto</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Som &amp; Multimídia">Som & Multimídia</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Cama, Mesa &amp; Banho">Cama, Mesa & Banho</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação">Iluminação</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Moto">Moto</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Segurança &amp; Emergência">Segurança & Emergência</option><option value="Skincare">Skincare</option><option value="Som &amp; Multimídia">Som & Multimídia</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Termômetro e Acessórios">Termômetro e Acessórios</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/casca-de-pinus-polido-media-3kg-natural-decorativa.html" data-search="casca de pinus polido média 3kg natural decorativa casca de pinus polido média 3kg natural decorativa" data-category="Vasos e Substrato" data-date="2026-09-04">
-  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_764557-MLB89154653049_082025-O.webp" alt="Casca De Pinus Polido Média 3kg Natural Decorativa"></div>
+<a class="story-row story-row-featured" href="ofertas/guarda-sol-mor-1-80m-resistente-praia-guarda-sol-mor-cor-verde-agua.html" data-search="guarda-sol mor 1.80m resistente praia guarda sol mor cor verde agua guarda-sol mor 1.80m resistente praia guarda sol mor cor verde agua" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_967408-MLA115214685308_082026-O.webp" alt="Guarda-sol Mor 1.80m Resistente Praia Guarda Sol Mor Cor Verde Agua"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Guarda-sol Mor 1.80m Resistente Praia Guarda Sol Mor Cor Verde Agua</h2>
+    <p class="story-excerpt">Guarda-sol Mor 1.80m Resistente Praia Guarda Sol Mor Cor Verde Agua</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 36,86</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caixa-termica-cooler-suv-32-litros-azul-termolar.html" data-search="caixa térmica cooler suv 32 litros azul termolar caixa térmica cooler suv 32 litros azul termolar" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_659367-MLA99867404147_112025-O.webp" alt="Caixa Térmica Cooler Suv 32 Litros Azul Termolar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caixa Térmica Cooler Suv 32 Litros Azul Termolar</h2>
+    <p class="story-excerpt">Caixa Térmica Cooler Suv 32 Litros Azul Termolar</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 173,13</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/conjunto-de-panelas-9-pecas-antiaderente-com-tampa-de-vidro-e-utensilios-fogao-a.html" data-search="conjunto de panelas 9 peças antiaderente com tampa de vidro e utensílios fogão a gás preto bege conjunto de panelas 9 peças antiaderente com tampa de vidro e utensílios fogão a gás preto bege" data-category="Cozinha &amp; Utensílios" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_739366-MLA111359443500_052026-O.webp" alt="Conjunto De Panelas 9 Peças Antiaderente Com Tampa De Vidro E Utensílios Fogão A Gás Preto Bege"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Conjunto De Panelas 9 Peças Antiaderente Com Tampa De Vidro E Utensílios Fogão A Gás Preto Bege</h2>
+    <p class="story-excerpt">Conjunto De Panelas 9 Peças Antiaderente Com Tampa De Vidro E Utensílios Fogão A Gás Preto Bege</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 156,67</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/porta-temperos-condimentos-9-unidades-potes-vidro-base-giratoria-preto-organizad.html" data-search="porta temperos condimentos 9 unidades potes vidro base giratória preto organizador cozinha dosador sólar porta temperos condimentos 9 unidades potes vidro base giratória preto organizador cozinha dosador sólar" data-category="Cozinha &amp; Utensílios" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_710892-MLA113686748984_072026-O.webp" alt="Porta Temperos Condimentos 9 Unidades Potes Vidro Base Giratória Preto Organizador Cozinha Dosador Sólar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Porta Temperos Condimentos 9 Unidades Potes Vidro Base Giratória Preto Organizador Cozinha Dosador Sólar</h2>
+    <p class="story-excerpt">Porta Temperos Condimentos 9 Unidades Potes Vidro Base Giratória Preto Organizador Cozinha Dosador Sólar</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 34,63</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-12-utensilios-de-cozinha-em-silicone-premium-com-cabo-de-madeira-aristus-res.html" data-search="kit 12 utensílios de cozinha em silicone premium com cabo de madeira aristus resistentes ao calor até 220°c, antiaderentes, duráveis e modernos cor vermelho kit 12 utensílios de cozinha em silicone premium com cabo de madeira aristus resistentes ao calor até 220°c, antiaderentes, duráveis e modernos cor vermelho" data-category="Cozinha &amp; Utensílios" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_749380-MLA100067532373_122025-O.webp" alt="Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Aristus Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Vermelho"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Aristus Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Vermelho</h2>
+    <p class="story-excerpt">Kit 12 Utensílios De Cozinha Em Silicone Premium Com Cabo De Madeira Aristus Resistentes Ao Calor Até 220°c, Antiaderentes, Duráveis E Modernos Cor Vermelho</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 37,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-academia-masculino-corrida-musculacao-caminhada-treino.html" data-search="tenis academia masculino corrida musculação caminhada treino tenis academia masculino corrida musculação caminhada treino" data-category="Vestuário &amp; Calçado" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_775022-MLB111587842055_052026-O.webp" alt="Tenis Academia Masculino Corrida Musculação Caminhada Treino"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tenis Academia Masculino Corrida Musculação Caminhada Treino</h2>
+    <p class="story-excerpt">Tenis Academia Masculino Corrida Musculação Caminhada Treino</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 53,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/garrafa-termica-stanley-activate-shaker-591ml-twilight-twilight.html" data-search="garrafa térmica stanley activate shaker 591ml twilight twilight garrafa térmica stanley activate shaker 591ml twilight twilight" data-category="Hidratação &amp; Rotina" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_925908-MLA99487757070_112025-O.webp" alt="Garrafa Térmica Stanley Activate Shaker 591ml Twilight Twilight"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Garrafa Térmica Stanley Activate Shaker 591ml Twilight Twilight</h2>
+    <p class="story-excerpt">Garrafa Térmica Stanley Activate Shaker 591ml Twilight Twilight</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 328,39</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pulseira-inteligente-xiaomi-smart-band-9-active-preto.html" data-search="pulseira inteligente xiaomi smart band 9 active, preto pulseira inteligente xiaomi smart band 9 active, preto" data-category="Monitoramento" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_978453-MLA92890055712_092025-O.webp" alt="Pulseira Inteligente Xiaomi Smart Band 9 Active, Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pulseira Inteligente Xiaomi Smart Band 9 Active, Preto</h2>
+    <p class="story-excerpt">Pulseira Inteligente Xiaomi Smart Band 9 Active, Preto</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 201,48</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-3-cueiro-papi-100-algodao-flanelado-manta-bebe-enxoval.html" data-search="kit 3 cueiro papi 100% algodão flanelado manta bebe enxoval kit 3 cueiro papi 100% algodão flanelado manta bebe enxoval" data-category="Enxoval &amp; Roupinha" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_799234-MLB113103210433_062026-O.webp" alt="Kit 3 Cueiro Papi 100% Algodão Flanelado Manta Bebe Enxoval"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 3 Cueiro Papi 100% Algodão Flanelado Manta Bebe Enxoval</h2>
+    <p class="story-excerpt">Kit 3 Cueiro Papi 100% Algodão Flanelado Manta Bebe Enxoval</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 24,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tapete-educativo-interativo-teclado-musical-verde.html" data-search="tapete educativo interativo teclado musical - verde tapete educativo interativo teclado musical - verde" data-category="Brinquedos de Estímulo" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_700384-MLA99379664790_112025-O.webp" alt="Tapete Educativo Interativo Teclado Musical - Verde"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tapete Educativo Interativo Teclado Musical - Verde</h2>
+    <p class="story-excerpt">Tapete Educativo Interativo Teclado Musical - Verde</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 64,39</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-travel-system-romanzo-duo-infanti-cor-preto-bronze.html" data-search="carrinho travel system romanzo duo - infanti cor preto/bronze carrinho travel system romanzo duo - infanti cor preto/bronze" data-category="Passeio &amp; Transporte" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_718328-MLA99932924021_112025-O.webp" alt="Carrinho Travel System Romanzo Duo - Infanti Cor Preto/Bronze"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho Travel System Romanzo Duo - Infanti Cor Preto/Bronze</h2>
+    <p class="story-excerpt">Carrinho Travel System Romanzo Duo - Infanti Cor Preto/Bronze</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 1799</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/lampadas-led-mini-6500k-farol-alto-baixo-milha-20000-lumens.html" data-search="lâmpadas led mini 6500k farol alto baixo milha 20000 lumens lâmpadas led mini 6500k farol alto baixo milha 20000 lumens" data-category="Iluminação" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_735744-MLB88688025800_072025-O.webp" alt="Lâmpadas Led Mini 6500k Farol Alto Baixo Milha 20000 Lumens"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Lâmpadas Led Mini 6500k Farol Alto Baixo Milha 20000 Lumens</h2>
+    <p class="story-excerpt">Lâmpadas Led Mini 6500k Farol Alto Baixo Milha 20000 Lumens</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 49,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-detailing-premium-protecao-limpeza-total-house-of-motors.html" data-search="kit detailing premium proteção limpeza total house of motors kit detailing premium proteção limpeza total house of motors" data-category="Estética &amp; Detailing" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_808486-MLB114069937649_072026-O.webp" alt="Kit Detailing Premium Proteção Limpeza Total House Of Motors"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Detailing Premium Proteção Limpeza Total House Of Motors</h2>
+    <p class="story-excerpt">Kit Detailing Premium Proteção Limpeza Total House Of Motors</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 279,14</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/roadstar-modelo-rs7200.html" data-search="roadstar modelo rs7200 roadstar modelo rs7200" data-category="Som &amp; Multimídia" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_721690-MLA99443171306_112025-O.webp" alt="Roadstar Modelo RS7200"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Roadstar Modelo RS7200</h2>
+    <p class="story-excerpt">Roadstar Modelo RS7200</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 349,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/adaptador-leitor-de-cartao-davely-tipo-c-3-em-1-para-sd-microsd-e-usb.html" data-search="adaptador leitor de cartão davely tipo c 3 em 1 para sd, microsd e usb adaptador leitor de cartão davely tipo c 3 em 1 para sd, microsd e usb" data-category="Armazenamento" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_746939-MLA114327640528_082026-O.webp" alt="Adaptador Leitor de Cartão Davely Tipo C 3 em 1 para SD, MicroSD e USB"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Adaptador Leitor de Cartão Davely Tipo C 3 em 1 para SD, MicroSD e USB</h2>
+    <p class="story-excerpt">Adaptador Leitor de Cartão Davely Tipo C 3 em 1 para SD, MicroSD e USB</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 21,24</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/echo-dot-5a-geracao-smart-speaker-com-alexa-branca-amazon-branco.html" data-search="echo dot 5ª geração, smart speaker com alexa, branca, amazon branco echo dot 5ª geração, smart speaker com alexa, branca, amazon branco" data-category="Casa Inteligente" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_928602-MLA116311352355_082026-O.webp" alt="Echo Dot 5ª Geração, Smart Speaker Com Alexa, Branca, Amazon Branco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Echo Dot 5ª Geração, Smart Speaker Com Alexa, Branca, Amazon Branco</h2>
+    <p class="story-excerpt">Echo Dot 5ª Geração, Smart Speaker Com Alexa, Branca, Amazon Branco</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 436,05</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/prancha-de-cabelo-gama-italy-babosa-ceramic-ion-bivolt.html" data-search="prancha de cabelo gama italy babosa ceramic íon bivolt prancha de cabelo gama italy babosa ceramic íon bivolt" data-category="Ferramentas de Cabelo" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_604552-MLA98761623723_112025-O.webp" alt="Prancha de Cabelo Gama Italy Babosa Ceramic Íon Bivolt"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Prancha de Cabelo Gama Italy Babosa Ceramic Íon Bivolt</h2>
+    <p class="story-excerpt">Prancha de Cabelo Gama Italy Babosa Ceramic Íon Bivolt</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 95,95</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/creamy-skincare-vitamina-c-30ml-serum-facial-vitamina-c-10-aumenta-firmeza-da-pe.html" data-search="creamy skincare vitamina c 30ml | sérum facial, vitamina c 10%, aumenta firmeza da pele, previne rugas finas, clareador de manchas | todos os tipos de pele creamy skincare vitamina c 30ml | sérum facial, vitamina c 10%, aumenta firmeza da pele, previne rugas finas, clareador de manchas | todos os tipos de pele" data-category="Skincare" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_931553-MLA109742215813_032026-O.webp" alt="Creamy Skincare Vitamina C 30ml | Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas | Todos os Tipos de Pele"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Creamy Skincare Vitamina C 30ml | Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas | Todos os Tipos de Pele</h2>
+    <p class="story-excerpt">Creamy Skincare Vitamina C 30ml | Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas | Todos os Tipos de Pele</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 109,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/creme-corporal-perfumado-hidratante-de-nutricao-profunda-que-combate-o-ressecame.html" data-search="creme corporal perfumado hidratante de nutrição profunda que combate o ressecamento com manteiga de karité, mugler angel, 200ml creme corporal perfumado hidratante de nutrição profunda que combate o ressecamento com manteiga de karité, mugler angel, 200ml" data-category="Perfumaria &amp; Corpo" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_929125-MLA110848466503_042026-O.webp" alt="Creme Corporal Perfumado Hidratante de Nutrição Profunda que Combate o Ressecamento com Manteiga de Karité, Mugler Angel, 200ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Creme Corporal Perfumado Hidratante de Nutrição Profunda que Combate o Ressecamento com Manteiga de Karité, Mugler Angel, 200ml</h2>
+    <p class="story-excerpt">Creme Corporal Perfumado Hidratante de Nutrição Profunda que Combate o Ressecamento com Manteiga de Karité, Mugler Angel, 200ml</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 486,68</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-bebe-conforto-napoli-travel-system-cobre-galzerano.html" data-search="carrinho bebê conforto napoli travel system cobre galzerano carrinho bebê conforto napoli travel system cobre galzerano" data-category="Brinquedos e Infantil" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_835460-MLA96418871060_102025-O.webp" alt="Carrinho Bebê Conforto Napoli Travel System Cobre Galzerano"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho Bebê Conforto Napoli Travel System Cobre Galzerano</h2>
+    <p class="story-excerpt">Carrinho Bebê Conforto Napoli Travel System Cobre Galzerano</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 997,49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-esportivo-feminino-voa-2-olympikus-liso.html" data-search="tênis esportivo feminino voa 2 olympikus liso tênis esportivo feminino voa 2 olympikus liso" data-category="Esporte e Lazer" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_881377-MLA96144260133_102025-O.webp" alt="Tênis Esportivo Feminino Voa 2 Olympikus Liso"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis Esportivo Feminino Voa 2 Olympikus Liso</h2>
+    <p class="story-excerpt">Tênis Esportivo Feminino Voa 2 Olympikus Liso</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 206,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto.html" data-search="aparador de pelos kemei km-6511 nariz orelhas sem fio preto aparador de pelos kemei km-6511 nariz orelhas sem fio preto" data-category="Beleza e Cuidados Pessoais" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_672282-MLA84176470446_052025-O.webp" alt="Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto</h2>
+    <p class="story-excerpt">Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 28,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carteira-masculina-legitimo-aguia-couro-com-fecho-preto-home.html" data-search="carteira masculina legítimo águia couro com fecho preto home carteira masculina legítimo águia couro com fecho preto home" data-category="Moda e Acessórios" data-date="2026-09-05">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_862032-MLB107596720724_032026-O.webp" alt="Carteira Masculina Legítimo Águia Couro Com Fecho Preto Home"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carteira Masculina Legítimo Águia Couro Com Fecho Preto Home</h2>
+    <p class="story-excerpt">Carteira Masculina Legítimo Águia Couro Com Fecho Preto Home</p>
+    <div class="story-meta">5 de setembro de 2026<span class="story-price">R$ 41,7</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/casca-de-pinus-polido-media-3kg-natural-decorativa.html" data-search="casca de pinus polido média 3kg natural decorativa casca de pinus polido média 3kg natural decorativa" data-category="Vasos e Substrato" data-date="2026-09-04">
+  <div class="story-thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_764557-MLB89154653049_082025-O.webp" alt="Casca De Pinus Polido Média 3kg Natural Decorativa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Casca De Pinus Polido Média 3kg Natural Decorativa</h2>
     <p class="story-excerpt">Casca De Pinus Polido Média 3kg Natural Decorativa</p>
     <div class="story-meta">4 de setembro de 2026<span class="story-price">R$ 36,6</span></div>
