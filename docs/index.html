@@ -23,14 +23,179 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Alimentação">Alimentação</option><option value="Armazenamento">Armazenamento</option><option value="Barbearia">Barbearia</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Periféricos">Periféricos</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Vara e Molinete">Vara e Molinete</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Periféricos">Periféricos</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/kit-6-facas-inox-profissionais-corte-preciso-e-design-moderno-para-churrasco-e-c.html" data-search="kit 6 facas inox profissionais: corte preciso e design moderno para churrasco e cozinha! kit 6 facas inox profissionais: corte preciso e design moderno para churrasco e cozinha!" data-category="Lâminas e Cutelaria" data-date="2026-09-28">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7repg-m8m4dv1sna5155" alt="Kit 6 Facas Inox Profissionais: Corte Preciso e Design Moderno para Churrasco e Cozinha!"></div>
+<a class="story-row story-row-featured" href="ofertas/tesoura-de-picotar-escalope-lanmax-corte-arredondado-profissional-escalope-lanma.html" data-search="tesoura de picotar escalope lanmax corte arredondado profissional escalope lanmax papel eva tecido tesoura de picotar escalope lanmax corte arredondado profissional escalope lanmax papel eva tecido" data-category="Lâminas e Cutelaria" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/a50d653379d5812f5076f38ddc130c02" alt="Tesoura De Picotar Escalope Lanmax Corte Arredondado Profissional Escalope Lanmax Papel Eva Tecido"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Tesoura De Picotar Escalope Lanmax Corte Arredondado Profissional Escalope Lanmax Papel Eva Tecido</h2>
+    <p class="story-excerpt">Tesoura De Picotar Escalope Lanmax Corte Arredondado Profissional Escalope Lanmax Papel Eva Tecido</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 33,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mangueira-magica-expansivel-elastica-flexivel-tamanhos-15m-30m-metros-jardim-ret.html" data-search="mangueira mágica expansível elástica flexível tamanhos 15m /30m metros jardim retrátil multiuso plantas mangueira mágica expansível elástica flexível tamanhos 15m /30m metros jardim retrátil multiuso plantas" data-category="Ferramentas de Jardim" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lr-msvlad4hbuh2ad" alt="Mangueira Mágica Expansível Elástica Flexível Tamanhos 15m /30m Metros Jardim Retrátil Multiuso Plantas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mangueira Mágica Expansível Elástica Flexível Tamanhos 15m /30m Metros Jardim Retrátil Multiuso Plantas</h2>
+    <p class="story-excerpt">Mangueira Mágica Expansível Elástica Flexível Tamanhos 15m /30m Metros Jardim Retrátil Multiuso Plantas</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 29,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mamadeira-buba-infantil-270ml-easy-flow-anticolica-2m.html" data-search="mamadeira buba infantil 270ml easy flow anticólica +2m mamadeira buba infantil 270ml easy flow anticólica +2m" data-category="Alimentação Infantil" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8262i-mlfa0mih3f2c9e" alt="Mamadeira Buba Infantil 270ml Easy Flow Anticólica +2m"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mamadeira Buba Infantil 270ml Easy Flow Anticólica +2m</h2>
+    <p class="story-excerpt">Mamadeira Buba Infantil 270ml Easy Flow Anticólica +2m</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 27,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carregador-portatil-chaveiro-tipo-c-de-emergencia-mini-power-bank-anjgg-brasil.html" data-search="carregador portátil chaveiro tipo-c de emergência mini power bank anjgg brasil  carregador portátil chaveiro tipo-c de emergência mini power bank anjgg brasil " data-category="Energia &amp; Cabos" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-823oy-mozxpi7hixoue8" alt="Carregador Portátil Chaveiro Tipo-C de Emergência Mini Power Bank ANJGG BRASIL "></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carregador Portátil Chaveiro Tipo-C de Emergência Mini Power Bank ANJGG BRASIL </h2>
+    <p class="story-excerpt">Carregador Portátil Chaveiro Tipo-C de Emergência Mini Power Bank ANJGG BRASIL </p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 15,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/x55-fones-de-ouvido-invisiveis-tws-sem-fio-bluetooth-hifi-estereo-com-reducao-de.html" data-search="x55 fones de ouvido invisíveis tws sem fio bluetooth hifi estéreo com redução de ruído enc à prova d&#x27;água longa reproduç x55 fones de ouvido invisíveis tws sem fio bluetooth hifi estéreo com redução de ruído enc à prova d&#x27;água longa reproduç" data-category="Áudio" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134301-7rd60-lw9tt9cjrh4041" alt="X55 Fones De Ouvido Invisíveis TWS Sem Fio Bluetooth HiFi Estéreo Com Redução De Ruído ENC À Prova D'água Longa Reproduç"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>X55 Fones De Ouvido Invisíveis TWS Sem Fio Bluetooth HiFi Estéreo Com Redução De Ruído ENC À Prova D'água Longa Reproduç</h2>
+    <p class="story-excerpt">X55 Fones De Ouvido Invisíveis TWS Sem Fio Bluetooth HiFi Estéreo Com Redução De Ruído ENC À Prova D'água Longa Reproduç</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 19,53</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gokoco-escova-secadora-5-em-1-conjunto-de-secador-de-cabelo-multifuncional-de-al.html" data-search="gokoco escova secadora 5 em 1 conjunto de secador de cabelo multifuncional de alta velocidade dupla voltagem 110v-240v gokoco escova secadora 5 em 1 conjunto de secador de cabelo multifuncional de alta velocidade dupla voltagem 110v-240v" data-category="Beleza e Cuidados Pessoais" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ln-msbapxbqpouead" alt="GOKOCO Escova Secadora 5 Em 1 Conjunto De Secador De Cabelo Multifuncional De Alta Velocidade Dupla voltagem 110V-240V"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>GOKOCO Escova Secadora 5 Em 1 Conjunto De Secador De Cabelo Multifuncional De Alta Velocidade Dupla voltagem 110V-240V</h2>
+    <p class="story-excerpt">GOKOCO Escova Secadora 5 Em 1 Conjunto De Secador De Cabelo Multifuncional De Alta Velocidade Dupla voltagem 110V-240V</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 425</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-feminino-esportivo-leve-e-macio-academia-corrida.html" data-search="tênis feminino esportivo leve e mácio academia corrida tênis feminino esportivo leve e mácio academia corrida" data-category="Moda e Acessórios" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m5tyxgjeaxz9d5" alt="Tênis Feminino Esportivo Leve e mácio Academia Corrida"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis Feminino Esportivo Leve e mácio Academia Corrida</h2>
+    <p class="story-excerpt">Tênis Feminino Esportivo Leve e mácio Academia Corrida</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 29</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/guarda-chuva-duplo-automatico-grande-resistente-abre-fecha-facil-12-varetas-ys-5.html" data-search="guarda chuva duplo automático grande resistente abre fecha fácil 12 varetas ys-546 guarda chuva duplo automático grande resistente abre fecha fácil 12 varetas ys-546" data-category="Moda e Acessórios" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-loy2p2fheixh55" alt="Guarda Chuva Duplo Automático Grande Resistente Abre Fecha Fácil 12 varetas YS-546"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Guarda Chuva Duplo Automático Grande Resistente Abre Fecha Fácil 12 varetas YS-546</h2>
+    <p class="story-excerpt">Guarda Chuva Duplo Automático Grande Resistente Abre Fecha Fácil 12 varetas YS-546</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 39,6</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-42-pecas-kit-bits-fenda-ph-torx-allen-y-soquetes-chave-l-com-estojo.html" data-search="jogo 42 peças kit bits fenda ph torx allen y soquetes chave l com estojo jogo 42 peças kit bits fenda ph torx allen y soquetes chave l com estojo" data-category="Eletrônicos e Tecnologia" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rd3l-ltzcr7zllcj2a3" alt="Jogo 42 Peças Kit Bits Fenda Ph Torx Allen Y Soquetes Chave L Com Estojo"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo 42 Peças Kit Bits Fenda Ph Torx Allen Y Soquetes Chave L Com Estojo</h2>
+    <p class="story-excerpt">Jogo 42 Peças Kit Bits Fenda Ph Torx Allen Y Soquetes Chave L Com Estojo</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 56,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/2-5-10-pcs-capa-celular-bolsa-case-a-prova-d-agua-transparente-cor-universal-pra.html" data-search="2/5/10 pcs capa celular bolsa case a prova d&#x27;água transparente cor universal praia piscina viajar promoção 2/5/10 pcs capa celular bolsa case a prova d&#x27;água transparente cor universal praia piscina viajar promoção" data-category="Eletrônicos e Tecnologia" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82598-mtbzagotnri807" alt="2/5/10 Pcs Capa Celular Bolsa Case A Prova D'água Transparente Cor Universal Praia Piscina Viajar Promoção"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>2/5/10 Pcs Capa Celular Bolsa Case A Prova D'água Transparente Cor Universal Praia Piscina Viajar Promoção</h2>
+    <p class="story-excerpt">2/5/10 Pcs Capa Celular Bolsa Case A Prova D'água Transparente Cor Universal Praia Piscina Viajar Promoção</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 11,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/1-2-5-pcs-suportes-praticos-de-controle-remoto-suportes-de-parede-para-controle-.html" data-search="1/2/5 pcs suportes práticos de controle remoto, suportes de parede para controle plástico de telefones celulares 1/2/5 pcs suportes práticos de controle remoto, suportes de parede para controle plástico de telefones celulares" data-category="Eletrônicos e Tecnologia" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8259t-msz6gxw4b669cc" alt="1/2/5 PCS Suportes Práticos De Controle Remoto, Suportes De Parede Para Controle Plástico De Telefones Celulares"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>1/2/5 PCS Suportes Práticos De Controle Remoto, Suportes De Parede Para Controle Plástico De Telefones Celulares</h2>
+    <p class="story-excerpt">1/2/5 PCS Suportes Práticos De Controle Remoto, Suportes De Parede Para Controle Plástico De Telefones Celulares</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 9,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/conjunto-de-cabelo-colorida-de-941-908-881-850-577-231-pecas-para-meninas-acesso.html" data-search="conjunto de cabelo colorida de 941/908/881/850/577/231 peças para meninas | acessórios de arco de unicórnio e estrela conjunto de cabelo colorida de 941/908/881/850/577/231 peças para meninas | acessórios de arco de unicórnio e estrela" data-category="Eletrônicos e Tecnologia" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8262r-mkfaj68s1n9eaf" alt="Conjunto De Cabelo Colorida De 941/908/881/850/577/231 Peças Para Meninas | Acessórios De Arco De Unicórnio E Estrela"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Conjunto De Cabelo Colorida De 941/908/881/850/577/231 Peças Para Meninas | Acessórios De Arco De Unicórnio E Estrela</h2>
+    <p class="story-excerpt">Conjunto De Cabelo Colorida De 941/908/881/850/577/231 Peças Para Meninas | Acessórios De Arco De Unicórnio E Estrela</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 22,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/broca-em-hss-aco-rapido-din-338-11-64-c-10-un-tradestar.html" data-search="broca em hss aço rápido din 338 11/64&quot;  c/ 10 un tradestar broca em hss aço rápido din 338 11/64&quot;  c/ 10 un tradestar" data-category="Outros" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rblq-lnin586a1l2t0d" alt="Broca em HSS Aço Rápido DIN 338 11/64"  C/ 10 Un Tradestar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Broca em HSS Aço Rápido DIN 338 11/64"  C/ 10 Un Tradestar</h2>
+    <p class="story-excerpt">Broca em HSS Aço Rápido DIN 338 11/64"  C/ 10 Un Tradestar</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 103,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/suporte-veicular-celular-gps-ventosa-gruda-painel-anti-queda-trava-automatica-ca.html" data-search="suporte veicular celular gps ventosa gruda painel anti queda trava automática carro automotivo telefone universal suporte veicular celular gps ventosa gruda painel anti queda trava automática carro automotivo telefone universal" data-category="Automotivo" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/1e2fc91b1b5394a913b1192a3904906d" alt="Suporte Veicular Celular GPS Ventosa Gruda Painel Anti Queda Trava Automática Carro Automotivo Telefone Universal"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Suporte Veicular Celular GPS Ventosa Gruda Painel Anti Queda Trava Automática Carro Automotivo Telefone Universal</h2>
+    <p class="story-excerpt">Suporte Veicular Celular GPS Ventosa Gruda Painel Anti Queda Trava Automática Carro Automotivo Telefone Universal</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 16,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-de-espatulas-ferramenta-de-nylon-desmontar-painel-forro-de-porta-automotivo.html" data-search="jogo de espatulas ferramenta de nylon desmontar painel forro de porta automotivo jogo de espatulas ferramenta de nylon desmontar painel forro de porta automotivo" data-category="Automotivo" data-date="2026-09-29">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8257s-mrqi8jwte5fm1c" alt="Jogo De Espatulas Ferramenta De Nylon Desmontar Painel Forro De Porta Automotivo"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo De Espatulas Ferramenta De Nylon Desmontar Painel Forro De Porta Automotivo</h2>
+    <p class="story-excerpt">Jogo De Espatulas Ferramenta De Nylon Desmontar Painel Forro De Porta Automotivo</p>
+    <div class="story-meta">29 de setembro de 2026<span class="story-price">R$ 10,92</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-6-facas-inox-profissionais-corte-preciso-e-design-moderno-para-churrasco-e-c.html" data-search="kit 6 facas inox profissionais: corte preciso e design moderno para churrasco e cozinha! kit 6 facas inox profissionais: corte preciso e design moderno para churrasco e cozinha!" data-category="Lâminas e Cutelaria" data-date="2026-09-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7repg-m8m4dv1sna5155" alt="Kit 6 Facas Inox Profissionais: Corte Preciso e Design Moderno para Churrasco e Cozinha!"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Kit 6 Facas Inox Profissionais: Corte Preciso e Design Moderno para Churrasco e Cozinha!</h2>
     <p class="story-excerpt">Kit 6 Facas Inox Profissionais: Corte Preciso e Design Moderno para Churrasco e Cozinha!</p>
     <div class="story-meta">28 de setembro de 2026<span class="story-price">R$ 15,5</span></div>
