@@ -23,14 +23,729 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Energia &amp; Cabos">Energia & Cabos</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Estética &amp; Detailing">Estética & Detailing</option><option value="Facas &amp; EDC">Facas & EDC</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Cabelo">Ferramentas de Cabelo</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene &amp; Banho">Higiene & Banho</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Maquiagem">Maquiagem</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Organização">Organização</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Passeio &amp; Transporte">Passeio & Transporte</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Temperos e Defumação">Temperos e Defumação</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/mangueira-jardim-reforcada-trancada-completa-05-10-15-20-25-30-35-50-metros.html" data-search="mangueira jardim reforçada trançada completa 05/10/15/20/25/30/35/50 metros mangueira jardim reforçada trançada completa 05/10/15/20/25/30/35/50 metros" data-category="Mangueira e Lavadora" data-date="2026-10-02">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mldkkkytkpona7" alt="Mangueira Jardim Reforçada Trançada Completa 05/10/15/20/25/30/35/50 Metros"></div>
+<a class="story-row story-row-featured" href="ofertas/kit-500-gola-higienica-descartavel-master-beleza-barbearia.html" data-search="kit 500 gola higiênica descartável master beleza barbearia kit 500 gola higiênica descartável master beleza barbearia" data-category="Insumos e Descartáveis" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mlrpieed4wskb4" alt="Kit 500 Gola Higiênica Descartável Master Beleza Barbearia"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Kit 500 Gola Higiênica Descartável Master Beleza Barbearia</h2>
+    <p class="story-excerpt">Kit 500 Gola Higiênica Descartável Master Beleza Barbearia</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 31,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/navalha-navalhete-profissional-barbeiro-com-laminas-aco-inox-acabamento-barba.html" data-search="navalha navalhete profissional barbeiro com lâminas aço inox acabamento barba navalha navalhete profissional barbeiro com lâminas aço inox acabamento barba" data-category="Lâminas e Cutelaria" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/61714759e2f22ff82e8b9623ec0acaa9" alt="Navalha Navalhete Profissional Barbeiro com lâminas Aço Inox Acabamento Barba"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Navalha Navalhete Profissional Barbeiro com lâminas Aço Inox Acabamento Barba</h2>
+    <p class="story-excerpt">Navalha Navalhete Profissional Barbeiro com lâminas Aço Inox Acabamento Barba</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 12,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tonico-capilar-cabelo-barba-e-sobrancelha.html" data-search="tônico capilar, cabelo, barba e sobrancelha tônico capilar, cabelo, barba e sobrancelha" data-category="Produtos de Barbear" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdvd-mctck0k1sxg49e" alt="Tônico Capilar, cabelo, barba e sobrancelha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tônico Capilar, cabelo, barba e sobrancelha</h2>
+    <p class="story-excerpt">Tônico Capilar, cabelo, barba e sobrancelha</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19,94</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-auxiliar-4-bandeijas-com-rodinhas-metalon-mdf-profissional-estilo-indus.html" data-search="carrinho  auxiliar 4 bandeijas com rodinhas metalon mdf profissional -estilo industrial para salão de beleza carrinho  auxiliar 4 bandeijas com rodinhas metalon mdf profissional -estilo industrial para salão de beleza" data-category="Mobiliário e Estrutura" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mh-mnm2cclva9z826" alt="Carrinho  Auxiliar 4 Bandeijas com Rodinhas Metalon MDF Profissional -Estilo Industrial para Salão de Beleza"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho  Auxiliar 4 Bandeijas com Rodinhas Metalon MDF Profissional -Estilo Industrial para Salão de Beleza</h2>
+    <p class="story-excerpt">Carrinho  Auxiliar 4 Bandeijas com Rodinhas Metalon MDF Profissional -Estilo Industrial para Salão de Beleza</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 158,01</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bastao-de-cera-para-cabelo-wax-stick-profissional-linha-de-liso-nao-frizado-cont.html" data-search="bastão de cera para cabelo wax stick profissional linha de liso não frizado controle de borda pomada bastão de cera para cabelo wax stick profissional linha de liso não frizado controle de borda pomada" data-category="Cosméticos Masculinos" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mglj4kodv7cw8b" alt="Bastão De Cera Para Cabelo WAX STICK Profissional Linha De Liso Não Frizado Controle De Borda Pomada"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bastão De Cera Para Cabelo WAX STICK Profissional Linha De Liso Não Frizado Controle De Borda Pomada</h2>
+    <p class="story-excerpt">Bastão De Cera Para Cabelo WAX STICK Profissional Linha De Liso Não Frizado Controle De Borda Pomada</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 18,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tapete-de-banheiro-bolinha-macarrao-dedinho-antiderrapante-varias-cores.html" data-search="tapete de banheiro bolinha macarrão dedinho antiderrapante várias cores tapete de banheiro bolinha macarrão dedinho antiderrapante várias cores" data-category="Acessórios de Bancada" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mckrhbrs1nup9b" alt="Tapete de Banheiro Bolinha Macarrão Dedinho Antiderrapante Várias Cores"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tapete de Banheiro Bolinha Macarrão Dedinho Antiderrapante Várias Cores</h2>
+    <p class="story-excerpt">Tapete de Banheiro Bolinha Macarrão Dedinho Antiderrapante Várias Cores</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 17,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-3-em-1-bico-alta-pressao-para-mangueira-conector-top.html" data-search="kit 3 em 1 bico alta pressão para mangueira + conector top kit 3 em 1 bico alta pressão para mangueira + conector top" data-category="Mangueira e Lavadora" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m8khgzi06229a4" alt="Kit 3 Em 1 Bico Alta Pressão Para Mangueira + Conector Top"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 3 Em 1 Bico Alta Pressão Para Mangueira + Conector Top</h2>
+    <p class="story-excerpt">Kit 3 Em 1 Bico Alta Pressão Para Mangueira + Conector Top</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 22,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/boia-de-piscina-inflavel-com-rede-flutuante-colchao-de-agua-reclinavel-e-confort.html" data-search="bóia de piscina inflável com rede flutuante - colchão de água reclinável e confortável bóia de piscina inflável com rede flutuante - colchão de água reclinável e confortável" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdy9-mcvyih6s729oed" alt="Bóia de Piscina Inflável com Rede Flutuante - Colchão de Água Reclinável e Confortável"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bóia de Piscina Inflável com Rede Flutuante - Colchão de Água Reclinável e Confortável</h2>
+    <p class="story-excerpt">Bóia de Piscina Inflável com Rede Flutuante - Colchão de Água Reclinável e Confortável</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/casca-de-arroz-carbonizada-3l-10l-20l-substrato-natural-para-jardinagem-drenagem.html" data-search="casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas" data-category="Vasos e Substrato" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ly-mp10dpjpfvur72" alt="Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</h2>
+    <p class="story-excerpt">Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 9,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/grelha-baby-53x17cm-para-churrasco.html" data-search="grelha baby 53x17cm para churrasco grelha baby 53x17cm para churrasco" data-category="Espeto, Grelha &amp; Churrasqueira Portátil" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820li-mtdtbjtzpy4i4d" alt="Grelha Baby 53x17cm para Churrasco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Grelha Baby 53x17cm para Churrasco</h2>
+    <p class="story-excerpt">Grelha Baby 53x17cm para Churrasco</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 22,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caneca-termica-chopp-cerveja-camada-dupla-inox-710ml.html" data-search="caneca térmica chopp cerveja camada dupla inox 710ml caneca térmica chopp cerveja camada dupla inox 710ml" data-category="Copos, Chopeira &amp; Cooler" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820la-mn3s932d1kow47" alt="Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml</h2>
+    <p class="story-excerpt">Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 25</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/faca-luxo-churrasco-full-tang-tigre-personalizada-cabo-madeira-churras-king-cute.html" data-search="faca luxo churrasco full tang tigre personalizada cabo madeira churras king cutelaria artesanal faca luxo churrasco full tang tigre personalizada cabo madeira churras king cutelaria artesanal" data-category="Facas e Cutelaria" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjhkkyui3awx68" alt="Faca Luxo Churrasco Full Tang Tigre PERSONALIZADA Cabo Madeira Churras King Cutelaria Artesanal"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Faca Luxo Churrasco Full Tang Tigre PERSONALIZADA Cabo Madeira Churras King Cutelaria Artesanal</h2>
+    <p class="story-excerpt">Faca Luxo Churrasco Full Tang Tigre PERSONALIZADA Cabo Madeira Churras King Cutelaria Artesanal</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 67,53</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-de-ouvido-gamer-tipo-c-estereo-com-microfone-grave-hd-controle-on-1002.html" data-search="fone de ouvido gamer tipo-c estéreo com microfone grave hd controle on-1002 fone de ouvido gamer tipo-c estéreo com microfone grave hd controle on-1002" data-category="Headset e Microfone" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134211-820lm-mosp7ryhl7urad" alt="Fone de Ouvido Gamer Tipo-C Estéreo com Microfone Grave HD Controle ON-1002"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone de Ouvido Gamer Tipo-C Estéreo com Microfone Grave HD Controle ON-1002</h2>
+    <p class="story-excerpt">Fone de Ouvido Gamer Tipo-C Estéreo com Microfone Grave HD Controle ON-1002</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 29,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mesa-pro-gamer-efeito-carbono-120x60-com-led-rgb-e-sem-led-e-mousepad.html" data-search="mesa pro gamer efeito carbono 120x60 com led rgb e sem led e mousepad mesa pro gamer efeito carbono 120x60 com led rgb e sem led e mousepad" data-category="Iluminação RGB e Suportes" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81zu6-mkwu0nrgy0oy25" alt="Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad</h2>
+    <p class="story-excerpt">Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 349,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bateria-p-controle-xbox-360-1-cabo-carregador-1-4m.html" data-search="bateria p/ controle xbox 360 + 1 cabo carregador 1.4m bateria p/ controle xbox 360 + 1 cabo carregador 1.4m" data-category="Controle e Acessórios de Console" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdxh-mcuz41y8v51804" alt="Bateria P/ Controle Xbox 360 + 1 Cabo Carregador 1.4m"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bateria P/ Controle Xbox 360 + 1 Cabo Carregador 1.4m</h2>
+    <p class="story-excerpt">Bateria P/ Controle Xbox 360 + 1 Cabo Carregador 1.4m</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-mesa-de-computador-cadeira-gamer-cenario-de-casa-de-bonecas-brinquedos.html" data-search="mini mesa de computador, cadeira gamer, cenário de casa de bonecas, brinquedos mini mesa de computador, cadeira gamer, cenário de casa de bonecas, brinquedos" data-category="Cadeira e Mesa" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8258b-msjruuu2v40660" alt="Mini mesa de computador, cadeira gamer, cenário de casa de bonecas, brinquedos"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini mesa de computador, cadeira gamer, cenário de casa de bonecas, brinquedos</h2>
+    <p class="story-excerpt">Mini mesa de computador, cadeira gamer, cenário de casa de bonecas, brinquedos</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 59,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/1-15m-bolsa-multifuncional-para-vara-de-pescar-bolsa-para-equipamento-de-pesca.html" data-search="1.15m bolsa multifuncional para vara de pescar, bolsa para equipamento de pesca 1.15m bolsa multifuncional para vara de pescar, bolsa para equipamento de pesca" data-category="Vara e Molinete" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/cn-11134207-820l4-mnmrpd6h4tmwd6" alt="1.15M Bolsa multifuncional para vara de pescar, bolsa para equipamento de pesca"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>1.15M Bolsa multifuncional para vara de pescar, bolsa para equipamento de pesca</h2>
+    <p class="story-excerpt">1.15M Bolsa multifuncional para vara de pescar, bolsa para equipamento de pesca</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 49,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/banqueta-banco-retratil-portatil-com-alcatelescopica-banquinho-dobravel-ajustave.html" data-search="banqueta banco retrátil portátil com alçatelescópica banquinho dobrável ajustável pesca camping caminhada banqueta banco retrátil portátil com alçatelescópica banquinho dobrável ajustável pesca camping caminhada" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82612-mkfci5og6o77d7" alt="Banqueta Banco Retrátil Portátil com AlçaTelescópica Banquinho Dobrável Ajustável Pesca Camping Caminhada"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Banqueta Banco Retrátil Portátil com AlçaTelescópica Banquinho Dobrável Ajustável Pesca Camping Caminhada</h2>
+    <p class="story-excerpt">Banqueta Banco Retrátil Portátil com AlçaTelescópica Banquinho Dobrável Ajustável Pesca Camping Caminhada</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 38,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-10-1-20-2-30-4-peixinhos-para-pescaria-vara-de-pescar-jogo-de-pesca-com-peix.html" data-search="kit 10+1 20+2 30+4 peixinhos para pescaria vara de pescar jogo de pesca com peixes e varinha brinquedo interativo brinca kit 10+1 20+2 30+4 peixinhos para pescaria vara de pescar jogo de pesca com peixes e varinha brinquedo interativo brinca" data-category="Vara e Molinete" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l5-mn49jc94sf7ka1" alt="Kit 10+1 20+2 30+4 Peixinhos para Pescaria Vara de Pescar Jogo de Pesca com Peixes e Varinha Brinquedo Interativo Brinca"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 10+1 20+2 30+4 Peixinhos para Pescaria Vara de Pescar Jogo de Pesca com Peixes e Varinha Brinquedo Interativo Brinca</h2>
+    <p class="story-excerpt">Kit 10+1 20+2 30+4 Peixinhos para Pescaria Vara de Pescar Jogo de Pesca com Peixes e Varinha Brinquedo Interativo Brinca</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 22,4</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caixa-termica-cooler-pequeno-5-litros-com-alca-soprano.html" data-search="caixa térmica cooler pequeno 5 litros com alça soprano caixa térmica cooler pequeno 5 litros com alça soprano" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-meefydrae7lt83" alt="Caixa Térmica Cooler Pequeno 5 Litros com Alça Soprano"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caixa Térmica Cooler Pequeno 5 Litros com Alça Soprano</h2>
+    <p class="story-excerpt">Caixa Térmica Cooler Pequeno 5 Litros com Alça Soprano</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-1-3-vara-de-pesca-60-120lbs-completa-com-molinete-esportiva-ao-ar-livre-roba.html" data-search="kit 1-3 vara de pesca 60-120lbs completa com molinete esportiva ao ar livre robalo portátil joran pancing kit 1-3 vara de pesca 60-120lbs completa com molinete esportiva ao ar livre robalo portátil joran pancing" data-category="Vara e Molinete" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mfjd6qm9cu10ff" alt="KIT 1-3 Vara De Pesca 60-120lbs Completa Com Molinete Esportiva Ao Ar Livre Robalo Portátil Joran Pancing"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>KIT 1-3 Vara De Pesca 60-120lbs Completa Com Molinete Esportiva Ao Ar Livre Robalo Portátil Joran Pancing</h2>
+    <p class="story-excerpt">KIT 1-3 Vara De Pesca 60-120lbs Completa Com Molinete Esportiva Ao Ar Livre Robalo Portátil Joran Pancing</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/luvas-taticas-anti-skid-men-s-para-swat-militar-combate-paintball-com-respiravel.html" data-search="luvas táticas anti-skid men&#x27;s para swat militar/combate/paintball  com respirável para esportes ar livre tamanho unico luvas táticas anti-skid men&#x27;s para swat militar/combate/paintball  com respirável para esportes ar livre tamanho unico" data-category="Tático" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-lzdufqla8az911" alt="Luvas Táticas Anti-Skid Men's Para SWAT Militar/Combate/Paintball  Com Respirável Para Esportes Ar Livre tamanho unico"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Luvas Táticas Anti-Skid Men's Para SWAT Militar/Combate/Paintball  Com Respirável Para Esportes Ar Livre tamanho unico</h2>
+    <p class="story-excerpt">Luvas Táticas Anti-Skid Men's Para SWAT Militar/Combate/Paintball  Com Respirável Para Esportes Ar Livre tamanho unico</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 23,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/esferas-bbs-rossi-0-12g-brancas-pct-150un-alta-precisao-6mm-polidas-sem-rebarbas.html" data-search="esferas bbs rossi 0.12g brancas pct 150un | alta precisão 6mm, polidas, sem rebarbas | p/ todos tipos airsoft esferas bbs rossi 0.12g brancas pct 150un | alta precisão 6mm, polidas, sem rebarbas | p/ todos tipos airsoft" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdx8-mbnwso2a9sdx4c" alt="Esferas BBs Rossi 0.12g Brancas Pct 150un | Alta Precisão 6mm, Polidas, Sem Rebarbas | P/ Todos Tipos Airsoft"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Esferas BBs Rossi 0.12g Brancas Pct 150un | Alta Precisão 6mm, Polidas, Sem Rebarbas | P/ Todos Tipos Airsoft</h2>
+    <p class="story-excerpt">Esferas BBs Rossi 0.12g Brancas Pct 150un | Alta Precisão 6mm, Polidas, Sem Rebarbas | P/ Todos Tipos Airsoft</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 17,1</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gandola-tatica-rip-stop-camuflagem-aeronautica-fab.html" data-search="gandola tática rip stop camuflagem: aeronáutica - fab gandola tática rip stop camuflagem: aeronáutica - fab" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820li-mpb3su9d337nb6" alt="Gandola Tática Rip Stop Camuflagem: Aeronáutica - FAB"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Gandola Tática Rip Stop Camuflagem: Aeronáutica - FAB</h2>
+    <p class="story-excerpt">Gandola Tática Rip Stop Camuflagem: Aeronáutica - FAB</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 149,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/saco-com-1000-esferas-airsoft-6mm-0-12g-bbs-alta-precisao-super-lisa-zip-lock-or.html" data-search="saco com 1000 esferas airsoft 6mm 0,12g bbs alta precisão super lisa zip lock | original rossi saco com 1000 esferas airsoft 6mm 0,12g bbs alta precisão super lisa zip lock | original rossi" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rau8-ma308s69vy986c" alt="Saco com 1000 Esferas Airsoft 6mm 0,12g BBs Alta Precisão Super Lisa Zip Lock | Original Rossi"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Saco com 1000 Esferas Airsoft 6mm 0,12g BBs Alta Precisão Super Lisa Zip Lock | Original Rossi</h2>
+    <p class="story-excerpt">Saco com 1000 Esferas Airsoft 6mm 0,12g BBs Alta Precisão Super Lisa Zip Lock | Original Rossi</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 36,01</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/chaveiro-colete-tatico-swat-militar-policia-airsoft-paintbal.html" data-search="chaveiro colete tatico swat militar policia airsoft paintbal chaveiro colete tatico swat militar policia airsoft paintbal" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ma-mmhnn9dhyo7a0a" alt="Chaveiro Colete Tatico Swat Militar Policia Airsoft Paintbal"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Chaveiro Colete Tatico Swat Militar Policia Airsoft Paintbal</h2>
+    <p class="story-excerpt">Chaveiro Colete Tatico Swat Militar Policia Airsoft Paintbal</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cs-match-wargame-chest-rig-colete-tatico-multiuso-com-bolsos-ajustaveis-para-air.html" data-search="cs match wargame chest rig colete tático multiuso com bolsos ajustáveis para airsoft pesca trilha camping cs match wargame chest rig colete tático multiuso com bolsos ajustáveis para airsoft pesca trilha camping" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mh-ms5bcocph05j7b" alt="CS Match Wargame Chest Rig Colete Tático Multiuso com Bolsos Ajustáveis para Airsoft Pesca Trilha Camping"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>CS Match Wargame Chest Rig Colete Tático Multiuso com Bolsos Ajustáveis para Airsoft Pesca Trilha Camping</h2>
+    <p class="story-excerpt">CS Match Wargame Chest Rig Colete Tático Multiuso com Bolsos Ajustáveis para Airsoft Pesca Trilha Camping</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 69,88</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/colete-porta-ferramenta-com-7-bolsos-ventilado-multiuso-eletricista-air-soft-pes.html" data-search="colete porta ferramenta com 7 bolsos ventilado multiuso eletricista air soft pesca carpinteiro colete porta ferramenta com 7 bolsos ventilado multiuso eletricista air soft pesca carpinteiro" data-category="Airsoft" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mc6fdqq74bzbd9" alt="Colete Porta Ferramenta Com 7 Bolsos Ventilado Multiuso Eletricista Air Soft Pesca Carpinteiro"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Colete Porta Ferramenta Com 7 Bolsos Ventilado Multiuso Eletricista Air Soft Pesca Carpinteiro</h2>
+    <p class="story-excerpt">Colete Porta Ferramenta Com 7 Bolsos Ventilado Multiuso Eletricista Air Soft Pesca Carpinteiro</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 69,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-10-unidades-bebedouros-automaticos-para-aves-galinhas-codornas.html" data-search="kit 10 unidades bebedouros automáticos para aves galinhas codornas kit 10 unidades bebedouros automáticos para aves galinhas codornas" data-category="Alimentação" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l5-mmccxdwb6dc635" alt="Kit 10 Unidades Bebedouros Automáticos Para Aves Galinhas Codornas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 10 Unidades Bebedouros Automáticos Para Aves Galinhas Codornas</h2>
+    <p class="story-excerpt">Kit 10 Unidades Bebedouros Automáticos Para Aves Galinhas Codornas</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 21,09</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caixa-de-areia-sanitaria-bandeja-higienico-com-arco-para-gato-furacao-pet.html" data-search="caixa de areia sanitária bandeja higiênico com arco para gato furacão pet caixa de areia sanitária bandeja higiênico com arco para gato furacão pet" data-category="Higiene (Consumo Mensal)" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rd6h-m7wndvdehtw7c4" alt="Caixa de Areia Sanitária Bandeja Higiênico Com arco para Gato FURACÃO PET"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caixa de Areia Sanitária Bandeja Higiênico Com arco para Gato FURACÃO PET</h2>
+    <p class="story-excerpt">Caixa de Areia Sanitária Bandeja Higiênico Com arco para Gato FURACÃO PET</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 27,39</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caminha-cama-pet-com-fundo-impermeavel-com-ziper-para-cao-gato-grande-medio-e-pe.html" data-search="caminha cama pet com fundo impermeável com zíper para cão gato grande, médio e pequeno caminha cama pet com fundo impermeável com zíper para cão gato grande, médio e pequeno" data-category="Conforto" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mk3niuyi7s3kd3" alt="Caminha Cama Pet com Fundo impermeável com Zíper para Cão Gato Grande, Médio e Pequeno"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caminha Cama Pet com Fundo impermeável com Zíper para Cão Gato Grande, Médio e Pequeno</h2>
+    <p class="story-excerpt">Caminha Cama Pet com Fundo impermeável com Zíper para Cão Gato Grande, Médio e Pequeno</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 58</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bolsa-de-ferramentas-profissional-14-20-polegadas-multiuso-caixa-de-ferramentas-.html" data-search="bolsa de ferramentas profissional 14/20 polegadas multiuso caixa de ferramentas maleta organizadora tecido resiste bolsa de ferramentas profissional 14/20 polegadas multiuso caixa de ferramentas maleta organizadora tecido resiste" data-category="EPI &amp; Organização" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-msxktvyjjsw4d4" alt="Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste</h2>
+    <p class="story-excerpt">Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 35,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tubo-pvc-soldavel-50mm-marrom-1-metro-para-instalacao-hidraulica-residencial-e-c.html" data-search="tubo pvc soldável 50mm marrom 1 metro , para  instalação hidráulica residencial e comercial. tubo pvc soldável 50mm marrom 1 metro , para  instalação hidráulica residencial e comercial." data-category="Elétrica &amp; Hidráulica" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l5-mrsszrkb6t5035" alt="TUBO PVC SOLDÁVEL 50MM MARROM 1 METRO , PARA  INSTALAÇÃO HIDRÁULICA RESIDENCIAL E COMERCIAL."></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>TUBO PVC SOLDÁVEL 50MM MARROM 1 METRO , PARA  INSTALAÇÃO HIDRÁULICA RESIDENCIAL E COMERCIAL.</h2>
+    <p class="story-excerpt">TUBO PVC SOLDÁVEL 50MM MARROM 1 METRO , PARA  INSTALAÇÃO HIDRÁULICA RESIDENCIAL E COMERCIAL.</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 23,75</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/8-12-16-linhas-nivel-a-laser-ajustavel-com-medicao-de-nivel-360-e-medicao-de-lin.html" data-search="8/12/16 linhas nível a laser ajustável com medição de nível 360° e medição de linha com auto-nivelamento 8/12/16 linhas nível a laser ajustável com medição de nível 360° e medição de linha com auto-nivelamento" data-category="Medição &amp; Nivelamento" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lz-msxrsvoq639ha8" alt="8/12/16 Linhas Nível a Laser Ajustável com Medição de Nível 360° e Medição de Linha com Auto-Nivelamento"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>8/12/16 Linhas Nível a Laser Ajustável com Medição de Nível 360° e Medição de Linha com Auto-Nivelamento</h2>
+    <p class="story-excerpt">8/12/16 Linhas Nível a Laser Ajustável com Medição de Nível 360° e Medição de Linha com Auto-Nivelamento</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 144,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/serra-marmore-110mm-1300w-com-2-discos-4100nh3zx2-makita-profissional.html" data-search="serra mármore 110mm 1300w com 2 discos 4100nh3zx2 makita profissional serra mármore 110mm 1300w com 2 discos 4100nh3zx2 makita profissional" data-category="Consumíveis (Recompra)" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rbl8-m5vxjacwdty663" alt="Serra Mármore 110mm 1300W Com 2 Discos 4100NH3ZX2 Makita Profissional"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Serra Mármore 110mm 1300W Com 2 Discos 4100NH3ZX2 Makita Profissional</h2>
+    <p class="story-excerpt">Serra Mármore 110mm 1300W Com 2 Discos 4100NH3ZX2 Makita Profissional</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 371,41</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/correias-3l-310-eletroportateis-e-pequenas-maquinas-furadeiras-betroneiras.html" data-search="correias 3l 310 eletroportáteis e pequenas máquinas furadeiras,betroneiras,,, correias 3l 310 eletroportáteis e pequenas máquinas furadeiras,betroneiras,,," data-category="Eletroportáteis Baratos" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82613-mlm6d0tgh1xk14" alt="Correias 3L 310 Eletroportáteis e Pequenas Máquinas Furadeiras,Betroneiras,,,"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Correias 3L 310 Eletroportáteis e Pequenas Máquinas Furadeiras,Betroneiras,,,</h2>
+    <p class="story-excerpt">Correias 3L 310 Eletroportáteis e Pequenas Máquinas Furadeiras,Betroneiras,,,</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 14,02</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tesoura-multifuncional-para-corte-alimentos-legumes-peixes-frangos-verdura.html" data-search="tesoura multifuncional para corte alimentos legumes peixes frangos verdura tesoura multifuncional para corte alimentos legumes peixes frangos verdura" data-category="Cozinha &amp; Utensílios" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m8-mmgtv88q60w65d" alt="Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura</h2>
+    <p class="story-excerpt">Tesoura Multifuncional Para Corte Alimentos Legumes Peixes Frangos Verdura</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 29,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-organizador-movel-facil-montar-4-andares-multiuso-prateleira-carrinho-4.html" data-search="carrinho organizador móvel facil montar 4 andares multiuso - prateleira carrinho 4 camadas p, m, g carrinho organizador móvel facil montar 4 andares multiuso - prateleira carrinho 4 camadas p, m, g" data-category="Organização" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m7ntzxcbzyxg63" alt="Carrinho Organizador Móvel Facil Montar 4 andares Multiuso - Prateleira Carrinho 4 camadas P, M, G"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho Organizador Móvel Facil Montar 4 andares Multiuso - Prateleira Carrinho 4 camadas P, M, G</h2>
+    <p class="story-excerpt">Carrinho Organizador Móvel Facil Montar 4 andares Multiuso - Prateleira Carrinho 4 camadas P, M, G</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/1-par-de-meia-polaina-aerobica-academia-esporte-fitness-ballet-ginastica-lisas-p.html" data-search="1 par de meia polaina aeróbica academia esporte fitness ballet ginastica lisas polainas 2024 1 par de meia polaina aeróbica academia esporte fitness ballet ginastica lisas polainas 2024" data-category="Vestuário &amp; Calçado" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rcf3-ls871r4qlaco58" alt="1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024</h2>
+    <p class="story-excerpt">1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 10,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-4-calca-masculina-jogger-academia-com-stylo-refletivo-promocao-2k26.html" data-search="kit 4 calça masculina jogger academia com stylo refletivo promoção 2k26 kit 4 calça masculina jogger academia com stylo refletivo promoção 2k26" data-category="Vestuário &amp; Calçado" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-824h3-mfg7a26no0lp54" alt="KIT 4 CALÇA MASCULINA JOGGER ACADEMIA COM STYLO REFLETIVO PROMOÇÃO 2K26"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>KIT 4 CALÇA MASCULINA JOGGER ACADEMIA COM STYLO REFLETIVO PROMOÇÃO 2K26</h2>
+    <p class="story-excerpt">KIT 4 CALÇA MASCULINA JOGGER ACADEMIA COM STYLO REFLETIVO PROMOÇÃO 2K26</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 79,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/luva-palmar-academia-treino-musculacao-conforto-protecao-luvinha-de-academia-min.html" data-search="luva palmar academia treino musculação conforto proteção luvinha de academia mini palma fitness luva palmar academia treino musculação conforto proteção luvinha de academia mini palma fitness" data-category="Acessórios de Treino" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdxl-mdby2f4lm8gk21" alt="Luva Palmar Academia Treino Musculação Conforto Proteção Luvinha De Academia Mini Palma Fitness"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Luva Palmar Academia Treino Musculação Conforto Proteção Luvinha De Academia Mini Palma Fitness</h2>
+    <p class="story-excerpt">Luva Palmar Academia Treino Musculação Conforto Proteção Luvinha De Academia Mini Palma Fitness</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 28,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-o2x-feminino-esportivo-confortavel-leve-treino-caminhada-corrida-moda-fitn.html" data-search="tênis o2x feminino esportivo confortável leve treino caminhada corrida moda fitness tênis o2x feminino esportivo confortável leve treino caminhada corrida moda fitness" data-category="Vestuário &amp; Calçado" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mc-mo0j5ap2qi2p7f" alt="Tênis O2x Feminino Esportivo Confortável Leve Treino Caminhada Corrida Moda Fitness"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis O2x Feminino Esportivo Confortável Leve Treino Caminhada Corrida Moda Fitness</h2>
+    <p class="story-excerpt">Tênis O2x Feminino Esportivo Confortável Leve Treino Caminhada Corrida Moda Fitness</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/relogio-inteligente-smartwatch-bluetooth-android-iphone-monitor-cardiaco-esporti.html" data-search="relógio inteligente smartwatch bluetooth android iphone monitor cardíaco esportivo infantil e adulto relógio inteligente smartwatch bluetooth android iphone monitor cardíaco esportivo infantil e adulto" data-category="Monitoramento" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8227u-mhif47v9nxtt8f" alt="Relógio Inteligente Smartwatch Bluetooth Android iPhone Monitor Cardíaco Esportivo Infantil e Adulto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Relógio Inteligente Smartwatch Bluetooth Android iPhone Monitor Cardíaco Esportivo Infantil e Adulto</h2>
+    <p class="story-excerpt">Relógio Inteligente Smartwatch Bluetooth Android iPhone Monitor Cardíaco Esportivo Infantil e Adulto</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 17,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/triciclo-carrinho-motoca-c-guia-passeio-e-pedal-avespa-colorido-infantil-empurra.html" data-search="triciclo carrinho motoca c/ guia passeio e pedal avespa colorido infantil empurrador triciclo carrinho motoca c/ guia passeio e pedal avespa colorido infantil empurrador" data-category="Passeio &amp; Transporte" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lh-mrlw65ccp8n9e4" alt="Triciclo Carrinho Motoca C/ Guia Passeio e Pedal Avespa Colorido Infantil Empurrador"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Triciclo Carrinho Motoca C/ Guia Passeio e Pedal Avespa Colorido Infantil Empurrador</h2>
+    <p class="story-excerpt">Triciclo Carrinho Motoca C/ Guia Passeio e Pedal Avespa Colorido Infantil Empurrador</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 229,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mosquiteiro-tule-berco-americano-e-mini-berco-bando-estampado-infantil-menino-me.html" data-search="mosquiteiro tule berço americano e mini berço bando estampado infantil menino menina mosquiteiro tule berço americano e mini berço bando estampado infantil menino menina" data-category="Sono &amp; Segurança" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820li-mn94rclpocu93c" alt="Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina</h2>
+    <p class="story-excerpt">Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 27,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/brinquedos-de-pelucia-para-bebes-macia-girafa-infantil-de-algodao-rattle-doll-to.html" data-search="brinquedos de pelúcia para bebês macia girafa infantil de algodão rattle doll toy brinquedos de pelúcia para bebês macia girafa infantil de algodão rattle doll toy" data-category="Sono &amp; Segurança" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-823qv-mp4mii2o2uq684" alt="Brinquedos De Pelúcia Para Bebês Macia Girafa Infantil De Algodão Rattle Doll Toy"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Brinquedos De Pelúcia Para Bebês Macia Girafa Infantil De Algodão Rattle Doll Toy</h2>
+    <p class="story-excerpt">Brinquedos De Pelúcia Para Bebês Macia Girafa Infantil De Algodão Rattle Doll Toy</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 23,72</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-higiene-bebe-5-pecas-escova-pente-tesoura-e-cortador.html" data-search="kit higiene bebê 5 peças escova, pente, tesoura e cortador kit higiene bebê 5 peças escova, pente, tesoura e cortador" data-category="Higiene &amp; Banho" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82604-mjeewbhlfsp367" alt="Kit Higiene Bebê 5 Peças Escova, Pente, Tesoura E Cortador"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Higiene Bebê 5 Peças Escova, Pente, Tesoura E Cortador</h2>
+    <p class="story-excerpt">Kit Higiene Bebê 5 Peças Escova, Pente, Tesoura E Cortador</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 17,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/decoracao-de-painel-de-carro-de-casa-de-balao-fofa-mini-ornamento-de-conforto-em.html" data-search="decoração de painel de carro de casa de balão fofa , mini ornamento de conforto emocional de cura , acessório interior d decoração de painel de carro de casa de balão fofa , mini ornamento de conforto emocional de cura , acessório interior d" data-category="Interior &amp; Conforto" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825av-msnsorvsnpc2dd" alt="Decoração De Painel De Carro De Casa De Balão Fofa , Mini Ornamento De Conforto Emocional De Cura , Acessório Interior D"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Decoração De Painel De Carro De Casa De Balão Fofa , Mini Ornamento De Conforto Emocional De Cura , Acessório Interior D</h2>
+    <p class="story-excerpt">Decoração De Painel De Carro De Casa De Balão Fofa , Mini Ornamento De Conforto Emocional De Cura , Acessório Interior D</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 25,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/almofada-de-ombro-para-cinto-de-seguranca-acessorios-macios-interior-de-carro-co.html" data-search="almofada de ombro para cinto de segurança-acessórios macios interior de carro conforto almofada de ombro para cinto de segurança-acessórios macios interior de carro conforto" data-category="Interior &amp; Conforto" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825a1-msd9b03awd1j1b" alt="Almofada De Ombro Para Cinto De Segurança-Acessórios Macios Interior De Carro Conforto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Almofada De Ombro Para Cinto De Segurança-Acessórios Macios Interior De Carro Conforto</h2>
+    <p class="story-excerpt">Almofada De Ombro Para Cinto De Segurança-Acessórios Macios Interior De Carro Conforto</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 21,3</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/capa-de-cinto-de-seguranca-do-carro-macio-conforto-alca-de-ombro-cobre-respirave.html" data-search="capa de cinto de segurança do carro macio conforto alça de ombro cobre respirável almofadas kagli1br capa de cinto de segurança do carro macio conforto alça de ombro cobre respirável almofadas kagli1br" data-category="Interior &amp; Conforto" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8261l-mjnxe36cjll2c5" alt="Capa De Cinto De Segurança Do Carro Macio Conforto Alça De Ombro Cobre Respirável Almofadas kagli1br"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Capa De Cinto De Segurança Do Carro Macio Conforto Alça De Ombro Cobre Respirável Almofadas kagli1br</h2>
+    <p class="story-excerpt">Capa De Cinto De Segurança Do Carro Macio Conforto Alça De Ombro Cobre Respirável Almofadas kagli1br</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 9,69</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-bluetooth-orelha-clip-5-3-sem-fio-com-24h-de-bateria.html" data-search="fone bluetooth orelha clip 5.3 sem fio com 24h de bateria fone bluetooth orelha clip 5.3 sem fio com 24h de bateria" data-category="Áudio" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-822zh-mo9rc1i1oyyoc3" alt="Fone Bluetooth Orelha Clip 5.3 Sem Fio com 24h de Bateria"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone Bluetooth Orelha Clip 5.3 Sem Fio com 24h de Bateria</h2>
+    <p class="story-excerpt">Fone Bluetooth Orelha Clip 5.3 Sem Fio com 24h de Bateria</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-de-ouvido-sem-fio-t510-bt-bluetooth-cartao-de-memoria.html" data-search="fone de ouvido sem fio t510 bt bluetooth cartão de memória fone de ouvido sem fio t510 bt bluetooth cartão de memória" data-category="Armazenamento" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rd3z-lvjd8s2hvalobb" alt="Fone De Ouvido Sem Fio T510 BT Bluetooth Cartão De Memória"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone De Ouvido Sem Fio T510 BT Bluetooth Cartão De Memória</h2>
+    <p class="story-excerpt">Fone De Ouvido Sem Fio T510 BT Bluetooth Cartão De Memória</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 37,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-de-ouvido-inpods-13-bluetooth-sem-fio-com-microfone-fones-esportivos-adequa.html" data-search="fone de ouvido inpods 13 bluetooth sem fio com microfone fones esportivos adequado branco fone de ouvido inpods 13 bluetooth sem fio com microfone fones esportivos adequado branco" data-category="Áudio" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-824gj-mphmbiylea6l6d" alt="Fone De Ouvido Inpods 13 Bluetooth Sem Fio Com Microfone Fones esportivos Adequado Branco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone De Ouvido Inpods 13 Bluetooth Sem Fio Com Microfone Fones esportivos Adequado Branco</h2>
+    <p class="story-excerpt">Fone De Ouvido Inpods 13 Bluetooth Sem Fio Com Microfone Fones esportivos Adequado Branco</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 19,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/creme-hidratante-facial-5-manteiga-de-karite-5-glicerina-2-niacinamida-ch-01prin.html" data-search="creme hidratante facial 5% manteiga de karité + 5% glicerina + 2% niacinamida ch-01principia - 50g creme hidratante facial 5% manteiga de karité + 5% glicerina + 2% niacinamida ch-01principia - 50g" data-category="Skincare" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-maa1iap089dl6d" alt="Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01Principia - 50g"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01Principia - 50g</h2>
+    <p class="story-excerpt">Creme Hidratante Facial 5% Manteiga de Karité + 5% Glicerina + 2% Niacinamida CH-01Principia - 50g</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/marroquina-liss-unica-valyente-profissional-1000ml-liso-absurdo-alisa-100-oleo-d.html" data-search="marroquina liss única valyente:  profissional 1000ml | liso absurdo alisa 100% óleo de argan marroquina liss única valyente:  profissional 1000ml | liso absurdo alisa 100% óleo de argan" data-category="Tratamento Capilar" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-lp5t4mehp9j9d4" alt="Marroquina Liss única Valyente:  Profissional 1000ml | Liso Absurdo Alisa 100% Óleo De Argan"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Marroquina Liss única Valyente:  Profissional 1000ml | Liso Absurdo Alisa 100% Óleo De Argan</h2>
+    <p class="story-excerpt">Marroquina Liss única Valyente:  Profissional 1000ml | Liso Absurdo Alisa 100% Óleo De Argan</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 47,8</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/ventilador-com-luminaria-bivolt-com-controle-remoto.html" data-search="ventilador com luminária bivolt com controle remoto ventilador com luminária bivolt com controle remoto" data-category="Casa e Cozinha" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ld-mob9v1paw5xj20" alt="Ventilador com Luminária Bivolt com Controle Remoto"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Ventilador com Luminária Bivolt com Controle Remoto</h2>
+    <p class="story-excerpt">Ventilador com Luminária Bivolt com Controle Remoto</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 49,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fones-de-ouvido-x55-tws-mini-sleep-sem-fio-bluetooth-com-display-led-som-estereo.html" data-search="fones de ouvido x55 tws mini sleep sem fio bluetooth com display led, som estéreo hifi, ipx5 à prova d’água e fones de ouvido x55 tws mini sleep sem fio bluetooth com display led, som estéreo hifi, ipx5 à prova d’água e" data-category="Eletrônicos e Tecnologia" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825aq-mry50y1zr1mo61" alt="Fones de Ouvido X55 TWS Mini Sleep Sem Fio Bluetooth com Display LED, Som Estéreo HIFI, IPX5 à Prova d’Água e"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fones de Ouvido X55 TWS Mini Sleep Sem Fio Bluetooth com Display LED, Som Estéreo HIFI, IPX5 à Prova d’Água e</h2>
+    <p class="story-excerpt">Fones de Ouvido X55 TWS Mini Sleep Sem Fio Bluetooth com Display LED, Som Estéreo HIFI, IPX5 à Prova d’Água e</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 15,58</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/power-bank-20000-30000-50000mah-carga-rapida-display-digital-33w-66w-usb-type-c.html" data-search="power bank 20000/30000/50000mah carga rápida display digital 33w~66w usb type-c power bank 20000/30000/50000mah carga rápida display digital 33w~66w usb type-c" data-category="Eletrônicos e Tecnologia" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-821g8-mh0rgqvlskjs8d" alt="Power Bank 20000/30000/50000mAh Carga Rápida Display Digital 33W~66W USB Type-C"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Power Bank 20000/30000/50000mAh Carga Rápida Display Digital 33W~66W USB Type-C</h2>
+    <p class="story-excerpt">Power Bank 20000/30000/50000mAh Carga Rápida Display Digital 33W~66W USB Type-C</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 72,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/chaleira-eletrica-inox-1-8l-ou-2l-127v-ou-220v-ferve-agua-rapido-com-desligament.html" data-search="chaleira elétrica inox 1,8l ou 2l 127v ou 220v ferve água rápido com desligamento automático chaleira elétrica inox 1,8l ou 2l 127v ou 220v ferve água rápido com desligamento automático" data-category="Casa e Cozinha" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lg-mt2mgqaavvno99" alt="Chaleira Elétrica Inox 1,8L ou 2L 127V ou 220V Ferve Água Rápido com Desligamento Automático"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Chaleira Elétrica Inox 1,8L ou 2L 127V ou 220V Ferve Água Rápido com Desligamento Automático</h2>
+    <p class="story-excerpt">Chaleira Elétrica Inox 1,8L ou 2L 127V ou 220V Ferve Água Rápido com Desligamento Automático</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 39,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/senbenbao-x55-fones-de-ouvido-tws-sono-sem-fio-bluetooth-display-led-alta-fideli.html" data-search="senbenbao x55 fones de ouvido tws sono sem fio bluetooth display led alta fidelidade estéreo cancelamento ruído à prova  senbenbao x55 fones de ouvido tws sono sem fio bluetooth display led alta fidelidade estéreo cancelamento ruído à prova " data-category="Eletrônicos e Tecnologia" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-823ob-mp7wv1fcnx8rc4" alt="Senbenbao X55 Fones De Ouvido TWS Sono Sem Fio Bluetooth Display Led Alta Fidelidade Estéreo Cancelamento Ruído À Prova "></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Senbenbao X55 Fones De Ouvido TWS Sono Sem Fio Bluetooth Display Led Alta Fidelidade Estéreo Cancelamento Ruído À Prova </h2>
+    <p class="story-excerpt">Senbenbao X55 Fones De Ouvido TWS Sono Sem Fio Bluetooth Display Led Alta Fidelidade Estéreo Cancelamento Ruído À Prova </p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 15,13</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pro-4-fones-de-ouvido-tws-sem-fio-bluetooth-de-longa-duracao-bateria-leve-portat.html" data-search="pro 4 fones de ouvido tws sem fio bluetooth de longa duração bateria leve portátil com estojo de carregamento para dormi pro 4 fones de ouvido tws sem fio bluetooth de longa duração bateria leve portátil com estojo de carregamento para dormi" data-category="Eletrônicos e Tecnologia" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134301-8258h-mrvgjm1yji0yeb" alt="Pro 4 Fones De Ouvido TWS Sem Fio Bluetooth De Longa Duração Bateria Leve Portátil Com Estojo De Carregamento Para Dormi"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pro 4 Fones De Ouvido TWS Sem Fio Bluetooth De Longa Duração Bateria Leve Portátil Com Estojo De Carregamento Para Dormi</h2>
+    <p class="story-excerpt">Pro 4 Fones De Ouvido TWS Sem Fio Bluetooth De Longa Duração Bateria Leve Portátil Com Estojo De Carregamento Para Dormi</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 14,71</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-kit-alicates-p-trava-anel-4-pecas-interno-e-externo-cv.html" data-search="jogo kit alicates p/ trava anel 4 peças interno e externo cv jogo kit alicates p/ trava anel 4 peças interno e externo cv" data-category="Outros" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/009127e5fff0a54107a6d260c5c1639e" alt="Jogo Kit Alicates P/ Trava Anel 4 Peças Interno E Externo Cv"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo Kit Alicates P/ Trava Anel 4 Peças Interno E Externo Cv</h2>
+    <p class="story-excerpt">Jogo Kit Alicates P/ Trava Anel 4 Peças Interno E Externo Cv</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 99,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/parafusadeira-furadeira-25v-nakasaki-sem-fio-a-bateria-profissional-kit-completo.html" data-search="parafusadeira furadeira 25v nakasaki sem fio a bateria profissional kit completo com maleta parafusadeira furadeira 25v nakasaki sem fio a bateria profissional kit completo com maleta" data-category="Outros" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-msq8pkzchmh355" alt="Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta</h2>
+    <p class="story-excerpt">Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 99,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carplay-adaptador-sem-fio-car-play-android-auto-2-em-1-usb-wireless-automatico-2.html" data-search="carplay adaptador sem fio car play android auto 2 em 1 usb wireless automático 2026 d densen carplay adaptador sem fio car play android auto 2 em 1 usb wireless automático 2026 d densen" data-category="Automotivo" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825az-mrqq9nex7w9006" alt="Carplay Adaptador Sem Fio Car Play Android Auto 2 Em 1 Usb Wireless Automático 2026 D Densen"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carplay Adaptador Sem Fio Car Play Android Auto 2 Em 1 Usb Wireless Automático 2026 D Densen</h2>
+    <p class="story-excerpt">Carplay Adaptador Sem Fio Car Play Android Auto 2 Em 1 Usb Wireless Automático 2026 D Densen</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 79,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/processador-de-audio-taramps-pro-2-4s-equalizador-crossover-limiter-4-canais-pro.html" data-search="processador de audio taramps pro 2.4s equalizador crossover limiter 4 canais pro2.4 preto ou branco processador de audio taramps pro 2.4s equalizador crossover limiter 4 canais pro2.4 preto ou branco" data-category="Automotivo" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mau1dor9622h4c" alt="Processador de Audio Taramps Pro 2.4s Equalizador Crossover Limiter 4 canais Pro2.4 Preto ou Branco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Processador de Audio Taramps Pro 2.4s Equalizador Crossover Limiter 4 canais Pro2.4 Preto ou Branco</h2>
+    <p class="story-excerpt">Processador de Audio Taramps Pro 2.4s Equalizador Crossover Limiter 4 canais Pro2.4 Preto ou Branco</p>
+    <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 186,21</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mangueira-jardim-reforcada-trancada-completa-05-10-15-20-25-30-35-50-metros.html" data-search="mangueira jardim reforçada trançada completa 05/10/15/20/25/30/35/50 metros mangueira jardim reforçada trançada completa 05/10/15/20/25/30/35/50 metros" data-category="Mangueira e Lavadora" data-date="2026-10-02">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mldkkkytkpona7" alt="Mangueira Jardim Reforçada Trançada Completa 05/10/15/20/25/30/35/50 Metros"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Mangueira Jardim Reforçada Trançada Completa 05/10/15/20/25/30/35/50 Metros</h2>
     <p class="story-excerpt">Mangueira Jardim Reforçada Trançada Completa 05/10/15/20/25/30/35/50 Metros</p>
     <div class="story-meta">2 de outubro de 2026<span class="story-price">R$ 16,9</span></div>
