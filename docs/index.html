@@ -23,14 +23,388 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Controle e Acessórios de Console">Controle e Acessórios de Console</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Hidratação &amp; Rotina">Hidratação & Rotina</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Iscas Artificiais">Iscas Artificiais</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Outros">Outros</option><option value="Passeio">Passeio</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestível">Vestível</option><option value="Áudio">Áudio</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/casca-de-arroz-carbonizada-3l-10l-20l-substrato-natural-para-jardinagem-drenagem.html" data-search="casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas" data-category="Vasos e Substrato" data-date="2026-10-12">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ly-mp10dpjpfvur72" alt="Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas"></div>
+<a class="story-row story-row-featured" href="ofertas/kit-com-2-pares-de-palmilha-ortopedica-em-gel-para-varias-horas-de-trabalho-aliv.html" data-search="kit com 2 pares de palmilha ortopédica em gel para várias horas de trabalho alivia dores confortável kit com 2 pares de palmilha ortopédica em gel para várias horas de trabalho alivia dores confortável" data-category="Barbearia" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m1y8c6hel0b5b0" alt="Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável</h2>
+    <p class="story-excerpt">Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 19,8</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gola-higienica-barbeiro-1-pacote-com-5-rolos-500-un-descartavel-branca-para-barb.html" data-search="gola higiênica barbeiro 1 pacote com 5 rolos - 500 un descartável branca para barbearia gola higiênica barbeiro 1 pacote com 5 rolos - 500 un descartável branca para barbearia" data-category="Insumos e Descartáveis" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lq-mmw3l4qu9tkxc0" alt="Gola Higiênica Barbeiro 1 pacote com 5 rolos - 500 un Descartável Branca para Barbearia"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Gola Higiênica Barbeiro 1 pacote com 5 rolos - 500 un Descartável Branca para Barbearia</h2>
+    <p class="story-excerpt">Gola Higiênica Barbeiro 1 pacote com 5 rolos - 500 un Descartável Branca para Barbearia</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 25,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-3-6-12-18-lamina-sobrancelha-e-rosto-navalha-navalhete-para-depilacao-facial.html" data-search="kit 3/6/12/18 lâmina sobrancelha e rosto navalha navalhete para depilação facial sobrancelhas buço e axila kit 3/6/12/18 lâmina sobrancelha e rosto navalha navalhete para depilação facial sobrancelhas buço e axila" data-category="Lâminas e Cutelaria" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134201-820lj-mqyjdeopozrb30" alt="Kit 3/6/12/18 Lâmina Sobrancelha e Rosto Navalha Navalhete para Depilação Facial sobrancelhas buço e axila"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 3/6/12/18 Lâmina Sobrancelha e Rosto Navalha Navalhete para Depilação Facial sobrancelhas buço e axila</h2>
+    <p class="story-excerpt">Kit 3/6/12/18 Lâmina Sobrancelha e Rosto Navalha Navalhete para Depilação Facial sobrancelhas buço e axila</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 6,83</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/max-ultra-tonico-cresce-cabelo-barba-sobrancelha-e-bigode.html" data-search="max ultra tônico – cresce cabelo, barba, sobrancelha e bigode. max ultra tônico – cresce cabelo, barba, sobrancelha e bigode." data-category="Produtos de Barbear" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mavw7cb78j9rec" alt="MAX ULTRA TÔNICO – Cresce cabelo, barba, sobrancelha e bigode."></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>MAX ULTRA TÔNICO – Cresce cabelo, barba, sobrancelha e bigode.</h2>
+    <p class="story-excerpt">MAX ULTRA TÔNICO – Cresce cabelo, barba, sobrancelha e bigode.</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 19,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-auxiliar-suporte-de-esmalte-esteticos-com-rodinhas-branco-apoio-suporte.html" data-search="carrinho auxiliar suporte de esmalte estéticos com rodinhas branco apoio suporte ideal inovador carrinho auxiliar suporte de esmalte estéticos com rodinhas branco apoio suporte ideal inovador" data-category="Mobiliário e Estrutura" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/1aa5caa6eba25981983598d86fbd6b19" alt="Carrinho Auxiliar Suporte De Esmalte Estéticos Com Rodinhas Branco apoio suporte ideal inovador"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho Auxiliar Suporte De Esmalte Estéticos Com Rodinhas Branco apoio suporte ideal inovador</h2>
+    <p class="story-excerpt">Carrinho Auxiliar Suporte De Esmalte Estéticos Com Rodinhas Branco apoio suporte ideal inovador</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 75,25</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cera-modeladora-escurecedora-cabelo-e-barba-120g.html" data-search="cera modeladora escurecedora cabelo e barba 120g ! cera modeladora escurecedora cabelo e barba 120g !" data-category="Cosméticos Masculinos" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134201-7r98o-m2n3rw64b4ed1d" alt="cera modeladora Escurecedora Cabelo E Barba 120g !"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>cera modeladora Escurecedora Cabelo E Barba 120g !</h2>
+    <p class="story-excerpt">cera modeladora Escurecedora Cabelo E Barba 120g !</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 10,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/piscina-redonda-inflavel-3-aneis-bebe-verao-menino-menina-40-litros-60cm.html" data-search="piscina redonda inflável 3 anéis bebê verão menino menina 40 litros 60cm piscina redonda inflável 3 anéis bebê verão menino menina 40 litros 60cm" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjkbebaowrnmdb" alt="Piscina Redonda Inflável 3 Anéis Bebê Verão Menino Menina 40 Litros 60cm"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Piscina Redonda Inflável 3 Anéis Bebê Verão Menino Menina 40 Litros 60cm</h2>
+    <p class="story-excerpt">Piscina Redonda Inflável 3 Anéis Bebê Verão Menino Menina 40 Litros 60cm</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 29,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fibra-de-coco-para-plantas-substrato-para-vasos-orquideas-jardinagem.html" data-search="fibra de coco para plantas substrato para vasos orquídeas jardinagem fibra de coco para plantas substrato para vasos orquídeas jardinagem" data-category="Vasos e Substrato" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m3-mq6jw5i72gox81" alt="Fibra de Coco Para Plantas Substrato Para Vasos Orquídeas Jardinagem"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fibra de Coco Para Plantas Substrato Para Vasos Orquídeas Jardinagem</h2>
+    <p class="story-excerpt">Fibra de Coco Para Plantas Substrato Para Vasos Orquídeas Jardinagem</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 13,35</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/headset-fone-gamer-led-rgb-com-microfone-usb-e-p2-para-pc-computador-headphone-v.html" data-search="headset fone gamer led rgb com microfone usb e p2 para pc computador headphone videogame headset fone gamer led rgb com microfone usb e p2 para pc computador headphone videogame" data-category="Headset e Microfone" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lx-mok07e710e1270" alt="Headset Fone Gamer Led RGB com microfone USB e P2 Para PC Computador Headphone Videogame"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Headset Fone Gamer Led RGB com microfone USB e P2 Para PC Computador Headphone Videogame</h2>
+    <p class="story-excerpt">Headset Fone Gamer Led RGB com microfone USB e P2 Para PC Computador Headphone Videogame</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 49,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-banqueta-dobravel-com-alca-suporta-150kg-reforcada-camping-rancho-pesca.html" data-search="kit banqueta dobrável com alça suporta 150kg reforçada camping rancho pesca kit banqueta dobrável com alça suporta 150kg reforçada camping rancho pesca" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ll-mlp37yq2ldza90" alt="Kit Banqueta Dobrável Com Alça Suporta 150kg Reforçada Camping Rancho Pesca"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Banqueta Dobrável Com Alça Suporta 150kg Reforçada Camping Rancho Pesca</h2>
+    <p class="story-excerpt">Kit Banqueta Dobrável Com Alça Suporta 150kg Reforçada Camping Rancho Pesca</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 37,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/joelheira-tatica-protecao-esportiva-para-trabalho-patinacao-seguranca-militar.html" data-search="joelheira tática proteção esportiva para trabalho/patinação/segurança/militar joelheira tática proteção esportiva para trabalho/patinação/segurança/militar" data-category="Tático" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-maipaahzs2yh80" alt="Joelheira Tática Proteção Esportiva Para Trabalho/Patinação/Segurança/Militar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Joelheira Tática Proteção Esportiva Para Trabalho/Patinação/Segurança/Militar</h2>
+    <p class="story-excerpt">Joelheira Tática Proteção Esportiva Para Trabalho/Patinação/Segurança/Militar</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 59,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caixa-de-areia-para-gato-tuimcat-bandeja-higienica-furba-sanitaria-areia-gatos-p.html" data-search="caixa de areia para gato tuimcat bandeja higiênica furba sanitária areia gatos pet com 3 peças e pazinha caixa de areia para gato tuimcat bandeja higiênica furba sanitária areia gatos pet com 3 peças e pazinha" data-category="Higiene (Consumo Mensal)" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l8-mobfxnyqmqyt17" alt="Caixa de Areia para Gato TuimCat Bandeja Higiênica Furba Sanitária Areia Gatos Pet com 3 Peças E Pazinha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caixa de Areia para Gato TuimCat Bandeja Higiênica Furba Sanitária Areia Gatos Pet com 3 Peças E Pazinha</h2>
+    <p class="story-excerpt">Caixa de Areia para Gato TuimCat Bandeja Higiênica Furba Sanitária Areia Gatos Pet com 3 Peças E Pazinha</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 28,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/coleira-peitoral-para-cachorro-pequenos-e-medios-com-guia-para-pet-colete-confor.html" data-search="coleira peitoral para cachorro pequenos e médios com guia para pet colete confortável coleira peitoral para cachorro pequenos e médios com guia para pet colete confortável" data-category="Passeio" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m16zhf1ljn7yae" alt="Coleira Peitoral para cachorro pequenos e médios com guia para pet colete confortável"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Coleira Peitoral para cachorro pequenos e médios com guia para pet colete confortável</h2>
+    <p class="story-excerpt">Coleira Peitoral para cachorro pequenos e médios com guia para pet colete confortável</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 13,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-parafusadeira-furadeira-48-pcs-portatil-carregador-usb-leve-forte-desmontar-.html" data-search="kit parafusadeira/furadeira 48 pçs portátil carregador usb leve forte desmontar e montar kit parafusadeira/furadeira 48 pçs portátil carregador usb leve forte desmontar e montar" data-category="Consumíveis (Recompra)" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjgn4186mjup7b" alt="Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar</h2>
+    <p class="story-excerpt">Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 37,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-de-escova-de-limpeza-de-aco-circular-uso-com-furadeira-resistente-qualidade-.html" data-search="kit de escova de limpeza de aço circular uso com furadeira resistente qualidade premium kit de escova de limpeza de aço circular uso com furadeira resistente qualidade premium" data-category="Elétricas Portáteis" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mbxul2wzcuahc6" alt="Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente Qualidade Premium"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente Qualidade Premium</h2>
+    <p class="story-excerpt">Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente Qualidade Premium</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 20,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/placa-sinalizacao-seguranca-uso-obrigatorio-epi-epis-trabalho-equipamento-protec.html" data-search="placa sinalização segurança uso obrigatório epi epis trabalho equipamento proteção individual 20x30 placa sinalização segurança uso obrigatório epi epis trabalho equipamento proteção individual 20x30" data-category="EPI &amp; Organização" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/ca59a94e35adf1578c5ef76eb8547118" alt="Placa Sinalização Segurança Uso Obrigatório Epi Epis Trabalho Equipamento Proteção Individual 20x30"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Placa Sinalização Segurança Uso Obrigatório Epi Epis Trabalho Equipamento Proteção Individual 20x30</h2>
+    <p class="story-excerpt">Placa Sinalização Segurança Uso Obrigatório Epi Epis Trabalho Equipamento Proteção Individual 20x30</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 15,2</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/8-12-nivel-a-laser-profissional-ajustavel-nivel-360-laser-nivel-a-level-medicao-.html" data-search="8/12 nivel a laser profissional ajustável nível 360 ° laser nível a level medição da linha de ferramentas 8/12 nivel a laser profissional ajustável nível 360 ° laser nível a level medição da linha de ferramentas" data-category="Medição &amp; Nivelamento" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mk7uwgzhci6a26" alt="8/12 Nivel a Laser Profissional Ajustável Nível 360 ° Laser Nível a Level Medição Da Linha De Ferramentas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>8/12 Nivel a Laser Profissional Ajustável Nível 360 ° Laser Nível a Level Medição Da Linha De Ferramentas</h2>
+    <p class="story-excerpt">8/12 Nivel a Laser Profissional Ajustável Nível 360 ° Laser Nível a Level Medição Da Linha De Ferramentas</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 139</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/percarbonato-de-sodio-2kg-1kg-500g-clareador-multiuso-tira-manchas-roupas-branca.html" data-search="percarbonato de sódio 2kg 1kg 500g clareador multiuso tira manchas roupas brancas coloridas limpeza percarbonato de sódio 2kg 1kg 500g clareador multiuso tira manchas roupas brancas coloridas limpeza" data-category="Limpeza Prática" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l6-msk4xf3gqg3p33" alt="Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza</h2>
+    <p class="story-excerpt">Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 28,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/relogio-inteligente-smartwatch-redondo-gt-pro-tela-amoled-notificacoes-modo-espo.html" data-search="relógio inteligente  smartwatch redondo gt pro tela amoled notificações modo esportes monitor cardíaco ligações relógio inteligente  smartwatch redondo gt pro tela amoled notificações modo esportes monitor cardíaco ligações" data-category="Monitoramento" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134201-820m8-mtf9mzasbochd7" alt="Relógio inteligente  Smartwatch Redondo GT pro tela Amoled notificações modo esportes Monitor cardíaco ligações"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Relógio inteligente  Smartwatch Redondo GT pro tela Amoled notificações modo esportes Monitor cardíaco ligações</h2>
+    <p class="story-excerpt">Relógio inteligente  Smartwatch Redondo GT pro tela Amoled notificações modo esportes Monitor cardíaco ligações</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 69,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/luva-para-treino-academia-crossfit-o-par-masculino-feminino.html" data-search="luva para treino academia crossfit o par masculino/feminino luva para treino academia crossfit o par masculino/feminino" data-category="Acessórios de Treino" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mer8ajz9ee4i87" alt="Luva Para Treino Academia CrossFit o Par Masculino/Feminino"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Luva Para Treino Academia CrossFit o Par Masculino/Feminino</h2>
+    <p class="story-excerpt">Luva Para Treino Academia CrossFit o Par Masculino/Feminino</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 15,54</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/berco-portatil-berco-de-bebe-berco-com-colchao-e-mosquiteiro-3-em-1-pipdip.html" data-search="berço portátil berço de bebê  berço com colchão e mosquiteiro 3 em 1 pipdip berço portátil berço de bebê  berço com colchão e mosquiteiro 3 em 1 pipdip" data-category="Sono &amp; Segurança" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m9-mq7tb1g6tq815c" alt="Berço portátil Berço de bebê  Berço com colchão e mosquiteiro 3 em 1 Pipdip"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Berço portátil Berço de bebê  Berço com colchão e mosquiteiro 3 em 1 Pipdip</h2>
+    <p class="story-excerpt">Berço portátil Berço de bebê  Berço com colchão e mosquiteiro 3 em 1 Pipdip</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 424,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fones-de-ouvido-sem-fio-bluetooth-compactos-xiaomi-redmi-airdots-com-estojo-reca.html" data-search="fones de ouvido sem fio bluetooth compactos xiaomi redmi airdots com estojo recarregável fones de ouvido sem fio bluetooth compactos xiaomi redmi airdots com estojo recarregável" data-category="Áudio" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820la-mltkawis4qo439" alt="Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável</h2>
+    <p class="story-excerpt">Fones de ouvido sem fio Bluetooth compactos Xiaomi Redmi Airdots com Estojo Recarregável</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 19,79</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-de-refils-slim-broca-fininha-para-lixa-bits-mini-mandril-motor-eletrica-60un.html" data-search="kit de refils slim + broca fininha para lixa bits mini mandril motor elétrica 60und kit de refils slim + broca fininha para lixa bits mini mandril motor elétrica 60und" data-category="Unhas &amp; Depilação" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mb-moed7v1nmscj2d" alt="Kit De Refils Slim + Broca Fininha Para Lixa Bits Mini Mandril Motor Elétrica 60und"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit De Refils Slim + Broca Fininha Para Lixa Bits Mini Mandril Motor Elétrica 60und</h2>
+    <p class="story-excerpt">Kit De Refils Slim + Broca Fininha Para Lixa Bits Mini Mandril Motor Elétrica 60und</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 28,69</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/locao-hidratante-sem-perfume-para-pele-seca-a-extra-seca-cerave-com-355ml.html" data-search="loção hidratante sem perfume para pele seca a extra seca cerave com 355ml loção hidratante sem perfume para pele seca a extra seca cerave com 355ml" data-category="Perfumaria &amp; Corpo" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mh-ms3nc5tmvb4522" alt="Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml</h2>
+    <p class="story-excerpt">Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 96,83</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/espremedor-eletrico-laranja-limao-frutas-fazer-sucos-recarregavel-usb-cozinha.html" data-search="espremedor elétrico laranja limão frutas fazer sucos recarregável usb cozinha espremedor elétrico laranja limão frutas fazer sucos recarregável usb cozinha" data-category="Casa e Cozinha" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8259f-msgkvfvn2sju02" alt="Espremedor Elétrico Laranja Limão Frutas Fazer Sucos Recarregável Usb Cozinha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Espremedor Elétrico Laranja Limão Frutas Fazer Sucos Recarregável Usb Cozinha</h2>
+    <p class="story-excerpt">Espremedor Elétrico Laranja Limão Frutas Fazer Sucos Recarregável Usb Cozinha</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 61,69</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caixa-caixinha-de-som-bluetooth-potente-pendrive-fm-sd-portatil-ipx6.html" data-search="caixa caixinha de som bluetooth potente pendrive fm sd portátil ipx6 caixa caixinha de som bluetooth potente pendrive fm sd portátil ipx6" data-category="Eletrônicos e Tecnologia" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m9-mm9qmldg6rcw4b" alt="Caixa Caixinha De Som Bluetooth Potente Pendrive Fm Sd Portátil Ipx6"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caixa Caixinha De Som Bluetooth Potente Pendrive Fm Sd Portátil Ipx6</h2>
+    <p class="story-excerpt">Caixa Caixinha De Som Bluetooth Potente Pendrive Fm Sd Portátil Ipx6</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 66,5</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/suporte-organizador-de-metal-rack-de-parede-banheiro-cozinha-prateleiras-porta-s.html" data-search="suporte organizador de metal rack de parede banheiro cozinha prateleiras porta shampoo suporte organizador de metal rack de parede banheiro cozinha prateleiras porta shampoo" data-category="Casa e Cozinha" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdwu-md3owfmt11dsa0" alt="Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo</h2>
+    <p class="story-excerpt">Suporte Organizador De Metal Rack De Parede Banheiro Cozinha Prateleiras Porta Shampoo</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 13,49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-4-potes-hermeticos-tampa-bambu-organizador-mantimentos-cozinha.html" data-search="kit 4 potes herméticos tampa bambu organizador mantimentos cozinha kit 4 potes herméticos tampa bambu organizador mantimentos cozinha" data-category="Casa e Cozinha" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-822x5-mo74eg768t8m85" alt="Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimentos Cozinha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimentos Cozinha</h2>
+    <p class="story-excerpt">Kit 4 Potes Herméticos Tampa Bambu Organizador Mantimentos Cozinha</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 39,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/smart-tv-lg-43-ld-wifi-bluetooth-full-hd-43lr6700psa-hdr10-pro.html" data-search="smart tv lg 43 ld wifi bluetooth full hd 43lr6700psa hdr10 pro smart tv lg 43 ld wifi bluetooth full hd 43lr6700psa hdr10 pro" data-category="Eletrônicos e Tecnologia" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mojn8m8ay13425" alt="Smart Tv Lg 43 Ld Wifi Bluetooth Full Hd 43lr6700psa Hdr10 Pro"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Smart Tv Lg 43 Ld Wifi Bluetooth Full Hd 43lr6700psa Hdr10 Pro</h2>
+    <p class="story-excerpt">Smart Tv Lg 43 Ld Wifi Bluetooth Full Hd 43lr6700psa Hdr10 Pro</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 1759</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/suporte-para-tv-universal-fixo-smart-led-lcd-4k-parede-painel-32-40-42-50-55-60-.html" data-search="suporte para tv universal fixo smart led  lcd 4k parede painel  32 40 42 50 55 60 75 82 100 polegada suporte para tv universal fixo smart led  lcd 4k parede painel  32 40 42 50 55 60 75 82 100 polegada" data-category="Eletrônicos e Tecnologia" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m8ndmyh7cs8y5a" alt="Suporte para TV Universal Fixo Smart LED  LCD 4K Parede Painel  32 40 42 50 55 60 75 82 100 Polegada"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Suporte para TV Universal Fixo Smart LED  LCD 4K Parede Painel  32 40 42 50 55 60 75 82 100 Polegada</h2>
+    <p class="story-excerpt">Suporte para TV Universal Fixo Smart LED  LCD 4K Parede Painel  32 40 42 50 55 60 75 82 100 Polegada</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 19,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-umidificador-difusor-aromatizador-egg-portatil-usb-led-aromatizador-de-ambi.html" data-search="mini umidificador difusor aromatizador egg portátil usb led aromatizador de ambiente purificador de ar casa escritório mini umidificador difusor aromatizador egg portátil usb led aromatizador de ambiente purificador de ar casa escritório" data-category="Eletrônicos e Tecnologia" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825am-mr8dslz05zpd88" alt="Mini Umidificador Difusor Aromatizador Egg Portátil Usb Led Aromatizador De Ambiente Purificador De Ar Casa Escritório"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini Umidificador Difusor Aromatizador Egg Portátil Usb Led Aromatizador De Ambiente Purificador De Ar Casa Escritório</h2>
+    <p class="story-excerpt">Mini Umidificador Difusor Aromatizador Egg Portátil Usb Led Aromatizador De Ambiente Purificador De Ar Casa Escritório</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 13</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/adesivo-holografico-camaleao-cartela-24x34cm-c-33-colantes.html" data-search="adesivo holografico camaleão cartela 24x34cm c/ 33 colantes adesivo holografico camaleão cartela 24x34cm c/ 33 colantes" data-category="Outros" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m38jv0gruyid2f" alt="Adesivo Holografico Camaleão Cartela 24x34cm C/ 33 Colantes"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Adesivo Holografico Camaleão Cartela 24x34cm C/ 33 Colantes</h2>
+    <p class="story-excerpt">Adesivo Holografico Camaleão Cartela 24x34cm C/ 33 Colantes</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 19,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pneu-traseiro-para-moto-90-90-aro-18-cg125-150-ybr125.html" data-search="pneu traseiro para moto 90/90 aro 18  cg125 150 ybr125 pneu traseiro para moto 90/90 aro 18  cg125 150 ybr125" data-category="Automotivo" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mb59cra255h50b" alt="Pneu traseiro para moto 90/90 aro 18  Cg125 150 Ybr125"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pneu traseiro para moto 90/90 aro 18  Cg125 150 Ybr125</h2>
+    <p class="story-excerpt">Pneu traseiro para moto 90/90 aro 18  Cg125 150 Ybr125</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 79,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caneta-paint-original-reparadora-pintura-automotiva-permanente-nao-sai-na-agua-t.html" data-search="caneta paint original reparadora pintura automotiva permanente não sai na água tira riscos carro moto retoque de placa tênis pneus para ferro metal madeira plástico gesso vidro couro tecido cores preto branco prata (cinza) dourado azul vermelha caneta paint original reparadora pintura automotiva permanente não sai na água tira riscos carro moto retoque de placa tênis pneus para ferro metal madeira plástico gesso vidro couro tecido cores preto branco prata (cinza) dourado azul vermelha" data-category="Automotivo" data-date="2026-10-13">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-lsirz2r48wfv6e" alt="Caneta Paint Original Reparadora Pintura Automotiva Permanente Não Sai Na Água Tira Riscos Carro Moto Retoque de Placa Tênis Pneus para Ferro Metal Madeira Plástico Gesso Vidro Couro Tecido Cores Preto Branco Prata (Cinza) Dourado Azul Vermelha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caneta Paint Original Reparadora Pintura Automotiva Permanente Não Sai Na Água Tira Riscos Carro Moto Retoque de Placa Tênis Pneus para Ferro Metal Madeira Plástico Gesso Vidro Couro Tecido Cores Preto Branco Prata (Cinza) Dourado Azul Vermelha</h2>
+    <p class="story-excerpt">Caneta Paint Original Reparadora Pintura Automotiva Permanente Não Sai Na Água Tira Riscos Carro Moto Retoque de Placa Tênis Pneus para Ferro Metal Madeira Plástico Gesso Vidro Couro Tecido Cores Preto Branco Prata (Cinza) Dourado Azul Vermelha</p>
+    <div class="story-meta">13 de outubro de 2026<span class="story-price">R$ 18,72</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/casca-de-arroz-carbonizada-3l-10l-20l-substrato-natural-para-jardinagem-drenagem.html" data-search="casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas" data-category="Vasos e Substrato" data-date="2026-10-12">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ly-mp10dpjpfvur72" alt="Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</h2>
     <p class="story-excerpt">Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</p>
     <div class="story-meta">12 de outubro de 2026<span class="story-price">R$ 9,99</span></div>
