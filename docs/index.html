@@ -23,14 +23,432 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Periféricos">Periféricos</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Periféricos">Periféricos</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tático">Tático</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/tesoura-de-picotar-escalope-corte-arredondado-profissional.html" data-search="tesoura de picotar escalope corte arredondado profissional tesoura de picotar escalope corte arredondado profissional" data-category="Lâminas e Cutelaria" data-date="2026-10-26">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdw3-lz7tk50v5vye99" alt="Tesoura De Picotar Escalope Corte Arredondado Profissional"></div>
+<a class="story-row story-row-featured" href="ofertas/kit-2-shaving-gel-dom-pelo-profissional-1l-gel-de-barbear-transparente-alto-rend.html" data-search="kit 2 shaving gel dom pelo profissional 1l – gel de barbear transparente alto rendimento kit 2 shaving gel dom pelo profissional 1l – gel de barbear transparente alto rendimento" data-category="Produtos de Barbear" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825zq-ml46t8p0o7i8c3" alt="Kit 2 Shaving Gel Dom Pelo Profissional 1L – Gel de Barbear Transparente Alto Rendimento"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Kit 2 Shaving Gel Dom Pelo Profissional 1L – Gel de Barbear Transparente Alto Rendimento</h2>
+    <p class="story-excerpt">Kit 2 Shaving Gel Dom Pelo Profissional 1L – Gel de Barbear Transparente Alto Rendimento</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 27,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/carrinho-auxiliar-puxador-dourado-fosco-gaveteiro-enviamos-montado-dourado-fosco.html" data-search="carrinho auxiliar (puxador dourado fosco ) gaveteiro enviamos montado dourado fosco carrinho auxiliar (puxador dourado fosco ) gaveteiro enviamos montado dourado fosco" data-category="Mobiliário e Estrutura" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztg-mklem4sz7gu855" alt="Carrinho auxiliar (PUXADOR DOURADO FOSCO ) Gaveteiro ENVIAMOS montado DOURADO FOSCO"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Carrinho auxiliar (PUXADOR DOURADO FOSCO ) Gaveteiro ENVIAMOS montado DOURADO FOSCO</h2>
+    <p class="story-excerpt">Carrinho auxiliar (PUXADOR DOURADO FOSCO ) Gaveteiro ENVIAMOS montado DOURADO FOSCO</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 399</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gel-cola-1kg-evolution-barber-gel-fixador-extraforte-para-cabelo.html" data-search="gel cola 1kg evolution barber - gel fixador extraforte para cabelo gel cola 1kg evolution barber - gel fixador extraforte para cabelo" data-category="Cosméticos Masculinos" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m7ilb6r8q3eafb" alt="GEL COLA 1KG EVOLUTION BARBER - GEL FIXADOR EXTRAFORTE PARA CABELO"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>GEL COLA 1KG EVOLUTION BARBER - GEL FIXADOR EXTRAFORTE PARA CABELO</h2>
+    <p class="story-excerpt">GEL COLA 1KG EVOLUTION BARBER - GEL FIXADOR EXTRAFORTE PARA CABELO</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 31,43</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/spoetry-kit-8-pecas-profissional-para-modelagem-e-trancas-com-cortador-incluso.html" data-search="spoetry kit 8 peças profissional para modelagem e tranças com cortador incluso spoetry kit 8 peças profissional para modelagem e tranças com cortador incluso" data-category="Acessórios de Bancada" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lo-mt6ck6aull38b5" alt="SPOETRY Kit 8 Peças Profissional para Modelagem e Tranças com Cortador Incluso"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>SPOETRY Kit 8 Peças Profissional para Modelagem e Tranças com Cortador Incluso</h2>
+    <p class="story-excerpt">SPOETRY Kit 8 Peças Profissional para Modelagem e Tranças com Cortador Incluso</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 19,2</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/maquina-de-cortar-cabelo-para-barba-masculina-designer-aleatorio-eletrico-profis.html" data-search="máquina de cortar cabelo para barba masculina designer aleatório elétrico profissional máquina de cortar cabelo para barba masculina designer aleatório elétrico profissional" data-category="Barbearia" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7repw-m1udq35ku98d62" alt="Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional</h2>
+    <p class="story-excerpt">Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 13,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/toalha-descartavel-manicure-pedicure-20x30cm-alta-absorcao-multiuso-pratica.html" data-search="toalha descartável manicure pedicure 20x30cm alta absorção multiuso prática toalha descartável manicure pedicure 20x30cm alta absorção multiuso prática" data-category="Insumos e Descartáveis" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-mnyuqjyvfitd8a" alt="Toalha Descartável Manicure Pedicure 20x30cm Alta Absorção Multiuso Prática"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Toalha Descartável Manicure Pedicure 20x30cm Alta Absorção Multiuso Prática</h2>
+    <p class="story-excerpt">Toalha Descartável Manicure Pedicure 20x30cm Alta Absorção Multiuso Prática</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 16,96</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pulverizador-borrifador-spray-para-jardinagem-multiuso-2-litros.html" data-search="pulverizador borrifador spray para jardinagem multiuso 2 litros pulverizador borrifador spray para jardinagem multiuso 2 litros" data-category="Ferramentas de Jardim" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mgdqb2v9gbnp0b" alt="Pulverizador Borrifador Spray Para Jardinagem Multiuso 2 Litros"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pulverizador Borrifador Spray Para Jardinagem Multiuso 2 Litros</h2>
+    <p class="story-excerpt">Pulverizador Borrifador Spray Para Jardinagem Multiuso 2 Litros</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 21,49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mesa-dobravel-vira-maleta-com-alca-portatil-1-80m-camping-pesca-jardim-area-exte.html" data-search="mesa dobrável vira maleta com alça portátil 1.80m camping pesca jardim área externa interna luvinco mesa dobrável vira maleta com alça portátil 1.80m camping pesca jardim área externa interna luvinco" data-category="Móveis de Área Externa" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m7qvt44tnhqsce" alt="Mesa Dobrável Vira Maleta com Alça Portátil 1.80m Camping Pesca Jardim Área Externa Interna Luvinco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mesa Dobrável Vira Maleta com Alça Portátil 1.80m Camping Pesca Jardim Área Externa Interna Luvinco</h2>
+    <p class="story-excerpt">Mesa Dobrável Vira Maleta com Alça Portátil 1.80m Camping Pesca Jardim Área Externa Interna Luvinco</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 279,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/copos-descartavel-330-ml-chopp-cerveja-agua-suco-refrigerante-liso-resistente-tr.html" data-search="copos descartável 330 ml chopp cerveja agua suco refrigerante liso resistente transparente 50/100/200 unidades copos descartável 330 ml chopp cerveja agua suco refrigerante liso resistente transparente 50/100/200 unidades" data-category="Copos, Chopeira &amp; Cooler" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lz-mqp8auu92gapfe" alt="Copos Descartável 330 ML Chopp Cerveja Agua Suco Refrigerante Liso Resistente Transparente 50/100/200 Unidades"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Copos Descartável 330 ML Chopp Cerveja Agua Suco Refrigerante Liso Resistente Transparente 50/100/200 Unidades</h2>
+    <p class="story-excerpt">Copos Descartável 330 ML Chopp Cerveja Agua Suco Refrigerante Liso Resistente Transparente 50/100/200 Unidades</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 12,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mouse-gamer-laser-3200dpi-1400dpi-led-rgb-usb-7-botoes-fio-usb-7d-extreme-7-core.html" data-search="mouse gamer laser 3200dpi 1400dpi led rgb usb 7 botões fio usb 7d extreme 7 cores profissional original mouse gamer laser 3200dpi 1400dpi led rgb usb 7 botões fio usb 7d extreme 7 cores profissional original" data-category="Periféricos" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lo-mnup6gzi2hok5c" alt="Mouse Gamer Laser 3200dpi 1400dpi Led Rgb Usb 7 Botões Fio USB 7D Extreme 7 Cores Profissional Original"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mouse Gamer Laser 3200dpi 1400dpi Led Rgb Usb 7 Botões Fio USB 7D Extreme 7 Cores Profissional Original</h2>
+    <p class="story-excerpt">Mouse Gamer Laser 3200dpi 1400dpi Led Rgb Usb 7 Botões Fio USB 7D Extreme 7 Cores Profissional Original</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 19,49</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mesa-pro-gamer-efeito-carbono-120x60-com-led-rgb-e-sem-led-e-mousepad.html" data-search="mesa pro gamer efeito carbono 120x60 com led rgb e sem led e mousepad mesa pro gamer efeito carbono 120x60 com led rgb e sem led e mousepad" data-category="Iluminação RGB e Suportes" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81zu6-mkwu0nrgy0oy25" alt="Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad</h2>
+    <p class="story-excerpt">Mesa Pro Gamer Efeito Carbono 120x60 COM LED RGB e SEM LED e MousePad</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 349,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-de-ouvido-bluetooth-sem-fio-orelha-de-gato-led-gamer-dobravel-som-hd-microf.html" data-search="fone de ouvido bluetooth sem fio orelha de gato led gamer dobrável som hd microfone pc fone de ouvido bluetooth sem fio orelha de gato led gamer dobrável som hd microfone pc" data-category="Headset e Microfone" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8258b-msorhiz9q1op2d" alt="Fone De Ouvido Bluetooth Sem Fio Orelha De Gato LED Gamer Dobrável Som HD Microfone PC"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone De Ouvido Bluetooth Sem Fio Orelha De Gato LED Gamer Dobrável Som HD Microfone PC</h2>
+    <p class="story-excerpt">Fone De Ouvido Bluetooth Sem Fio Orelha De Gato LED Gamer Dobrável Som HD Microfone PC</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 24,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/vara-de-pesca-telescopica-suave-e-ultraleve-ideal-para-diversas-situacoes-com-co.html" data-search="vara de pesca telescópica, suave e ultraleve, ideal para diversas situações, com comprimentos de 2,4 m e 3,6 m vara de pesca telescópica, suave e ultraleve, ideal para diversas situações, com comprimentos de 2,4 m e 3,6 m" data-category="Vara e Molinete" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/cn-11134207-820l4-mlsuws7bcgznad" alt="Vara de pesca telescópica, suave e ultraleve, ideal para diversas situações, com comprimentos de 2,4 m e 3,6 m"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Vara de pesca telescópica, suave e ultraleve, ideal para diversas situações, com comprimentos de 2,4 m e 3,6 m</h2>
+    <p class="story-excerpt">Vara de pesca telescópica, suave e ultraleve, ideal para diversas situações, com comprimentos de 2,4 m e 3,6 m</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 19,8</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/guarda-sol-gigante-2-40m-uv-praia-piscina-respiravel-verao-camping-incliavel-ref.html" data-search="guarda sol gigante 2,40m uv praia piscina respirável verão camping incliável reforçado família churrasco guarda sol gigante 2,40m uv praia piscina respirável verão camping incliável reforçado família churrasco" data-category="Cadeira, Guarda-sol &amp; Cooler" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mj9rrpjb9af670" alt="Guarda Sol Gigante 2,40m Uv Praia Piscina Respirável Verão Camping Incliável Reforçado Família Churrasco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Guarda Sol Gigante 2,40m Uv Praia Piscina Respirável Verão Camping Incliável Reforçado Família Churrasco</h2>
+    <p class="story-excerpt">Guarda Sol Gigante 2,40m Uv Praia Piscina Respirável Verão Camping Incliável Reforçado Família Churrasco</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 64,8</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-pesca-esportiva-completo-com-vara-telescopica-e-estojo-organizador-e-acessor.html" data-search="kit pesca esportiva completo com vara telescópica e estojo organizador e acessorios kit pesca esportiva completo com vara telescópica e estojo organizador e acessorios" data-category="Caixas e Organizadores" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l4-mlnyk7d6pybr7b" alt="Kit Pesca Esportiva Completo com Vara Telescópica e Estojo Organizador e Acessorios"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Pesca Esportiva Completo com Vara Telescópica e Estojo Organizador e Acessorios</h2>
+    <p class="story-excerpt">Kit Pesca Esportiva Completo com Vara Telescópica e Estojo Organizador e Acessorios</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 37</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/par-de-luva-tatica-meio-dedo-para-motociclistas-motoqueiros-com-grip-protecao-ul.html" data-search="par de luva tática meio dedo para motociclistas motoqueiros com grip proteção ultra resistente par de luva tática meio dedo para motociclistas motoqueiros com grip proteção ultra resistente" data-category="Tático" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mg6pz5n4hudjaa" alt="Par de Luva Tática Meio Dedo para Motociclistas Motoqueiros com Grip Proteção Ultra Resistente"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Par de Luva Tática Meio Dedo para Motociclistas Motoqueiros com Grip Proteção Ultra Resistente</h2>
+    <p class="story-excerpt">Par de Luva Tática Meio Dedo para Motociclistas Motoqueiros com Grip Proteção Ultra Resistente</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 18,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mochila-pochete-tatica-masculina-impermeavel-colete-de-peito-versatil-para-ativi.html" data-search="mochila pochete tática masculina impermeável colete de peito versátil para atividades ao ar livre mochila pochete tática masculina impermeável colete de peito versátil para atividades ao ar livre" data-category="Tático" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l6-mty34z7c14are2" alt="Mochila Pochete Tática Masculina Impermeável Colete de Peito Versátil para Atividades ao Ar Livre"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mochila Pochete Tática Masculina Impermeável Colete de Peito Versátil para Atividades ao Ar Livre</h2>
+    <p class="story-excerpt">Mochila Pochete Tática Masculina Impermeável Colete de Peito Versátil para Atividades ao Ar Livre</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 38,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/fone-de-ouvido-de-tiro-eletronico-versao-montada-no-capacete-de-caca-e-reducao-d.html" data-search="fone de ouvido de tiro eletrônico versão montada no capacete de caça e redução de ruído proteção tática da auditiva do fone de ouvido de tiro eletrônico versão montada no capacete de caça e redução de ruído proteção tática da auditiva do" data-category="Tático" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825b1-mruxj0skxc7af1" alt="Fone De Ouvido De Tiro Eletrônico Versão Montada No Capacete De Caça E Redução De Ruído Proteção Tática Da Auditiva Do"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Fone De Ouvido De Tiro Eletrônico Versão Montada No Capacete De Caça E Redução De Ruído Proteção Tática Da Auditiva Do</h2>
+    <p class="story-excerpt">Fone De Ouvido De Tiro Eletrônico Versão Montada No Capacete De Caça E Redução De Ruído Proteção Tática Da Auditiva Do</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 99,8</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bebedouro-pet-285ml-bebedouro-inox-pet-garrafa-agua-cachorro-inox-garrafa-agua-p.html" data-search="bebedouro pet 285ml, bebedouro inox pet, garrafa agua cachorro inox, garrafa agua pet plastico bpa free, bebedouro porta bebedouro pet 285ml, bebedouro inox pet, garrafa agua cachorro inox, garrafa agua pet plastico bpa free, bebedouro porta" data-category="Alimentação" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825av-mtdz46g8zlkx3b" alt="bebedouro pet 285ml, bebedouro inox pet, garrafa agua cachorro inox, garrafa agua pet plastico bpa free, bebedouro porta"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>bebedouro pet 285ml, bebedouro inox pet, garrafa agua cachorro inox, garrafa agua pet plastico bpa free, bebedouro porta</h2>
+    <p class="story-excerpt">bebedouro pet 285ml, bebedouro inox pet, garrafa agua cachorro inox, garrafa agua pet plastico bpa free, bebedouro porta</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 31,61</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tapete-higienico-superpremium-pet-para-caes-cachorro-60x60cm-com-30-uni-envio-im.html" data-search="tapete higienico superpremium pet para caes cachorro 60x60cm com 30 uni - envio imediato tapete higienico superpremium pet para caes cachorro 60x60cm com 30 uni - envio imediato" data-category="Higiene (Consumo Mensal)" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-msy9tohimjut72" alt="Tapete Higienico SuperPremium pet Para Caes Cachorro 60x60cm com 30 uni - Envio Imediato"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tapete Higienico SuperPremium pet Para Caes Cachorro 60x60cm com 30 uni - Envio Imediato</h2>
+    <p class="story-excerpt">Tapete Higienico SuperPremium pet Para Caes Cachorro 60x60cm com 30 uni - Envio Imediato</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 36,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cama-caminha-pet-cachorro-gato-tamanho-p-m-g-confortavel-com-ziper-lavavel-almof.html" data-search="cama caminha pet cachorro gato tamanho p,m,g confortável com zíper lavável + almofadinha cama caminha pet cachorro gato tamanho p,m,g confortável com zíper lavável + almofadinha" data-category="Conforto" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mi00v0wrf5du53" alt="Cama Caminha Pet Cachorro Gato tamanho p,m,g confortável com zíper lavável + almofadinha"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cama Caminha Pet Cachorro Gato tamanho p,m,g confortável com zíper lavável + almofadinha</h2>
+    <p class="story-excerpt">Cama Caminha Pet Cachorro Gato tamanho p,m,g confortável com zíper lavável + almofadinha</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 59,97</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tripe-para-nivel-laser-reforcado-profissional-exbom-xcold-s-1-4-e-5-8.html" data-search="tripé para nível laser reforçado profissional exbom / xcold&#x27;s 1/4 e 5/8 tripé para nível laser reforçado profissional exbom / xcold&#x27;s 1/4 e 5/8" data-category="Medição &amp; Nivelamento" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-meu2kwripudf72" alt="Tripé Para Nível Laser Reforçado Profissional Exbom / Xcold's 1/4 E 5/8"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tripé Para Nível Laser Reforçado Profissional Exbom / Xcold's 1/4 E 5/8</h2>
+    <p class="story-excerpt">Tripé Para Nível Laser Reforçado Profissional Exbom / Xcold's 1/4 E 5/8</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 58,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/prateleira-organizadora-cozinha-industrial-tripla-micro-ondas-air-fryer-eletropo.html" data-search="prateleira organizadora cozinha industrial tripla micro-ondas air fryer eletroportáteis metalon prateleira organizadora cozinha industrial tripla micro-ondas air fryer eletroportáteis metalon" data-category="Eletroportáteis Baratos" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825an-mtgtfky3hd6qed" alt="Prateleira Organizadora Cozinha Industrial Tripla Micro-ondas Air Fryer Eletroportáteis Metalon"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Prateleira Organizadora Cozinha Industrial Tripla Micro-ondas Air Fryer Eletroportáteis Metalon</h2>
+    <p class="story-excerpt">Prateleira Organizadora Cozinha Industrial Tripla Micro-ondas Air Fryer Eletroportáteis Metalon</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 297,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/espuma-spray-zip-clean-300ml-limpa-a-seco-sofa-estofado-banco-de-carro-limpeza-p.html" data-search="espuma spray zip clean 300ml limpa a seco sofá, estofado, banco de carro limpeza profunda multiuso espuma spray zip clean 300ml limpa a seco sofá, estofado, banco de carro limpeza profunda multiuso" data-category="Limpeza Prática" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m9-mofgvm5oq48zed" alt="Espuma Spray Zip Clean 300ml Limpa a Seco Sofá, Estofado, Banco de Carro Limpeza Profunda Multiuso"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Espuma Spray Zip Clean 300ml Limpa a Seco Sofá, Estofado, Banco de Carro Limpeza Profunda Multiuso</h2>
+    <p class="story-excerpt">Espuma Spray Zip Clean 300ml Limpa a Seco Sofá, Estofado, Banco de Carro Limpeza Profunda Multiuso</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 18,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/jogo-completo-de-utensilios-de-cozinha-de-silicone-itens-essenciais-para-sua-cas.html" data-search="jogo completo de utensílios de cozinha de silicone itens essenciais para sua casa kitc/12 jogo completo de utensílios de cozinha de silicone itens essenciais para sua casa kitc/12" data-category="Cozinha &amp; Utensílios" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8261g-mk1iwuywbjlz8d" alt="Jogo Completo de Utensílios de Cozinha de Silicone Itens Essenciais para sua Casa KITC/12"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Jogo Completo de Utensílios de Cozinha de Silicone Itens Essenciais para sua Casa KITC/12</h2>
+    <p class="story-excerpt">Jogo Completo de Utensílios de Cozinha de Silicone Itens Essenciais para sua Casa KITC/12</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 28,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-meia-feminino-calce-facil-botinha-ortopedico-esportivo-sneaker-slip-on-cas.html" data-search="tênis meia feminino calce fácil botinha ortopédico esportivo sneaker slip on casual confortável academia tênis meia feminino calce fácil botinha ortopédico esportivo sneaker slip on casual confortável academia" data-category="Vestuário &amp; Calçado" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ma-mnx8czipq39ea6" alt="Tênis Meia Feminino Calce Fácil Botinha Ortopédico Esportivo Sneaker Slip On Casual confortável Academia"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis Meia Feminino Calce Fácil Botinha Ortopédico Esportivo Sneaker Slip On Casual confortável Academia</h2>
+    <p class="story-excerpt">Tênis Meia Feminino Calce Fácil Botinha Ortopédico Esportivo Sneaker Slip On Casual confortável Academia</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 29</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/1-par-de-meia-polaina-aerobica-academia-esporte-fitness-ballet-ginastica-lisas-p.html" data-search="1 par de meia polaina aeróbica academia esporte fitness ballet ginastica lisas polainas 2024 1 par de meia polaina aeróbica academia esporte fitness ballet ginastica lisas polainas 2024" data-category="Vestuário &amp; Calçado" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rcf3-ls871r4qlaco58" alt="1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024</h2>
+    <p class="story-excerpt">1 Par de Meia Polaina Aeróbica Academia Esporte Fitness Ballet Ginastica Lisas Polainas 2024</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 10,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tenis-feminino-esportivo-leve-e-macio-academia-corrida.html" data-search="tênis feminino esportivo leve e mácio academia corrida tênis feminino esportivo leve e mácio academia corrida" data-category="Vestuário &amp; Calçado" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m5tyxgjeaxz9d5" alt="Tênis Feminino Esportivo Leve e mácio Academia Corrida"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Tênis Feminino Esportivo Leve e mácio Academia Corrida</h2>
+    <p class="story-excerpt">Tênis Feminino Esportivo Leve e mácio Academia Corrida</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 29</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/whey-ultra-protein-concentrado-pote-900g-ftw.html" data-search="whey ultra protein concentrado pote 900g - ftw whey ultra protein concentrado pote 900g - ftw" data-category="Suplementos" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mj9vukr0feo684" alt="Whey Ultra Protein Concentrado Pote 900g - FTW"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Whey Ultra Protein Concentrado Pote 900g - FTW</h2>
+    <p class="story-excerpt">Whey Ultra Protein Concentrado Pote 900g - FTW</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 69,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mosquiteiro-tule-berco-americano-e-mini-berco-bando-estampado-infantil-menino-me.html" data-search="mosquiteiro tule berço americano e mini berço bando estampado infantil menino menina mosquiteiro tule berço americano e mini berço bando estampado infantil menino menina" data-category="Sono &amp; Segurança" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820li-mn94rclpocu93c" alt="Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina</h2>
+    <p class="story-excerpt">Mosquiteiro Tule Berço Americano E Mini Berço Bando Estampado Infantil Menino Menina</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 27,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/ssps-2pcs-clip-do-cinto-de-seguranca-carro-antiderrapante-limitador-de-conforto-.html" data-search="[ssps] 2pcs clip do cinto de segurança carro antiderrapante limitador de conforto fixo fah interior [ssps] 2pcs clip do cinto de segurança carro antiderrapante limitador de conforto fixo fah interior" data-category="Interior &amp; Conforto" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rce5-lrze3e415w56a8" alt="[SSPS] 2Pcs Clip Do Cinto De Segurança Carro Antiderrapante Limitador De Conforto Fixo FAH Interior"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>[SSPS] 2Pcs Clip Do Cinto De Segurança Carro Antiderrapante Limitador De Conforto Fixo FAH Interior</h2>
+    <p class="story-excerpt">[SSPS] 2Pcs Clip Do Cinto De Segurança Carro Antiderrapante Limitador De Conforto Fixo FAH Interior</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 12,38</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/interruptor-inteligente-wi-fi-google-alexa-smart-life-automacao-casa-app-tuya.html" data-search="interruptor inteligente wi-fi google alexa smart life automação casa app tuya interruptor inteligente wi-fi google alexa smart life automação casa app tuya" data-category="Casa Inteligente" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825ao-msvy20ge0o3m04" alt="Interruptor Inteligente Wi-fi Google Alexa Smart Life Automação Casa App Tuya"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Interruptor Inteligente Wi-fi Google Alexa Smart Life Automação Casa App Tuya</h2>
+    <p class="story-excerpt">Interruptor Inteligente Wi-fi Google Alexa Smart Life Automação Casa App Tuya</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 27,85</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/ayellowcat-2d-acrilico-plano-presepio-ornamento-decoracao-de-mesa-de-natal-br.html" data-search="ayellowcat 2d acrílico plano presépio ornamento decoração de mesa de natal br ayellowcat 2d acrílico plano presépio ornamento decoração de mesa de natal br" data-category="Casa e Cozinha" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825b2-mt9dsyu1wcg234" alt="AYellowcat 2D Acrílico Plano Presépio Ornamento Decoração De Mesa De Natal BR"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>AYellowcat 2D Acrílico Plano Presépio Ornamento Decoração De Mesa De Natal BR</h2>
+    <p class="story-excerpt">AYellowcat 2D Acrílico Plano Presépio Ornamento Decoração De Mesa De Natal BR</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 29,17</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/etiquetas-adesivas-3x3-4x4-ou-5x5cm-personalizados-com-recorte.html" data-search="etiquetas adesivas 3x3, 4x4 ou 5x5cm personalizados com recorte etiquetas adesivas 3x3, 4x4 ou 5x5cm personalizados com recorte" data-category="Eletrônicos e Tecnologia" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ls-mlzbvg8xfzt360" alt="Etiquetas Adesivas 3x3, 4x4 ou 5x5cm Personalizados Com Recorte"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Etiquetas Adesivas 3x3, 4x4 ou 5x5cm Personalizados Com Recorte</h2>
+    <p class="story-excerpt">Etiquetas Adesivas 3x3, 4x4 ou 5x5cm Personalizados Com Recorte</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 13,25</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/comedouro-e-bebedouro-automatico-para-gatos-e-caes-premium-1l-jelplast.html" data-search="comedouro e bebedouro automático para gatos e cães premium 1l jelplast comedouro e bebedouro automático para gatos e cães premium 1l jelplast" data-category="Casa e Cozinha" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ma-mo396acb8ttwdd" alt="Comedouro e Bebedouro Automático para Gatos e Cães Premium 1L Jelplast"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Comedouro e Bebedouro Automático para Gatos e Cães Premium 1L Jelplast</h2>
+    <p class="story-excerpt">Comedouro e Bebedouro Automático para Gatos e Cães Premium 1L Jelplast</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 60,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mochila-grande-reforcada-impermeavel-notebook-masculina-feminina-escola-trabalho.html" data-search="mochila grande reforçada impermeável notebook masculina feminina escola trabalho mochila grande reforçada impermeável notebook masculina feminina escola trabalho" data-category="Eletrônicos e Tecnologia" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-824h7-mpl0gkmwesjyea" alt="Mochila Grande Reforçada Impermeável Notebook Masculina Feminina Escola Trabalho"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mochila Grande Reforçada Impermeável Notebook Masculina Feminina Escola Trabalho</h2>
+    <p class="story-excerpt">Mochila Grande Reforçada Impermeável Notebook Masculina Feminina Escola Trabalho</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 36,07</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-de-ferramentas-46-pecas-jogo-de-soquetes-chave-catraca-reversivel-com-maleta.html" data-search="kit de ferramentas 46 peças jogo de soquetes chave catraca reversível com maleta jogo de ferramentas completo kit de ferramentas 46 peças jogo de soquetes chave catraca reversível com maleta jogo de ferramentas completo" data-category="Outros" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m3-mmb4i4n354ao46" alt="Kit De Ferramentas 46 Peças Jogo De Soquetes Chave Catraca Reversível Com Maleta Jogo De Ferramentas Completo"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit De Ferramentas 46 Peças Jogo De Soquetes Chave Catraca Reversível Com Maleta Jogo De Ferramentas Completo</h2>
+    <p class="story-excerpt">Kit De Ferramentas 46 Peças Jogo De Soquetes Chave Catraca Reversível Com Maleta Jogo De Ferramentas Completo</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 29,68</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/revitalizador-de-farol-remove-amarelado-e-aspecto-fosco.html" data-search="revitalizador de farol remove amarelado e aspecto fosco revitalizador de farol remove amarelado e aspecto fosco" data-category="Automotivo" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mht87kjg5b7qd2" alt="Revitalizador de farol remove amarelado e aspecto fosco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Revitalizador de farol remove amarelado e aspecto fosco</h2>
+    <p class="story-excerpt">Revitalizador de farol remove amarelado e aspecto fosco</p>
+    <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 16</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/tesoura-de-picotar-escalope-corte-arredondado-profissional.html" data-search="tesoura de picotar escalope corte arredondado profissional tesoura de picotar escalope corte arredondado profissional" data-category="Lâminas e Cutelaria" data-date="2026-10-26">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rdw3-lz7tk50v5vye99" alt="Tesoura De Picotar Escalope Corte Arredondado Profissional"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Tesoura De Picotar Escalope Corte Arredondado Profissional</h2>
     <p class="story-excerpt">Tesoura De Picotar Escalope Corte Arredondado Profissional</p>
     <div class="story-meta">26 de outubro de 2026<span class="story-price">R$ 36,99</span></div>
