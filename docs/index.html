@@ -23,14 +23,179 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétrica &amp; Hidráulica">Elétrica & Hidráulica</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/suporte-de-escovas-e-pentes-tesoura-beauty-organizacao-profissional-de-bancada-c.html" data-search="suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova" data-category="Acessórios de Bancada" data-date="2026-10-28">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8262b-mkb1cspb4pa8bc" alt="Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova"></div>
+<a class="story-row story-row-featured" href="ofertas/kit-areia-sanitaria-higienica-para-gatos-anti-odor-4-ou-8kg-total-bellgato-extra.html" data-search="kit areia sanitária higiênica para gatos anti odor 4 ou 8kg total bellgato extra fina azul kit areia sanitária higiênica para gatos anti odor 4 ou 8kg total bellgato extra fina azul" data-category="Higiene (Consumo Mensal)" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-81zu6-migha2gu8u108e" alt="Kit Areia Sanitária Higiênica Para Gatos Anti Odor 4 ou 8kg Total Bellgato Extra Fina azul"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Kit Areia Sanitária Higiênica Para Gatos Anti Odor 4 ou 8kg Total Bellgato Extra Fina azul</h2>
+    <p class="story-excerpt">Kit Areia Sanitária Higiênica Para Gatos Anti Odor 4 ou 8kg Total Bellgato Extra Fina azul</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 14,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-shampoo-pelos-escuros-condicionador-desembaracador-de-pelos-caes-e-gatos-kit.html" data-search="kit shampoo pelos escuros + condicionador desembaraçador de pelos cães e gatos - kit banho e tosa kit shampoo pelos escuros + condicionador desembaraçador de pelos cães e gatos - kit banho e tosa" data-category="Banho &amp; Tosa em Casa" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-7rffj-ma057hl1la5e62" alt="Kit Shampoo Pelos Escuros + Condicionador Desembaraçador de Pelos Cães E Gatos - Kit Banho e Tosa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Shampoo Pelos Escuros + Condicionador Desembaraçador de Pelos Cães E Gatos - Kit Banho e Tosa</h2>
+    <p class="story-excerpt">Kit Shampoo Pelos Escuros + Condicionador Desembaraçador de Pelos Cães E Gatos - Kit Banho e Tosa</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 16,15</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-parafusadeira-furadeira-48-pcs-portatil-carregador-usb-leve-forte-desmontar-.html" data-search="kit parafusadeira/furadeira 48 pçs portátil carregador usb leve forte desmontar e montar kit parafusadeira/furadeira 48 pçs portátil carregador usb leve forte desmontar e montar" data-category="Consumíveis (Recompra)" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjgn4186mjup7b" alt="Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar</h2>
+    <p class="story-excerpt">Kit Parafusadeira/furadeira 48 pçs Portátil carregador Usb Leve Forte Desmontar e montar</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 37,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-de-escova-de-limpeza-de-aco-circular-uso-com-furadeira-resistente-qualidade-.html" data-search="kit de escova de limpeza de aço circular uso com furadeira resistente qualidade superior marca kit com 3, 5, 6 ou 10 kit de escova de limpeza de aço circular uso com furadeira resistente qualidade superior marca kit com 3, 5, 6 ou 10" data-category="Elétricas Portáteis" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-mbxul2wzcuahc6" alt="Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente QUALIDADE SUPERIOR MARCA kit com 3, 5, 6 ou 10"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente QUALIDADE SUPERIOR MARCA kit com 3, 5, 6 ou 10</h2>
+    <p class="story-excerpt">Kit de Escova De Limpeza De Aço Circular Uso Com Furadeira Resistente QUALIDADE SUPERIOR MARCA kit com 3, 5, 6 ou 10</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 20,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bolsa-de-ferramentas-profissional-14-20-polegadas-multiuso-caixa-de-ferramentas-.html" data-search="bolsa de ferramentas profissional 14/20 polegadas multiuso caixa de ferramentas maleta organizadora tecido resiste bolsa de ferramentas profissional 14/20 polegadas multiuso caixa de ferramentas maleta organizadora tecido resiste" data-category="EPI &amp; Organização" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-msxktvyjjsw4d4" alt="Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste</h2>
+    <p class="story-excerpt">Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 35,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cabo-flexivel-10mm2-rolo-100-metros-fio-eletrico-preto-para-instalacoes-eletrica.html" data-search="cabo flexível 10mm² rolo 100 metros fio elétrico preto para instalações elétricas residenciais e industriais cabo flexível 10mm² rolo 100 metros fio elétrico preto para instalações elétricas residenciais e industriais" data-category="Elétrica &amp; Hidráulica" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ll-mu1b9y9es64i0d" alt="Cabo Flexível 10mm² Rolo 100 Metros Fio Elétrico Preto para Instalações Elétricas Residenciais e Industriais"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cabo Flexível 10mm² Rolo 100 Metros Fio Elétrico Preto para Instalações Elétricas Residenciais e Industriais</h2>
+    <p class="story-excerpt">Cabo Flexível 10mm² Rolo 100 Metros Fio Elétrico Preto para Instalações Elétricas Residenciais e Industriais</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 279,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/percarbonato-de-sodio-2kg-1kg-500g-clareador-multiuso-tira-manchas-roupas-branca.html" data-search="percarbonato de sódio 2kg 1kg 500g clareador multiuso tira manchas roupas brancas coloridas limpeza percarbonato de sódio 2kg 1kg 500g clareador multiuso tira manchas roupas brancas coloridas limpeza" data-category="Limpeza Prática" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l6-msk4xf3gqg3p33" alt="Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza</h2>
+    <p class="story-excerpt">Percarbonato de Sódio 2kg 1kg 500g Clareador Multiuso tira manchas Roupas Brancas Coloridas Limpeza</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 28,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mamadeira-para-bebe-buba-330ml-anticolica-para-bebes-4-meses-bico-petala-macio-s.html" data-search="mamadeira para bebe buba 330ml anticólica para bebês +4 meses bico petala macio silicone  mamadeira mamadeira para bebe buba 330ml anticólica para bebês +4 meses bico petala macio silicone  mamadeira" data-category="Alimentação Infantil" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m9u8le77xqgp23" alt="Mamadeira Para Bebe Buba 330ml Anticólica Para Bebês +4 Meses Bico Petala Macio Silicone  Mamadeira"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mamadeira Para Bebe Buba 330ml Anticólica Para Bebês +4 Meses Bico Petala Macio Silicone  Mamadeira</h2>
+    <p class="story-excerpt">Mamadeira Para Bebe Buba 330ml Anticólica Para Bebês +4 Meses Bico Petala Macio Silicone  Mamadeira</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 31,12</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cartao-de-memoria-microsd-classe-10-ultra-8-ate-1tb-para-monitoramento-adaptador.html" data-search="cartão de memória microsd classe 10 ultra 8 ate 1tb para monitoramento adaptador p8 cartão de memória microsd classe 10 ultra 8 ate 1tb para monitoramento adaptador p8" data-category="Armazenamento" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l5-mrf9i4da6j2c0d" alt="Cartão de Memória MicroSD Classe 10 Ultra 8 ate 1TB para Monitoramento Adaptador P8"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cartão de Memória MicroSD Classe 10 Ultra 8 ate 1TB para Monitoramento Adaptador P8</h2>
+    <p class="story-excerpt">Cartão de Memória MicroSD Classe 10 Ultra 8 ate 1TB para Monitoramento Adaptador P8</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 17,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/locao-hidratante-sem-perfume-para-pele-seca-a-extra-seca-cerave-com-355ml.html" data-search="loção hidratante sem perfume para pele seca a extra seca cerave com 355ml loção hidratante sem perfume para pele seca a extra seca cerave com 355ml" data-category="Perfumaria &amp; Corpo" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mh-ms3nc5tmvb4522" alt="Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml</h2>
+    <p class="story-excerpt">Loção Hidratante Sem Perfume para Pele Seca a Extra Seca CeraVe com 355ml</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 97,35</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/parafusadeira-furadeira-25v-nakasaki-sem-fio-a-bateria-profissional-kit-completo.html" data-search="parafusadeira furadeira 25v nakasaki sem fio a bateria profissional kit completo com maleta parafusadeira furadeira 25v nakasaki sem fio a bateria profissional kit completo com maleta" data-category="Eletrônicos e Tecnologia" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-msq8pkzchmh355" alt="Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta</h2>
+    <p class="story-excerpt">Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 89,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/oculos-de-sol-espotivo-premium-edicao-limitada-baixa-pace-ciclismo-corrida-verao.html" data-search="óculos de sol espotivo premium edição limitada baixa pace ciclismo corrida verãotendencia uv400 óculos de sol espotivo premium edição limitada baixa pace ciclismo corrida verãotendencia uv400" data-category="Esporte e Lazer" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-mn5w0chbbvnk63" alt="Óculos de Sol Espotivo Premium Edição Limitada Baixa Pace Ciclismo Corrida VerãoTendencia uv400"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Óculos de Sol Espotivo Premium Edição Limitada Baixa Pace Ciclismo Corrida VerãoTendencia uv400</h2>
+    <p class="story-excerpt">Óculos de Sol Espotivo Premium Edição Limitada Baixa Pace Ciclismo Corrida VerãoTendencia uv400</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 59,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/2-desincrustante-acido-de-5l-concentrado-intercap-limpa-bau.html" data-search="2 desincrustante ácido de 5l concentrado intercap, limpa bau 2 desincrustante ácido de 5l concentrado intercap, limpa bau" data-category="Outros" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82591-mu249wk9r2tf96" alt="2 DESINCRUSTANTE ÁCIDO DE 5L CONCENTRADO INTERCAP, LIMPA BAU"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>2 DESINCRUSTANTE ÁCIDO DE 5L CONCENTRADO INTERCAP, LIMPA BAU</h2>
+    <p class="story-excerpt">2 DESINCRUSTANTE ÁCIDO DE 5L CONCENTRADO INTERCAP, LIMPA BAU</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 49,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-15-pecas-conjunto-de-soquete-de-impacto-longo-1-2-8-a-32-mm.html" data-search="kit 15 peças conjunto de soquete de impacto longo 1/2 8 a 32 mm kit 15 peças conjunto de soquete de impacto longo 1/2 8 a 32 mm" data-category="Automotivo" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/cn-11134207-820l4-mtz0xe9b7c3kf0" alt="Kit 15 Peças Conjunto de Soquete de Impacto Longo 1/2 8 a 32 mm"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 15 Peças Conjunto de Soquete de Impacto Longo 1/2 8 a 32 mm</h2>
+    <p class="story-excerpt">Kit 15 Peças Conjunto de Soquete de Impacto Longo 1/2 8 a 32 mm</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 61,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/sio2-pro-vonixx-diminui-risco-manutencao-para-vitrificadores-500-ml.html" data-search="sio2- pro vonixx diminui risco manutenção para vitrificadores 500 ml sio2- pro vonixx diminui risco manutenção para vitrificadores 500 ml" data-category="Automotivo" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ln-muter99vg2kg95" alt="Sio2- Pro Vonixx Diminui Risco Manutenção Para Vitrificadores 500 Ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Sio2- Pro Vonixx Diminui Risco Manutenção Para Vitrificadores 500 Ml</h2>
+    <p class="story-excerpt">Sio2- Pro Vonixx Diminui Risco Manutenção Para Vitrificadores 500 Ml</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 42,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/suporte-de-escovas-e-pentes-tesoura-beauty-organizacao-profissional-de-bancada-c.html" data-search="suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova" data-category="Acessórios de Bancada" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8262b-mkb1cspb4pa8bc" alt="Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova</h2>
     <p class="story-excerpt">Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova</p>
     <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 15,9</span></div>
