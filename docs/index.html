@@ -23,14 +23,322 @@
     <div class="search-box">
       <input type="search" id="site-search" placeholder="Buscar ofertas... (ex: fritadeira, celular, tênis)" autocomplete="off">
     </div>
-    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
+    <div class="filters-row"><div class="filter-field"><label for="category-filter">Categoria</label><select id="category-filter" class="filter-select"><option value="">Todas as categorias</option><option value="Acessórios de Bancada">Acessórios de Bancada</option><option value="Acessórios de Treino">Acessórios de Treino</option><option value="Airsoft">Airsoft</option><option value="Alimentação">Alimentação</option><option value="Alimentação Infantil">Alimentação Infantil</option><option value="Armazenamento">Armazenamento</option><option value="Automotivo">Automotivo</option><option value="Banho &amp; Tosa em Casa">Banho & Tosa em Casa</option><option value="Barbearia">Barbearia</option><option value="Beleza e Cuidados Pessoais">Beleza e Cuidados Pessoais</option><option value="Brinquedos &amp; Mordedores">Brinquedos & Mordedores</option><option value="Brinquedos de Estímulo">Brinquedos de Estímulo</option><option value="Brinquedos e Infantil">Brinquedos e Infantil</option><option value="Cadeira e Mesa">Cadeira e Mesa</option><option value="Cadeira, Guarda-sol &amp; Cooler">Cadeira, Guarda-sol & Cooler</option><option value="Caixas e Organizadores">Caixas e Organizadores</option><option value="Camping &amp; Sobrevivência">Camping & Sobrevivência</option><option value="Casa Inteligente">Casa Inteligente</option><option value="Casa e Cozinha">Casa e Cozinha</option><option value="Conforto">Conforto</option><option value="Consumíveis (Recompra)">Consumíveis (Recompra)</option><option value="Copos, Chopeira &amp; Cooler">Copos, Chopeira & Cooler</option><option value="Cosméticos Masculinos">Cosméticos Masculinos</option><option value="Cozinha &amp; Utensílios">Cozinha & Utensílios</option><option value="EPI &amp; Organização">EPI & Organização</option><option value="Eletroportáteis Baratos">Eletroportáteis Baratos</option><option value="Eletrônicos e Tecnologia">Eletrônicos e Tecnologia</option><option value="Elétricas Portáteis">Elétricas Portáteis</option><option value="Enxoval &amp; Roupinha">Enxoval & Roupinha</option><option value="Espeto, Grelha &amp; Churrasqueira Portátil">Espeto, Grelha & Churrasqueira Portátil</option><option value="Esporte e Lazer">Esporte e Lazer</option><option value="Facas e Cutelaria">Facas e Cutelaria</option><option value="Ferramentas de Jardim">Ferramentas de Jardim</option><option value="Headset e Microfone">Headset e Microfone</option><option value="Higiene (Consumo Mensal)">Higiene (Consumo Mensal)</option><option value="Iluminação &amp; Decor Barata">Iluminação & Decor Barata</option><option value="Iluminação RGB e Suportes">Iluminação RGB e Suportes</option><option value="Insumos e Descartáveis">Insumos e Descartáveis</option><option value="Interior &amp; Conforto">Interior & Conforto</option><option value="Jogos e Ferramentas Manuais">Jogos e Ferramentas Manuais</option><option value="Lava Autos">Lava Autos</option><option value="Limpeza Prática">Limpeza Prática</option><option value="Linhas e Anzóis">Linhas e Anzóis</option><option value="Lâminas e Cutelaria">Lâminas e Cutelaria</option><option value="Mangueira e Lavadora">Mangueira e Lavadora</option><option value="Medição &amp; Nivelamento">Medição & Nivelamento</option><option value="Mobiliário e Estrutura">Mobiliário e Estrutura</option><option value="Moda e Acessórios">Moda e Acessórios</option><option value="Monitoramento">Monitoramento</option><option value="Móveis de Área Externa">Móveis de Área Externa</option><option value="Outros">Outros</option><option value="Perfumaria &amp; Corpo">Perfumaria & Corpo</option><option value="Periféricos">Periféricos</option><option value="Periféricos &amp; Home Office">Periféricos & Home Office</option><option value="Piscina Inflável, Bomba &amp; Cloro">Piscina Inflável, Bomba & Cloro</option><option value="Produtos de Barbear">Produtos de Barbear</option><option value="Recuperação">Recuperação</option><option value="Skincare">Skincare</option><option value="Sono &amp; Segurança">Sono & Segurança</option><option value="Suplementos">Suplementos</option><option value="Tratamento Capilar">Tratamento Capilar</option><option value="Tático">Tático</option><option value="Unhas &amp; Depilação">Unhas & Depilação</option><option value="Vara e Molinete">Vara e Molinete</option><option value="Vasos e Substrato">Vasos e Substrato</option><option value="Vestuário &amp; Calçado">Vestuário & Calçado</option><option value="Vestível">Vestível</option></select></div><div class="filter-field"><label for="date-filter">Publicado</label><select id="date-filter" class="filter-select"><option value="">Qualquer data</option><option value="0">Hoje</option><option value="3">Últimos 3 dias</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option></select></div></div>
     <p id="search-empty" class="search-empty" style="display:none">Nenhuma oferta encontrada.</p>
     <div class="story-list" id="story-list">
       
-<a class="story-row story-row-featured" href="ofertas/gel-cera-capilar-ouribel-250g-fixador-modelador-ultra-forte-para-cabelos-e-pente.html" data-search="gel cera capilar ouribel 250g fixador modelador ultra forte para cabelos e penteados profissionais gel cera capilar ouribel 250g fixador modelador ultra forte para cabelos e penteados profissionais" data-category="Cosméticos Masculinos" data-date="2026-10-27">
-  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-mr8vez279c0422" alt="Gel Cera Capilar Ouribel 250g Fixador Modelador Ultra Forte Para Cabelos e Penteados Profissionais"></div>
+<a class="story-row story-row-featured" href="ofertas/suporte-de-escovas-e-pentes-tesoura-beauty-organizacao-profissional-de-bancada-c.html" data-search="suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova suporte de escovas e pentes tesoura beauty organização profissional de bancada cabelo porta escova" data-category="Acessórios de Bancada" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-8262b-mkb1cspb4pa8bc" alt="Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova"></div>
   <div class="story-content">
     <span class="story-badge">Destaque</span>
+    <h2>Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova</h2>
+    <p class="story-excerpt">Suporte de Escovas e Pentes Tesoura Beauty Organização Profissional de Bancada Cabelo Porta Escova</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 15,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-6-alisantes-embelleze-hene-pelucia-medio-pouch-180g.html" data-search="kit 6 alisantes embelleze henê pelúcia médio pouch 180g kit 6 alisantes embelleze henê pelúcia médio pouch 180g" data-category="Barbearia" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m6-mmppideddfd0bc" alt="Kit 6 Alisantes Embelleze Henê Pelúcia Médio Pouch 180g"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit 6 Alisantes Embelleze Henê Pelúcia Médio Pouch 180g</h2>
+    <p class="story-excerpt">Kit 6 Alisantes Embelleze Henê Pelúcia Médio Pouch 180g</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 69,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/suporte-gola-higienica-dispenser-gola-porta-gola-barbeiro.html" data-search="suporte gola higienica dispenser gola porta gola barbeiro. suporte gola higienica dispenser gola porta gola barbeiro." data-category="Insumos e Descartáveis" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lr-mtlmp9xmjymb79" alt="Suporte Gola Higienica Dispenser Gola Porta Gola Barbeiro."></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Suporte Gola Higienica Dispenser Gola Porta Gola Barbeiro.</h2>
+    <p class="story-excerpt">Suporte Gola Higienica Dispenser Gola Porta Gola Barbeiro.</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 19,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/navalhete-inox-14cm-laminas-descartaveis-barbearia-uso-barbear.html" data-search="navalhete inox 14cm lâminas descartáveis barbearia uso barbear navalhete inox 14cm lâminas descartáveis barbearia uso barbear" data-category="Lâminas e Cutelaria" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-825zu-mm0y1eyg5pfoff" alt="Navalhete Inox 14cm Lâminas Descartáveis Barbearia Uso Barbear"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Navalhete Inox 14cm Lâminas Descartáveis Barbearia Uso Barbear</h2>
+    <p class="story-excerpt">Navalhete Inox 14cm Lâminas Descartáveis Barbearia Uso Barbear</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 22,88</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/shaving-gel-parabarbear-menta-1l-lgn-barber.html" data-search="shaving gel parabarbear menta 1l - lgn barber shaving gel parabarbear menta 1l - lgn barber" data-category="Produtos de Barbear" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7qukw-lfhaumpxejuld2" alt="Shaving gel parabarbear menta 1L - LGN Barber"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Shaving gel parabarbear menta 1L - LGN Barber</h2>
+    <p class="story-excerpt">Shaving gel parabarbear menta 1L - LGN Barber</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 24,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/promocao-pia-para-banheiro-de-sobrepor-cuba-40cm-de-apoio-lavatorio-retangular-m.html" data-search="*promoção* pia para banheiro de sobrepor cuba 40cm de apoio lavatório retangular mármore sintético *promoção* pia para banheiro de sobrepor cuba 40cm de apoio lavatório retangular mármore sintético" data-category="Mobiliário e Estrutura" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mdxb2nj08ao232" alt="*PROMOÇÃO* Pia Para Banheiro de Sobrepor Cuba 40cm de Apoio Lavatório Retangular Mármore Sintético"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>*PROMOÇÃO* Pia Para Banheiro de Sobrepor Cuba 40cm de Apoio Lavatório Retangular Mármore Sintético</h2>
+    <p class="story-excerpt">*PROMOÇÃO* Pia Para Banheiro de Sobrepor Cuba 40cm de Apoio Lavatório Retangular Mármore Sintético</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 126,3</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/balde-de-cloro-para-limpeza-manutencao-cloro-piscina-vinil-fibra-cimento-cloro-c.html" data-search="balde de cloro para limpeza manutenção cloro piscina vinil fibra cimento cloro clarificante domclor balde de cloro para limpeza manutenção cloro piscina vinil fibra cimento cloro clarificante domclor" data-category="Piscina Inflável, Bomba &amp; Cloro" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mgxj78sr87pj87" alt="Balde De Cloro Para Limpeza Manutenção Cloro Piscina Vinil Fibra Cimento Cloro Clarificante Domclor"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Balde De Cloro Para Limpeza Manutenção Cloro Piscina Vinil Fibra Cimento Cloro Clarificante Domclor</h2>
+    <p class="story-excerpt">Balde De Cloro Para Limpeza Manutenção Cloro Piscina Vinil Fibra Cimento Cloro Clarificante Domclor</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 26,51</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/casca-de-arroz-carbonizada-3l-10l-20l-substrato-natural-para-jardinagem-drenagem.html" data-search="casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas casca de arroz carbonizada 3l 10l 20l substrato natural para jardinagem drenagem vasos planta hortas" data-category="Vasos e Substrato" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ly-mp10dpjpfvur72" alt="Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</h2>
+    <p class="story-excerpt">Casca de Arroz Carbonizada 3L 10L 20L Substrato Natural para Jardinagem Drenagem Vasos Planta Hortas</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 9,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/chopeira-portatil-de-mesa-2-8l-hops-dispenser-de-chopp-cerveja-gela-em-1-minuto-.html" data-search="chopeira portátil de mesa 2,8l hops dispenser de chopp cerveja gela em 1 minuto para festa e churrasco chopeira portátil de mesa 2,8l hops dispenser de chopp cerveja gela em 1 minuto para festa e churrasco" data-category="Copos, Chopeira &amp; Cooler" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ld-mrlt2po3c7id5b" alt="Chopeira Portátil de Mesa 2,8L HOPS Dispenser de Chopp Cerveja Gela em 1 Minuto para Festa e Churrasco"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Chopeira Portátil de Mesa 2,8L HOPS Dispenser de Chopp Cerveja Gela em 1 Minuto para Festa e Churrasco</h2>
+    <p class="story-excerpt">Chopeira Portátil de Mesa 2,8L HOPS Dispenser de Chopp Cerveja Gela em 1 Minuto para Festa e Churrasco</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 275,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/caneca-termica-chopp-cerveja-camada-dupla-inox-710ml.html" data-search="caneca térmica chopp cerveja camada dupla inox 710ml caneca térmica chopp cerveja camada dupla inox 710ml" data-category="Copos, Chopeira &amp; Cooler" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820la-mn3s932d1kow47" alt="Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml</h2>
+    <p class="story-excerpt">Caneca Térmica Chopp Cerveja Camada Dupla Inox 710ml</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 31,45</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/colete-tatico-militar-pet-premium-peitoral-para-cachorros-modelo-coleira-grande-.html" data-search="colete tático militar pet premium peitoral para cachorros modelo/coleira grande para cães/coleira para cachorro, guia colete tático militar pet premium peitoral para cachorros modelo/coleira grande para cães/coleira para cachorro, guia" data-category="Tático" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-81ztc-mjtmr04sv18j9c" alt="Colete Tático Militar Pet Premium Peitoral para Cachorros Modelo/Coleira grande para cães/Coleira para cachorro, guia"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Colete Tático Militar Pet Premium Peitoral para Cachorros Modelo/Coleira grande para cães/Coleira para cachorro, guia</h2>
+    <p class="story-excerpt">Colete Tático Militar Pet Premium Peitoral para Cachorros Modelo/Coleira grande para cães/Coleira para cachorro, guia</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 43,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bebedouro-automatico-patinha-pet-bebedouro-gato-cachorro-automatico-garrafa-pet-.html" data-search="bebedouro automático patinha pet bebedouro gato cachorro automático garrafa pet bebedouro portátil viagem bebedouro automático patinha pet bebedouro gato cachorro automático garrafa pet bebedouro portátil viagem" data-category="Alimentação" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ll-mt1keiqwevpiea" alt="Bebedouro Automático Patinha Pet Bebedouro Gato Cachorro Automático Garrafa Pet Bebedouro Portátil Viagem"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bebedouro Automático Patinha Pet Bebedouro Gato Cachorro Automático Garrafa Pet Bebedouro Portátil Viagem</h2>
+    <p class="story-excerpt">Bebedouro Automático Patinha Pet Bebedouro Gato Cachorro Automático Garrafa Pet Bebedouro Portátil Viagem</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 22</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/sanduicheira-grill-eletrica-2-em-1-antiaderente-prensa-750w-127v-220v-eletroport.html" data-search="sanduicheira grill elétrica 2 em 1 antiaderente prensa 750w/127v/220v/eletroportáteis cozinha🥪 sanduicheira grill elétrica 2 em 1 antiaderente prensa 750w/127v/220v/eletroportáteis cozinha🥪" data-category="Eletroportáteis Baratos" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820ld-muhu1kfji77m7d" alt="Sanduicheira Grill Elétrica 2 Em 1 Antiaderente Prensa 750W/127v/220v/Eletroportáteis Cozinha🥪"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Sanduicheira Grill Elétrica 2 Em 1 Antiaderente Prensa 750W/127v/220v/Eletroportáteis Cozinha🥪</h2>
+    <p class="story-excerpt">Sanduicheira Grill Elétrica 2 Em 1 Antiaderente Prensa 750W/127v/220v/Eletroportáteis Cozinha🥪</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 85,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/joelheira-e-tornozeleira-esportiva-ajustavel-para-treino-academia-e-atividades-f.html" data-search="joelheira e tornozeleira esportiva ajustável para treino academia e atividades físicas joelheira e tornozeleira esportiva ajustável para treino academia e atividades físicas" data-category="Acessórios de Treino" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-824g7-mfc2gtl3rvnx3f" alt="Joelheira e Tornozeleira Esportiva Ajustável para Treino Academia e Atividades Físicas"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Joelheira e Tornozeleira Esportiva Ajustável para Treino Academia e Atividades Físicas</h2>
+    <p class="story-excerpt">Joelheira e Tornozeleira Esportiva Ajustável para Treino Academia e Atividades Físicas</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 11,91</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/ninho-redutor-de-berco-bebe-casulinho-100-algodao.html" data-search="ninho redutor de berço bebê casulinho 100% algodão ninho redutor de berço bebê casulinho 100% algodão" data-category="Sono &amp; Segurança" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-ms3qkugq3kec3e" alt="Ninho Redutor de Berço Bebê Casulinho 100% Algodão"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Ninho Redutor de Berço Bebê Casulinho 100% Algodão</h2>
+    <p class="story-excerpt">Ninho Redutor de Berço Bebê Casulinho 100% Algodão</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 79,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/pen-drives-e-otgs-usb-8gb-16gb-32gb-64gb-cruzer-lamina-2-0-flash-drive-pen-drive.html" data-search="pen drives e otgs usb 8gb 16gb 32gb 64gb cruzer lâmina 2.0 flash drive pen drive pen drives e otgs usb 8gb 16gb 32gb 64gb cruzer lâmina 2.0 flash drive pen drive" data-category="Armazenamento" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-82625-mlpgnmk191c515" alt="Pen Drives e OTGs USB 8GB 16GB 32GB 64GB Cruzer Lâmina 2.0 Flash Drive Pen Drive"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Pen Drives e OTGs USB 8GB 16GB 32GB 64GB Cruzer Lâmina 2.0 Flash Drive Pen Drive</h2>
+    <p class="story-excerpt">Pen Drives e OTGs USB 8GB 16GB 32GB 64GB Cruzer Lâmina 2.0 Flash Drive Pen Drive</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 18,97</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/cartao-de-memoria-128-gb-para-cameras-wi-fi-drones-micro-sd.html" data-search="cartão de memória 128 gb para câmeras wi-fi drones micro sd cartão de memória 128 gb para câmeras wi-fi drones micro sd" data-category="Armazenamento" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lr-mtogc68x5a80b2" alt="Cartão De Memória 128 Gb Para Câmeras Wi-fi Drones Micro Sd"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Cartão De Memória 128 Gb Para Câmeras Wi-fi Drones Micro Sd</h2>
+    <p class="story-excerpt">Cartão De Memória 128 Gb Para Câmeras Wi-fi Drones Micro Sd</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 26,99</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/1-kit-feminino-body-splash-florata-red-com-gliter-200ml-1-hidratante-200ml-1-sab.html" data-search="1 kit feminino body splash florata red com gliter 200ml + 1 hidratante 200ml + 1 sabonete 200ml 1 kit feminino body splash florata red com gliter 200ml + 1 hidratante 200ml + 1 sabonete 200ml" data-category="Perfumaria &amp; Corpo" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134201-820l7-mutld81twum8d7" alt="1 Kit Feminino Body Splash Florata Red com gliter 200Ml + 1 Hidratante 200ML + 1 Sabonete 200Ml"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>1 Kit Feminino Body Splash Florata Red com gliter 200Ml + 1 Hidratante 200ML + 1 Sabonete 200Ml</h2>
+    <p class="story-excerpt">1 Kit Feminino Body Splash Florata Red com gliter 200Ml + 1 Hidratante 200ML + 1 Sabonete 200Ml</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 18,98</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kool-auto-todo-o-conector-do-inflador-pneus-compressor-ar-mandril-metal.html" data-search="kool auto todo o conector do inflador pneus compressor ar mandril metal kool auto todo o conector do inflador pneus compressor ar mandril metal" data-category="Automotivo" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/54f490893a44ba9749f9219800a5554d" alt="KOOL Auto Todo O Conector Do Inflador Pneus Compressor Ar Mandril Metal"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>KOOL Auto Todo O Conector Do Inflador Pneus Compressor Ar Mandril Metal</h2>
+    <p class="story-excerpt">KOOL Auto Todo O Conector Do Inflador Pneus Compressor Ar Mandril Metal</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 12,26</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/patinho-dancante-com-luzes-pato-dancarino-musica-crianca-brinquedo-infantil-colo.html" data-search="patinho dançante com luzes pato dançarino musica criança brinquedo infantil colorido patinho dançante com luzes pato dançarino musica criança brinquedo infantil colorido" data-category="Brinquedos e Infantil" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-824im-mdy0b4724mbkc6" alt="Patinho Dançante Com Luzes Pato Dançarino Musica Criança Brinquedo Infantil Colorido"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Patinho Dançante Com Luzes Pato Dançarino Musica Criança Brinquedo Infantil Colorido</h2>
+    <p class="story-excerpt">Patinho Dançante Com Luzes Pato Dançarino Musica Criança Brinquedo Infantil Colorido</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 36,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/lanca-bolhas-sabao-automatico-brinquedo-infantil-menino-menina-festa-aniversario.html" data-search="lança bolhas sabão automático brinquedo infantil menino menina festa aniversário presente elétrico lança bolhas sabão automático brinquedo infantil menino menina festa aniversário presente elétrico" data-category="Brinquedos e Infantil" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820me-mowqrc9hs6bpfa" alt="Lança Bolhas Sabão Automático Brinquedo Infantil Menino Menina Festa Aniversário Presente Elétrico"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Lança Bolhas Sabão Automático Brinquedo Infantil Menino Menina Festa Aniversário Presente Elétrico</h2>
+    <p class="story-excerpt">Lança Bolhas Sabão Automático Brinquedo Infantil Menino Menina Festa Aniversário Presente Elétrico</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 21,89</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/mini-bicicleta-ergometrica-exercitador-de-pedais-equipamento-de-ginastica-para-i.html" data-search="mini bicicleta ergométrica exercitador de pedais equipamento de ginástica para idosos exercício em casa para exercícios mini bicicleta ergométrica exercitador de pedais equipamento de ginástica para idosos exercício em casa para exercícios" data-category="Esporte e Lazer" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820m6-msnlje9bvw9386" alt="Mini bicicleta ergométrica Exercitador de pedais Equipamento de ginástica para idosos Exercício em casa Para exercícios"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Mini bicicleta ergométrica Exercitador de pedais Equipamento de ginástica para idosos Exercício em casa Para exercícios</h2>
+    <p class="story-excerpt">Mini bicicleta ergométrica Exercitador de pedais Equipamento de ginástica para idosos Exercício em casa Para exercícios</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 76,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/bicicleta-exercise-bike-ergometrica-spinning-academia-fitness-profissional-150kg.html" data-search="bicicleta exercise bike ergometrica spinning academia fitness profissional 150kg aparelhos de academia,conexão bluetooth bicicleta exercise bike ergometrica spinning academia fitness profissional 150kg aparelhos de academia,conexão bluetooth" data-category="Esporte e Lazer" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/sg-11134201-81ztp-mie5jgrzteyw30" alt="Bicicleta Exercise Bike Ergometrica Spinning Academia Fitness Profissional 150kg Aparelhos De Academia,Conexão Bluetooth"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Bicicleta Exercise Bike Ergometrica Spinning Academia Fitness Profissional 150kg Aparelhos De Academia,Conexão Bluetooth</h2>
+    <p class="story-excerpt">Bicicleta Exercise Bike Ergometrica Spinning Academia Fitness Profissional 150kg Aparelhos De Academia,Conexão Bluetooth</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 547</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/kit-dupla-renovadores-faciais-kokeshi-pele-porcelana-olhos-gueixa.html" data-search="kit dupla renovadores faciais kokeshi pele porcelana olhos gueixa kit dupla renovadores faciais kokeshi pele porcelana olhos gueixa" data-category="Beleza e Cuidados Pessoais" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820l6-mq3nf4vg8k5f75" alt="Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa</h2>
+    <p class="story-excerpt">Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 38,01</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/creme-gel-regenerador-facial-gota-de-colageno-kokeshi-45g.html" data-search="creme gel regenerador facial gota de colágeno kokeshi 45g creme gel regenerador facial gota de colágeno kokeshi 45g" data-category="Beleza e Cuidados Pessoais" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lp-mrvgs50iy8zr1f" alt="Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g</h2>
+    <p class="story-excerpt">Creme Gel Regenerador Facial Gota de Colágeno Kokeshi 45g</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 44,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/guarda-chuva-de-sol-caso-oculos-da-capsula-ultra-light-mini-sombrinha-bolso.html" data-search="guarda chuva de sol caso óculos da cápsula ultra light mini sombrinha bolso guarda chuva de sol caso óculos da cápsula ultra light mini sombrinha bolso" data-category="Moda e Acessórios" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-lrm85nfxp8h024" alt="Guarda Chuva de sol Caso Óculos Da Cápsula ultra light mini Sombrinha Bolso"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Guarda Chuva de sol Caso Óculos Da Cápsula ultra light mini Sombrinha Bolso</h2>
+    <p class="story-excerpt">Guarda Chuva de sol Caso Óculos Da Cápsula ultra light mini Sombrinha Bolso</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 23</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/copo-termico-personalizado-sao-paulo-473ml-tampa-abridor-laser-360.html" data-search="copo térmico personalizado são paulo 473ml tampa abridor laser 360° copo térmico personalizado são paulo 473ml tampa abridor laser 360°" data-category="Casa e Cozinha" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m8lvmgf0usj5d0" alt="Copo Térmico Personalizado São Paulo 473ml Tampa Abridor Laser 360°"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Copo Térmico Personalizado São Paulo 473ml Tampa Abridor Laser 360°</h2>
+    <p class="story-excerpt">Copo Térmico Personalizado São Paulo 473ml Tampa Abridor Laser 360°</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 48,37</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/arvore-de-natal-1-50m-pinheiro-500-galhos-premium-tradicional-verde.html" data-search="árvore de natal 1,50m pinheiro 500 galhos premium tradicional verde árvore de natal 1,50m pinheiro 500 galhos premium tradicional verde" data-category="Casa e Cozinha" data-date="2026-10-28">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820lu-mtpe26p8tlvm15" alt="Árvore De Natal 1,50m Pinheiro 500 Galhos Premium Tradicional Verde"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
+    <h2>Árvore De Natal 1,50m Pinheiro 500 Galhos Premium Tradicional Verde</h2>
+    <p class="story-excerpt">Árvore De Natal 1,50m Pinheiro 500 Galhos Premium Tradicional Verde</p>
+    <div class="story-meta">28 de outubro de 2026<span class="story-price">R$ 64,9</span></div>
+  </div>
+</a>
+
+      
+<a class="story-row" href="ofertas/gel-cera-capilar-ouribel-250g-fixador-modelador-ultra-forte-para-cabelos-e-pente.html" data-search="gel cera capilar ouribel 250g fixador modelador ultra forte para cabelos e penteados profissionais gel cera capilar ouribel 250g fixador modelador ultra forte para cabelos e penteados profissionais" data-category="Cosméticos Masculinos" data-date="2026-10-27">
+  <div class="story-thumb"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-mr8vez279c0422" alt="Gel Cera Capilar Ouribel 250g Fixador Modelador Ultra Forte Para Cabelos e Penteados Profissionais"></div>
+  <div class="story-content">
+    <span class="story-badge">Oferta</span>
     <h2>Gel Cera Capilar Ouribel 250g Fixador Modelador Ultra Forte Para Cabelos e Penteados Profissionais</h2>
     <p class="story-excerpt">Gel Cera Capilar Ouribel 250g Fixador Modelador Ultra Forte Para Cabelos e Penteados Profissionais</p>
     <div class="story-meta">27 de outubro de 2026<span class="story-price">R$ 17,98</span></div>
